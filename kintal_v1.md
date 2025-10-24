@@ -8,7 +8,7 @@
 * **Compositional vocabulary**: Build complex words from simple roots (e.g., kintal = person-speak = language, firkol = fire-color = red)
 
 ## Phonology
-**Consonants**: p, t, k, m, n, s, f, l, r, h (10)  
+**Consonants**: p, t, k, m, n, s, f, l, r, h, v (11)  
 **Vowels**: a, e, i, o, u (5)  
 **Syllable structure**: (C)V(C)
 
@@ -64,6 +64,7 @@ Pronunciation guide:
 - **aer** = air/wind
 - **tim** = time
 - **fin** = last/finally/end
+- **rep** = again
 
 ### CORE NOUNS - Basic Concepts
 - **pan** = food
@@ -75,6 +76,9 @@ Pronunciation guide:
 - **form** = form/shape/structure
 - **spir** = spirit/breath/soul
 - **stil** = style
+- **rit** = right
+- **tot** = all
+- **vik** = change/alter
 
 ### ADJECTIVES - Size & Quality
 - **big** = large/big
@@ -131,12 +135,13 @@ Pronunciation guide:
 - **met** = with (accompaniment)
 - **sur** = over/above (spatial)
 - **ins** = in/inside/within (spatial)
-- **mor** = more (comparative)
+- **mas** = more (comparative)
 - **max** = most (superlative)
 - **les** = less (comparative)
 - **lest** = least (superlative)
 - **sam** = same/equal/as
 - **dan** = than
+- **kan** = can, be able to, be possible, might
 
 ### QUESTION WORDS
 - **ko** = who
@@ -346,6 +351,9 @@ Examples in sentences:
 - **gosur** = go-over = cross, pass
 - **terdiv** = earth-divide = border
 
+- **makpanul** = make-to-zero = waste/destroy
+- **talnemettal** = speak-not-with-speak = imply
+
 *Actions/Agents:*
 - **panmak** = food-maker = cook/chef
 - **dommak** = house-maker = builder/architect
@@ -388,7 +396,7 @@ Examples in sentences:
 - **kin es sur ter** = person is above ground
 
 **Usage in sentences:**
-- **mi vol mak pan mor bon pa tu** = I want (to) make better food for you
+- **mi vol mak pan mas bon pa tu** = I want (to) make better food for you
 - **tu go fra kor?** = you go from where? = where do you come from?
 - **na go panlok met kinim mani** = we go (to) restaurant with many people
 
@@ -396,7 +404,7 @@ Examples in sentences:
 **System**: Particles to express comparison between things
 
 **Markers:**
-- **mor** = more (comparative)
+- **mas** = more (comparative)
 - **max** = most (superlative)
 - **les** = less (comparative)
 - **lest** = least (superlative)
@@ -404,10 +412,10 @@ Examples in sentences:
 - **dan** = than (comparison marker)
 
 **Comparative** (more/less X than Y):
-- Structure: Noun₁ - mor/les - Adjective - dan - Noun₂
-- **dom mor big dan dom** = house more big than house = this house is bigger than that house
+- Structure: Noun₁ - mas/les - Adjective - dan - Noun₂
+- **dom mas big dan dom** = house more big than house = this house is bigger than that house
 - **dom les big dan dom** = house less big than house = this house is smaller/less big than that house
-- Shorter: **mor big dan X** = more big than X = bigger than X
+- Shorter: **mas big dan X** = more big than X = bigger than X
 
 **Superlative** (most/least X):
 - Structure: Noun - max/lest - Adjective
@@ -424,10 +432,10 @@ Examples in sentences:
 **Examples:**
 
 *Comparatives:*
-- mi mor big dan tu = I'm bigger than you
-- sol mor hot dan lun = sun is hotter than moon
-- tu go mor rap = you go more rap = you go faster
-- min dom mor old dan tun dom = my house is older than your house
+- mi mas big dan tu = I'm bigger than you
+- sol mas hot dan lun = sun is hotter than moon
+- tu go mas rap = you go more rap = you go faster
+- min dom mas old dan tun dom = my house is older than your house
 - mi les big dan tu = I'm less big than you = I'm smaller than you
 - lun les hot dan sol = moon is less hot than sun = moon is colder than sun
 
@@ -444,9 +452,9 @@ Examples in sentences:
 - na hav panim sam mani = we have equally many foods = we have as much food
 
 **In questions:**
-- ko mor big? = who (is) bigger?
-- ket mor hot dan sol? = what (is) hotter than sun?
-- kom mor rap tu go? = how much faster do you go?
+- ko mas big? = who (is) bigger?
+- ket mas hot dan sol? = what (is) hotter than sun?
+- kom mas rap tu go? = how much faster do you go?
 
 ## Example Phrases
 **Basic present (SVO):**
@@ -515,13 +523,13 @@ Examples in sentences:
 - mi hav akpan hot = I have hot soup
 
 **With comparatives:**
-- mi mor big dan tu = I'm bigger than you
-- sol mor hot dan lun = sun is hotter than moon
+- mi mas big dan tu = I'm bigger than you
+- sol mas hot dan lun = sun is hotter than moon
 - min dom max old = my house (is the) oldest
-- tu go mor rap dan mi = you go faster than me
+- tu go mas rap dan mi = you go faster than me
 - ka es kin max bon = he/she is (the) best person
 - na sam big = we (are) equally big
-- mi hav mor mani pan dan tu = I have more food than you
+- mi hav mas mani pan dan tu = I have more food than you
 - tu les big dan ka = you're less big than him/her = you're smaller than him/her
 - dom lest nov = (the) least new house = (the) oldest house
 
@@ -532,3 +540,7 @@ Examples in sentences:
 - tu go fra kor? = you go from where? = where are you from?
 - na vol tal met tu = we want (to) speak with you
 - mi mak akpan pa min kinim = I make soup for my people
+
+## Extended Example
+Vak en mak lit, Mister Friman, Vak en mak lit. Ne mi vol talnemettal tu pas slep ins maklok, Ne kin hav mas rit pa nulmak, en tot tem en Ter fut es mak pa nul pa ken... bon, na fut tal tun tim rep es.
+Rit kin en ne rit lok mek tot vik en Ter. Vak, Mister Friman. Vak en nos firrip.
