@@ -93,7 +93,7 @@ Pronunciation guide:
 - **kal** = cold
 - **lit** = light (weight/brightness)
 - **hev** = heavy
-- **rap** = rap/quick
+- **rap** = quick
 - **len** = slow
 
 ### ADJECTIVES - Quantity
