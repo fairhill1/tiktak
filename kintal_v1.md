@@ -45,6 +45,7 @@ Pronunciation guide:
 - **her** = hear/listen
 - **nos** = smell
 - **vol** = want/desire
+- **pir** = question/ask/inquire
 - **hop** = jump/hop
 - **div** = separate/divide
 - **nam** = name/call
@@ -82,6 +83,7 @@ Pronunciation guide:
 - **spir** = spirit/breath/soul
 - **stil** = style
 - **rit** = right
+- **tok** = part/piece
 - **tot** = all
 - **vik** = change/alter
 - **kompu** = computer
@@ -348,6 +350,7 @@ Examples in sentences:
 *Concepts:*
 - **kintal** = person-speak = language
 - **makkintal** = make-language = constructed language/conlang
+- **taltok** = speak-part = word
 - **sollit** = sun-light = sunlight/daylight
 - **lunlit** = moon-light = moonlight
 - **akpan** = water-food = soup/beverage
