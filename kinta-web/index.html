@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kinta - Language Explorer</title>
+    <meta name="description" content="Interactive explorer for Kinta, a constructed language designed for maximum clarity and compositional vocabulary">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <h1 class="logo">
+                <span class="logo-kin">kin</span><span class="logo-tas">tas</span>
+                <span class="logo-subtitle">Language Explorer</span>
+            </h1>
+            <div class="search-container">
+                <input
+                    type="text"
+                    id="globalSearch"
+                    placeholder="Search words, grammar, examples..."
+                    class="search-input"
+                    autocomplete="off"
+                >
+                <div id="searchResults" class="search-results hidden"></div>
+            </div>
+            <button id="darkModeToggle" class="dark-mode-toggle" aria-label="Toggle dark mode">
+                <span class="toggle-icon">◐</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar" id="sidebar">
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link active" data-section="about">About</a></li>
+                <li><a href="#dictionary" class="nav-link" data-section="dictionary">Dictionary</a></li>
+                <li><a href="#grammar" class="nav-link" data-section="grammar">Grammar</a></li>
+                <li><a href="#examples" class="nav-link" data-section="examples">Examples</a></li>
+                <li><a href="#phonology" class="nav-link" data-section="phonology">Phonology</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- About Section -->
+            <section id="about" class="section active">
+                <h2 class="section-title">About Kinta</h2>
+                <div class="about-hero">
+                    <p class="about-meaning">
+                        <strong>kinta</strong> = <span class="highlight">kin</span> (person) + <span class="highlight">ta</span> (speak) = language
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Design Principles</h3>
+                    <ul class="principle-list" id="principleList"></ul>
+                </div>
+
+                <div class="stats-grid" id="statsGrid"></div>
+
+                <div class="card quick-start">
+                    <h3>Quick Start</h3>
+                    <div class="quick-examples">
+                        <div class="quick-example">
+                            <span class="kintas-text">mi hav pan</span>
+                            <span class="english-text">I have food</span>
+                        </div>
+                        <div class="quick-example">
+                            <span class="kintas-text">tu es bon</span>
+                            <span class="english-text">you are good</span>
+                        </div>
+                        <div class="quick-example">
+                            <span class="kintas-text">na pas go dom</span>
+                            <span class="english-text">we went home</span>
+                        </div>
+                        <div class="quick-example">
+                            <span class="kintas-text">ko vis ket?</span>
+                            <span class="english-text">who sees what?</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Dictionary Section -->
+            <section id="dictionary" class="section">
+                <h2 class="section-title">Dictionary</h2>
+
+                <div class="dictionary-controls">
+                    <input
+                        type="text"
+                        id="dictionarySearch"
+                        placeholder="Search dictionary..."
+                        class="search-input"
+                        autocomplete="off"
+                    >
+                    <div class="filter-buttons" id="categoryFilters"></div>
+                </div>
+
+                <div class="dictionary-content" id="dictionaryContent"></div>
+            </section>
+
+            <!-- Grammar Section -->
+            <section id="grammar" class="section">
+                <h2 class="section-title">Grammar Reference</h2>
+                <div class="grammar-content" id="grammarContent"></div>
+            </section>
+
+            <!-- Examples Section -->
+            <section id="examples" class="section">
+                <h2 class="section-title">Example Phrases</h2>
+
+                <div class="examples-controls">
+                    <div class="filter-buttons" id="exampleFilters"></div>
+                </div>
+
+                <div class="examples-content" id="examplesContent"></div>
+            </section>
+
+            <!-- Phonology Section -->
+            <section id="phonology" class="section">
+                <h2 class="section-title">Phonology</h2>
+
+                <div class="card">
+                    <h3>Consonants</h3>
+                    <div class="phoneme-grid" id="consonantGrid"></div>
+                </div>
+
+                <div class="card">
+                    <h3>Vowels</h3>
+                    <div class="vowel-list" id="vowelList"></div>
+                </div>
+
+                <div class="card">
+                    <h3>Syllable Structure</h3>
+                    <p class="syllable-structure" id="syllableStructure"></p>
+                    <p class="note">C = Consonant, V = Vowel, (parentheses) = optional</p>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Kinta - A constructed language focused on clarity and compositional efficiency</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
