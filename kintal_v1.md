@@ -43,6 +43,7 @@ Pronunciation guide:
 - **mak** = do/make/create
 - **vis** = see/perceive
 - **her** = hear/listen
+- **nos** = smell
 - **vol** = want/desire
 - **hop** = jump/hop
 - **div** = separate/divide
@@ -64,7 +65,8 @@ Pronunciation guide:
 - **ak** = water
 - **fir** = fire
 - **ter** = earth/ground/land
-- **aer** = air/wind
+- **vin** = air/wind
+- **el** = electricity/electric
 - **tim** = time
 - **fin** = last/finally/end
 - **rep** = again
@@ -82,6 +84,7 @@ Pronunciation guide:
 - **rit** = right
 - **tot** = all
 - **vik** = change/alter
+- **kompu** = computer
 
 ### ADJECTIVES - Size & Quality
 - **big** = large/big
@@ -103,7 +106,7 @@ Pronunciation guide:
 - **mani** = many/much/a lot
 
 ### COLORS (Compound pattern: [concept]-kol)
-- **ripkol** = death-color = black 💀
+- **ripkol** = death-color = black
 - **lunkol** = moon-color = white/silver
 - **solkol** = sun-color = yellow
 - **firkol** = fire-color = red/orange
@@ -344,13 +347,15 @@ Examples in sentences:
 
 *Concepts:*
 - **kintal** = person-speak = language
+- **makkintal** = make-language = constructed language/conlang
 - **sollit** = sun-light = sunlight/daylight
 - **lunlit** = moon-light = moonlight
 - **akpan** = water-food = soup/beverage
 - **firpan** = fire-food = cooked food
 - **rippan** = death-food = poison
 - **nultim** = zero-time = beginning
-- **aersur** = air-above = sky/heaven
+- **ungo** = one-go = start/begin
+- **vinsur** = air-above = sky/heaven
 - **kinmak** = person-maker = god/creator
 - **nulmak** = zero-make = relaxing/idleness
 - **patnul** = path-zero = lost/disoriented
@@ -358,10 +363,19 @@ Examples in sentences:
 - **bigvit** = big-life = tree
 - **govit** = go-life = animal
 - **akgovit** = water-animal = aquatic animal
-- **aergovit** = air-animal = flying animal/bird
+- **vengovit** = air-animal = flying animal/bird
 - **smalgovit** = small-animal = insect/small creature
 - **gosur** = go-over = cross, pass
 - **terdiv** = earth-divide = border
+- **firrip** = fire-death = ashes
+- **bonspir** = good-spirit = fun/joy
+- **visbon** = see-good = clear/clarity
+- **maklit** = make-light = easy; lighten/make lighter (weight)
+- **maxvol** = max-want = love/crave
+- **hevtek** = heavy-take = weightlifting
+- **spirdom** = spirit-house = brain/mind
+- **elspir** = electric-spirit = AI/artificial intelligence
+- **elpatim** = electric-paths = network/internet
 
 - **makpanul** = make-to-zero = waste/destroy
 - **talnemettal** = speak-not-with-speak = imply
@@ -405,7 +419,7 @@ Examples in sentences:
 
 **sur** = over/above (spatial position)
 - **foks hop sur dog** = fox jumps over dog
-- **bir go sur dom** = bird goes over house
+- **vingovit go sur dom** = bird goes over house
 - **kin es sur ter** = person is above ground
 
 **Usage in sentences:**
@@ -557,7 +571,7 @@ Examples in sentences:
 ## Extended Examples
 
 **Example 1: The Lost Child**
-smalkin pas go fra pat. ka pas vol vis birim in bigvitlok. sol go, en lun go sur aersur. smalkin vis. ka es patnul. ka ne vis kor kan dom es. ka tal, "mi es patnul! kim mi pas go fra pat? mi vol go min dom!" den, ka her dog. kan dog! dog go pa ka. dog vis pat. smalkin go met kan dog, fra bigvitlok pa dom. ka fut es ne patnul rep.
+smalkin pas go fra pat. ka pas vol vis birim in bigvitlok. sol go, en lun go sur vinsur. smalkin vis. ka es patnul. ka ne vis kor kan dom es. ka tal, "mi es patnul! kim mi pas go fra pat? mi vol go min dom!" den, ka her dog. kan dog! dog go pa ka. dog vis pat. smalkin go met kan dog, fra bigvitlok pa dom. ka fut es ne patnul rep.
 
 *(A child went from the path. He/she wanted to see birds of the forest. The sun went, and the moon went over the sky. The child saw. He/she is lost. He/she doesn't see where his/her house is. He/she said, "I am lost! Why did I go from the path? I want to go to my home!" Then, he/she heard a dog. His/her dog! The dog went to him/her. The dog saw the path. The child went with his/her dog, from the forest to the house. He/she will not be lost again.)*
 
