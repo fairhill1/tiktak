@@ -5,7 +5,7 @@
 * **Minimal error-prone**: Avoid similar-sounding roots
 * **Efficiency**: Short roots (1-2 syllables) for common concepts
 * **Phonetic consistency**: Each letter always pronounced the same
-* **Compositional vocabulary**: Build complex words from simple roots (e.g., kinta = person-speak = language, firkol = fire-color = red)
+* **Compositional vocabulary**: Build complex words from simple roots (e.g., kintal = person-speak = language, firkol = fire-color = red)
 
 ## Phonology
 **Consonants**: p, t, k, m, n, s, f, l, r, h (10)  
@@ -44,7 +44,9 @@ Pronunciation guide:
 - **hop** = jump/hop
 - **div** = separate/divide
 - **nam** = name/call
-- **tem** = name/call
+- **tem** = try
+- **hit** = hit, attack
+- **tek** = take, grab
 
 ### CORE NOUNS - People & Places
 - **kin** = person/human
@@ -204,7 +206,7 @@ Examples:
 - tu **fut** hav pan = you will have food
 - na go dom = we go home (present)
 - kin **pas** vis sol = person saw sun
-- ka **fut** ta = he/she will speak
+- ka **fut** tal = he/she will speak
 
 **Design note**: Verbs remain unchanged - tense is purely contextual via particles
 
@@ -248,7 +250,7 @@ Examples:
 - **min dom** = my house
 - **tun pan** = your food
 - **kan solim** = his/her days
-- **nan jenim** = our people
+- **nan kinim** = our people
 
 Examples in sentences:
 - mi hav **min dom** = I have my house
@@ -331,7 +333,7 @@ Examples in sentences:
 - **sollok** = sun-place = somewhere sunny/desert
 
 *Concepts:*
-- **kinta** = person-speak = language
+- **kintal** = person-speak = language
 - **sollit** = sun-light = sunlight/daylight
 - **lunlit** = moon-light = moonlight
 - **akpan** = water-food = soup/beverage
@@ -347,7 +349,8 @@ Examples in sentences:
 *Actions/Agents:*
 - **panmak** = food-maker = cook/chef
 - **dommak** = house-maker = builder/architect
-- **kinsis** = person-seer = observer/witness
+- **kinvis** = person-seer = observer/witness
+- **tekkin** = take-person = thief
 
 *Tools/Objects:*
 - **akdom** could also mean = water-container (context dependent)
@@ -357,7 +360,7 @@ Examples in sentences:
 - mi go **panlok** = I go (to) restaurant
 - tu es **panmak** bon = you are (a) good cook
 - na vis **sollit** = we see sunlight
-- **kinta** es mani = languages are many
+- **kintalim** es mani = languages are many
 
 **Design principle**: Build vocabulary compositionally rather than creating new roots for every concept
 
@@ -366,7 +369,7 @@ Examples in sentences:
 
 **pa** = to/for (recipient, benefactive)
 - **mi mak dom pa tu** = I make house for you
-- **mi ta pa kinim** = I speak to people
+- **mi tal pa kinim** = I speak to people
 - **pan pa mi** = food for me
 
 **fra** = from (source, origin)
@@ -452,7 +455,6 @@ Examples in sentences:
 ## Confusion Check
 
 ### Avoided pairs:
-- ta/ka → kept both (different enough)
 - se/ne → changed 'se' to 'es'
 - fa → changed to 'mak'
 - w → dropped (too similar to u/o)
@@ -466,7 +468,7 @@ Examples in sentences:
 - Words ending in -en: jen, den (acceptable in different categories)
 
 ## Statistics
-- Total roots: 81 (56 original + 6 question words + 11 numbers + 6 comparison words + 2 greetings)
+- Total roots: 101
 - Consonants: 10 (maximum clarity - dropped w and j)
 - Possible syllables: ~605 with (C)V(C) structure
 - Possible 2-root compounds: ~6,561 combinations
@@ -484,7 +486,7 @@ Examples in sentences:
 
 ## Example Phrases
 **Basic present (SVO):**
-- mi ta = I speak
+- mi tal = I speak
 - tu es bon = you are good
 - kin go dom = person goes home
 - mi hav pan = I have food
@@ -499,7 +501,7 @@ Examples in sentences:
 - mi pas go dom = I went home
 - tu fut hav pan = you will have food
 - ka pas vis sol = he/she saw sun
-- na fut ta = we will speak
+- na fut tal = we will speak
 - kinim pas mak domim = people made houses
 
 **With adjectives (Noun-Adjective):**
@@ -544,7 +546,7 @@ Examples in sentences:
 - tu es panmak bon = you are (a) good cook
 - na vis sollit = we see sunlight
 - akdom es kor? = where is bathroom?
-- kin ta kinta = person speaks language
+- kin tal kintal = person speaks language
 - dommak pas mak domim = builder made houses
 - mi hav akpan hot = I have hot soup
 
@@ -564,5 +566,5 @@ Examples in sentences:
 - kin mak dom pa kinim = person makes house for people
 - mi hav pan fra panlok = I have food from restaurant
 - tu go fra kor? = you go from where? = where are you from?
-- na vol ta met tu = we want (to) speak with you
+- na vol tal met tu = we want (to) speak with you
 - mi mak akpan pa min kinim = I make soup for my people
