@@ -336,6 +336,7 @@ Examples in sentences:
 - **panlok** = food-place = restaurant/kitchen
 - **domlok** = house-place = neighborhood/residential area
 - **sollok** = sun-place = somewhere sunny/desert
+- **bigvitlok** = tree-place = forest
 
 *Concepts:*
 - **kintal** = person-speak = language
@@ -348,6 +349,13 @@ Examples in sentences:
 - **aersur** = air-above = sky/heaven
 - **kinmak** = person-maker = god/creator
 - **nulmak** = zero-make = relaxing/idleness
+- **patnul** = path-zero = lost/disoriented
+- **tervit** = earth-life = plant
+- **bigvit** = big-life = tree
+- **govit** = go-life = animal
+- **akgovit** = water-animal = aquatic animal
+- **aergovit** = air-animal = flying animal/bird
+- **smalgovit** = small-animal = insect/small creature
 - **gosur** = go-over = cross, pass
 - **terdiv** = earth-divide = border
 
@@ -359,6 +367,7 @@ Examples in sentences:
 - **dommak** = house-maker = builder/architect
 - **kinvis** = person-seer = observer/witness
 - **tekkin** = take-person = thief
+- **smalkin** = small-person = child
 
 *Tools/Objects:*
 - **akdom** could also mean = water-container (context dependent)
@@ -541,6 +550,13 @@ Examples in sentences:
 - na vol tal met tu = we want (to) speak with you
 - mi mak akpan pa min kinim = I make soup for my people
 
-## Extended Example
+## Extended Examples
+
+**Example 1: The Lost Child**
+smalkin pas go fra pat. ka pas vol vis birim in bigvitlok. sol go, en lun go sur aersur. smalkin vis. ka es patnul. ka ne vis kor kan dom es. ka tal, "mi es patnul! kim mi pas go fra pat? mi vol go min dom!" den, ka her dog. kan dog! dog go pa ka. dog vis pat. smalkin go met kan dog, fra bigvitlok pa dom. ka fut es ne patnul rep.
+
+*(A child went from the path. He/she wanted to see birds of the forest. The sun went, and the moon went over the sky. The child saw. He/she is lost. He/she doesn't see where his/her house is. He/she said, "I am lost! Why did I go from the path? I want to go to my home!" Then, he/she heard a dog. His/her dog! The dog went to him/her. The dog saw the path. The child went with his/her dog, from the forest to the house. He/she will not be lost again.)*
+
+**Example 2**
 Vak en mak lit, Mister Friman, Vak en mak lit. Ne mi vol talnemettal tu pas slep ins maklok, Ne kin hav mas rit pa nulmak, en tot tem en Ter fut es mak pa nul pa ken... bon, na fut tal tun tim rep es.
 Rit kin en ne rit lok mak mek tot vik en Ter. Vak, Mister Friman. Vak en nos firrip.
