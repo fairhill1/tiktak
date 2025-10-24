@@ -12,9 +12,10 @@
 **Vowels**: a, e, i, o, u (5)  
 **Syllable structure**: (C)V(C)
 
-**Design notes**: 
+**Design notes**:
 - Dropped 'w' for maximum clarity - too similar to u/o glide
 - Dropped 'j' for maximum clarity - too similar to i glide (i-consonant)
+- No phonemic stress/tone - maximizes clarity and learnability
 
 Pronunciation guide:
 - a = "ah" (as in father)
@@ -22,6 +23,8 @@ Pronunciation guide:
 - i = "ee" (as in machine)
 - o = "oh" (as in note)
 - u = "oo" (as in boot)
+
+**Stress and tone**: Not phonemic. Stress and tone do not change word meaning. Speakers may freely use them for emphasis, emotion, or rhythm.
 
 ## Core Roots (v0.1)
 
