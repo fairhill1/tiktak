@@ -128,6 +128,8 @@ Pronunciation guide:
 ### BASIC FUNCTION WORDS
 - **ne** = not/no
 - **si** = yes
+- **so** = this
+- **te** = that
 - **alo** = hello/hi
 - **bai** = bye/goodbye
 - **tak** = thank you/thanks
@@ -324,6 +326,21 @@ Examples in sentences:
 - **ko pas go dom?** = who went home?
 - **tu fut hav ket?** = what will you have?
 
+### Tag Questions
+**System**: Add **ne?** at the end of any statement to turn it into a tag question
+
+**Pattern:** [Complete Statement] + , **ne?**
+
+**Usage:** This pattern works universally, regardless of tense or verb (much simpler than English's varied tag questions)
+
+**Examples:**
+- **tu go dom, ne?** = you go home, no? = you're going home, aren't you?
+- **es bon, ne?** = is good, no? = it's good, isn't it?
+- **ka pas vis so, ne?** = he saw this, no? = he saw this, didn't he?
+- **na fut tal, ne?** = we will speak, no? = we'll speak, won't we?
+- **tu hav pan, ne?** = you have food, no? = you have food, don't you?
+- **mi es rit, ne?** = I am right, no? = I'm right, aren't I?
+
 ### Compound Words
 **System**: Combine roots to create new words - maximize vocabulary from minimal roots
 
@@ -379,6 +396,10 @@ Examples in sentences:
 - **spirdom** = spirit-house = brain/mind
 - **elspir** = electric-spirit = AI/artificial intelligence
 - **elpatim** = electric-paths = network/internet
+- **sotim** = this-time = now
+- **tetim** = that-time = then
+- **solok** = this-place = here
+- **telok** = that-place = there
 
 - **makpanul** = make-to-zero = waste/destroy
 - **talnemettal** = speak-not-with-speak = imply
