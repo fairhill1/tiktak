@@ -334,6 +334,7 @@ Examples in sentences:
 *Places:*
 - **akdom** = water-house = bathroom
 - **panlok** = food-place = restaurant/kitchen
+- **kinlok** = person-place = town/city/settlement
 - **domlok** = house-place = neighborhood/residential area
 - **sollok** = sun-place = somewhere sunny/desert
 - **bigvitlok** = tree-place = forest
