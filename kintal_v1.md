@@ -141,7 +141,7 @@ Pronunciation guide:
 - **lest** = least (superlative)
 - **sam** = same/equal/as
 - **dan** = than
-- **kan** = can, be able to, be possible, might
+- **mek** = can, be able to, be possible, might
 
 ### QUESTION WORDS
 - **ko** = who
@@ -543,4 +543,4 @@ Examples in sentences:
 
 ## Extended Example
 Vak en mak lit, Mister Friman, Vak en mak lit. Ne mi vol talnemettal tu pas slep ins maklok, Ne kin hav mas rit pa nulmak, en tot tem en Ter fut es mak pa nul pa ken... bon, na fut tal tun tim rep es.
-Rit kin en ne rit lok mek tot vik en Ter. Vak, Mister Friman. Vak en nos firrip.
+Rit kin en ne rit lok mak mek tot vik en Ter. Vak, Mister Friman. Vak en nos firrip.
