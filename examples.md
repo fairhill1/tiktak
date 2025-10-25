@@ -144,6 +144,14 @@
 - mi vol mak futmak met tu = I want to make future-make with you = I want to make project with you
 - mi mak futmak sotim = I'm making future-make now = I'm working on project now
 
+**With viktal (change-speak = translate):**
+- mi viktal kintal = I change-speak language = I translate language
+- tu viktal so pa kintal = you change-speak this to language = you translate this to language
+- na ned viktal buk = we need to change-speak book = we need to translate book
+- kaim viktal fra kintal pa kintal = they translate from language to language
+- mi pod viktal futsol = I can translate tomorrow
+- viktal es ne maklit = translating is not easy
+
 **With comparatives:**
 - mi mas big dan tu = I'm bigger than you
 - sol mas hot dan lun = sun is hotter than moon
