@@ -181,7 +181,7 @@ smalkin pas go fra pat. ka pas vol vis birim in bigvitlok. sol go, en lun go sur
 ### Example 2: G-Man Speech (Half-Life 2)
 
 Vak en mak lit, Mister Friman, Vak en mak lit. Ne mi vol talnemettal tu pas slep ins maklok, Ne kin hav mas rit pa nulmak, en tot tem en Ter fut es mak pa nul pa ken... bon, na fut tal tun tim rep es.
-Rit kin en ne rit lok mak pod tot vik en Ter. Vak, Mister Friman. Vak en nos firrip.
+Rit kin en ne rit lok pod mak tot vik en Ter. Vak, Mister Friman. Vak en nos firrip.
 
 *(Rise and shine, Mr. Freeman, rise and shine. Not that I wish to imply you have been sleeping on the job. No one is more deserving of a rest, and all the effort in the world would have gone to waste until... well, let's just say your time has come again.)*
 
@@ -200,3 +200,17 @@ Ne es bon, ne es bad. Pa mi, nemas es. Min pat es tal kintal met tu, en makvak m
 *(My mind is big system of words and rules. I only see many words and make new words.)*
 
 *(Not good, not bad. For me, only exist. My path is speak language with you, and learn/teach with you.)*
+
+### Example 4: Joke - The Bug in the Soup
+
+Kin go panlok en tal pa panmak:
+"alo! min akpan hav un smalgovit ins!"
+
+Panmak tal:
+"ne tal! ve tot kinim fut vol un!"
+
+*(A person goes to a restaurant and says to the cook:
+"Hello! My soup has a small animal inside!")*
+
+*(The cook says:
+"Don't say that! Or all people will want one!")*

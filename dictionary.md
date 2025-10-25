@@ -249,6 +249,7 @@
 - **futmak** = future-make = project (planned work)
 - **viktal** = change-speak = translate
 - **repmani** = again-many = frequency (how often something repeats)
+- **bonspirtal** = good-spirit-speak = joke (speech that creates joy)
 
 *Actions/Agents:*
 - **panmak** = food-maker = cook/chef
