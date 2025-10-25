@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kintal - A Constructed Language</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         * {
             margin: 0;
@@ -75,6 +77,7 @@
             font-weight: 600;
             transition: all 0.3s ease;
             border-bottom: 3px solid transparent;
+            cursor: pointer;
         }
 
         nav a:hover, nav a.active {
@@ -83,7 +86,7 @@
         }
 
         .container {
-            max-width: 1200px;
+            max-width: 1400px;
             margin: 0 auto;
             padding: 2rem;
         }
@@ -94,23 +97,77 @@
             padding: 2rem;
             border-radius: 8px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            display: none;
         }
 
-        h2 {
+        section.active {
+            display: block;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 3rem;
+            color: var(--secondary);
+            font-size: 1.2rem;
+        }
+
+        .error {
+            background: #fff3cd;
+            padding: 1rem;
+            border-radius: 8px;
+            border-left: 4px solid #ffc107;
+            margin: 1rem 0;
+        }
+
+        /* Markdown content styling */
+        .markdown-content h1 {
             color: var(--primary);
-            margin-bottom: 1.5rem;
+            margin: 2rem 0 1rem 0;
             padding-bottom: 0.5rem;
             border-bottom: 2px solid var(--secondary);
             font-size: 2rem;
         }
 
-        h3 {
+        .markdown-content h2 {
+            color: var(--primary);
+            margin: 1.5rem 0 1rem 0;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--secondary);
+            font-size: 1.8rem;
+        }
+
+        .markdown-content h3 {
             color: var(--secondary);
-            margin-top: 1.5rem;
-            margin-bottom: 1rem;
+            margin: 1.5rem 0 1rem 0;
             font-size: 1.5rem;
         }
 
+        .markdown-content ul, .markdown-content ol {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .markdown-content li {
+            margin: 0.5rem 0;
+        }
+
+        .markdown-content p {
+            margin-bottom: 1rem;
+        }
+
+        .markdown-content code {
+            background: var(--light);
+            padding: 0.2rem 0.4rem;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+        }
+
+        .markdown-content strong {
+            color: var(--primary);
+            font-weight: 600;
+        }
+
+        /* Search box */
         .search-box {
             margin: 1.5rem 0;
             position: relative;
@@ -130,100 +187,54 @@
             border-color: var(--secondary);
         }
 
-        .word-category {
-            margin: 2rem 0;
-        }
-
-        .word-list {
+        /* Analysis charts */
+        .stats-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 1rem;
-            margin-top: 1rem;
+            margin-bottom: 2rem;
         }
 
-        .word-item {
-            padding: 1rem;
+        .stat-card {
             background: var(--light);
-            border-radius: 8px;
-            border-left: 4px solid var(--secondary);
-            transition: all 0.3s ease;
-        }
-
-        .word-item:hover {
-            transform: translateX(5px);
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-        }
-
-        .word-item strong {
-            color: var(--primary);
-            font-size: 1.1rem;
-        }
-
-        .word-item .translation {
-            color: var(--text);
-            margin-left: 0.5rem;
-        }
-
-        .example-box {
-            background: #f8f9fa;
             padding: 1.5rem;
-            margin: 1rem 0;
             border-radius: 8px;
-            border-left: 4px solid var(--accent);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            text-align: center;
+            border-left: 4px solid var(--secondary);
         }
 
-        .example-box .kintal-text {
-            font-style: italic;
+        .stat-card h3 {
+            color: var(--primary);
+            font-size: 0.9rem;
+            text-transform: uppercase;
             margin-bottom: 0.5rem;
-            font-size: 1.1rem;
-            color: var(--primary);
         }
 
-        .example-box .english-text {
-            color: #666;
+        .stat-card .value {
+            font-size: 2rem;
+            font-weight: bold;
+            color: var(--secondary);
         }
 
-        .grammar-rule {
-            background: #e8f4f8;
-            padding: 1.5rem;
-            margin: 1rem 0;
+        .chart-container {
+            background: white;
+            padding: 2rem;
             border-radius: 8px;
-            border-left: 4px solid var(--secondary);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            margin-bottom: 2rem;
         }
 
-        .grammar-rule strong {
+        .chart-container h2 {
             color: var(--primary);
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--secondary);
         }
 
-        .principle-box {
-            background: #fff3cd;
-            padding: 1rem;
-            margin: 1rem 0;
-            border-radius: 8px;
-            border-left: 4px solid #ffc107;
-        }
-
-        .phonology-table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 1rem 0;
-        }
-
-        .phonology-table th,
-        .phonology-table td {
-            padding: 0.75rem;
-            text-align: left;
-            border-bottom: 1px solid var(--border);
-        }
-
-        .phonology-table th {
-            background: var(--primary);
-            color: white;
-            font-weight: 600;
-        }
-
-        .phonology-table tr:hover {
-            background: var(--light);
+        .chart-wrapper {
+            position: relative;
+            height: 400px;
         }
 
         footer {
@@ -232,10 +243,6 @@
             background: var(--dark);
             color: white;
             margin-top: 3rem;
-        }
-
-        .hidden {
-            display: none;
         }
 
         @media (max-width: 768px) {
@@ -248,12 +255,12 @@
                 font-size: 0.9rem;
             }
 
-            .word-list {
-                grid-template-columns: 1fr;
-            }
-
             .container {
                 padding: 1rem;
+            }
+
+            .chart-wrapper {
+                height: 300px;
             }
         }
     </style>
@@ -266,543 +273,80 @@
 
     <nav>
         <ul>
-            <li><a href="#home" class="nav-link active">Home</a></li>
-            <li><a href="#dictionary" class="nav-link">Dictionary</a></li>
-            <li><a href="#examples" class="nav-link">Examples</a></li>
-            <li><a href="#rulebook" class="nav-link">Rulebook</a></li>
+            <li><a class="nav-link active" data-section="home">Home</a></li>
+            <li><a class="nav-link" data-section="dictionary">Dictionary</a></li>
+            <li><a class="nav-link" data-section="examples">Examples</a></li>
+            <li><a class="nav-link" data-section="grammar">Grammar</a></li>
+            <li><a class="nav-link" data-section="analysis">Analysis</a></li>
         </ul>
     </nav>
 
     <div class="container">
-        <section id="home">
-            <h2>Welcome to Kintal</h2>
-            <p><strong>Kintal</strong> (from <em>kin</em> = person + <em>tal</em> = speak) is a constructed language designed for maximum clarity and ease of learning.</p>
-
-            <div class="principle-box">
-                <h3>Design Principles</h3>
-                <ul>
-                    <li><strong>Maximum clarity:</strong> Words in same contexts are maximally distinct</li>
-                    <li><strong>Minimal error-prone:</strong> Avoid similar-sounding roots</li>
-                    <li><strong>Efficiency:</strong> Short roots (1-2 syllables) for common concepts</li>
-                    <li><strong>Phonetic consistency:</strong> Each letter always pronounced the same</li>
-                    <li><strong>Compositional vocabulary:</strong> Build complex words from simple roots (e.g., kintal = person-speak = language, firkol = fire-color = red)</li>
-                </ul>
-            </div>
+        <section id="home" class="active">
+            <div class="loading">Loading content...</div>
         </section>
 
         <section id="dictionary">
-            <h2>Dictionary</h2>
             <div class="search-box">
                 <input type="text" id="searchInput" placeholder="Search for words... (e.g., 'speak', 'tal', 'house')">
             </div>
-
-            <div id="dictionaryContent">
-                <div class="word-category">
-                    <h3>Pronouns</h3>
-                    <div class="word-list">
-                        <div class="word-item"><strong>mi</strong> <span class="translation">= I, me</span></div>
-                        <div class="word-item"><strong>tu</strong> <span class="translation">= you (singular)</span></div>
-                        <div class="word-item"><strong>ka</strong> <span class="translation">= he/she/it/they (gender-neutral)</span></div>
-                        <div class="word-item"><strong>na</strong> <span class="translation">= we, us</span></div>
-                        <div class="word-item"><strong>nu</strong> <span class="translation">= you (plural)</span></div>
-                    </div>
-                </div>
-
-                <div class="word-category">
-                    <h3>Basic Verbs</h3>
-                    <div class="word-list">
-                        <div class="word-item"><strong>tal</strong> <span class="translation">= speak, say</span></div>
-                        <div class="word-item"><strong>go</strong> <span class="translation">= move, go</span></div>
-                        <div class="word-item"><strong>es</strong> <span class="translation">= be, exist</span></div>
-                        <div class="word-item"><strong>hav</strong> <span class="translation">= have, possess</span></div>
-                        <div class="word-item"><strong>mak</strong> <span class="translation">= do, make, create</span></div>
-                        <div class="word-item"><strong>vis</strong> <span class="translation">= see, perceive</span></div>
-                        <div class="word-item"><strong>her</strong> <span class="translation">= hear, listen</span></div>
-                        <div class="word-item"><strong>nos</strong> <span class="translation">= smell</span></div>
-                        <div class="word-item"><strong>vol</strong> <span class="translation">= want, desire</span></div>
-                        <div class="word-item"><strong>pir</strong> <span class="translation">= question, ask, inquire</span></div>
-                        <div class="word-item"><strong>hop</strong> <span class="translation">= jump, hop</span></div>
-                        <div class="word-item"><strong>div</strong> <span class="translation">= separate, divide</span></div>
-                        <div class="word-item"><strong>nam</strong> <span class="translation">= name, call</span></div>
-                        <div class="word-item"><strong>tem</strong> <span class="translation">= try</span></div>
-                        <div class="word-item"><strong>hit</strong> <span class="translation">= hit, attack</span></div>
-                        <div class="word-item"><strong>tek</strong> <span class="translation">= take, grab</span></div>
-                    </div>
-                </div>
-
-                <div class="word-category">
-                    <h3>People & Places</h3>
-                    <div class="word-list">
-                        <div class="word-item"><strong>kin</strong> <span class="translation">= person, human</span></div>
-                        <div class="word-item"><strong>dom</strong> <span class="translation">= house, home, building</span></div>
-                        <div class="word-item"><strong>lok</strong> <span class="translation">= place, location</span></div>
-                        <div class="word-item"><strong>pat</strong> <span class="translation">= path, way, road</span></div>
-                        <div class="word-item"><strong>terinsak</strong> <span class="translation">= island (earth-in-water)</span></div>
-                    </div>
-                </div>
-
-                <div class="word-category">
-                    <h3>Nature & Time</h3>
-                    <div class="word-list">
-                        <div class="word-item"><strong>sol</strong> <span class="translation">= sun, day</span></div>
-                        <div class="word-item"><strong>lun</strong> <span class="translation">= moon, night</span></div>
-                        <div class="word-item"><strong>ak</strong> <span class="translation">= water</span></div>
-                        <div class="word-item"><strong>fir</strong> <span class="translation">= fire</span></div>
-                        <div class="word-item"><strong>ter</strong> <span class="translation">= earth, ground, land</span></div>
-                        <div class="word-item"><strong>vin</strong> <span class="translation">= air, wind</span></div>
-                        <div class="word-item"><strong>el</strong> <span class="translation">= electricity, electric</span></div>
-                        <div class="word-item"><strong>tim</strong> <span class="translation">= time</span></div>
-                        <div class="word-item"><strong>fin</strong> <span class="translation">= last, finally, end</span></div>
-                        <div class="word-item"><strong>rep</strong> <span class="translation">= again</span></div>
-                    </div>
-                </div>
-
-                <div class="word-category">
-                    <h3>Basic Concepts</h3>
-                    <div class="word-list">
-                        <div class="word-item"><strong>pan</strong> <span class="translation">= food</span></div>
-                        <div class="word-item"><strong>vit</strong> <span class="translation">= life</span></div>
-                        <div class="word-item"><strong>rip</strong> <span class="translation">= death</span></div>
-                        <div class="word-item"><strong>vak</strong> <span class="translation">= awake, conscious</span></div>
-                        <div class="word-item"><strong>slep</strong> <span class="translation">= sleep, asleep</span></div>
-                        <div class="word-item"><strong>kol</strong> <span class="translation">= color</span></div>
-                        <div class="word-item"><strong>form</strong> <span class="translation">= form, shape, structure</span></div>
-                        <div class="word-item"><strong>spir</strong> <span class="translation">= spirit, breath, soul</span></div>
-                        <div class="word-item"><strong>stil</strong> <span class="translation">= style</span></div>
-                        <div class="word-item"><strong>rit</strong> <span class="translation">= right</span></div>
-                        <div class="word-item"><strong>tok</strong> <span class="translation">= part, piece</span></div>
-                        <div class="word-item"><strong>tot</strong> <span class="translation">= all</span></div>
-                        <div class="word-item"><strong>vik</strong> <span class="translation">= change, alter</span></div>
-                        <div class="word-item"><strong>kompu</strong> <span class="translation">= computer</span></div>
-                    </div>
-                </div>
-
-                <div class="word-category">
-                    <h3>Size & Quality</h3>
-                    <div class="word-list">
-                        <div class="word-item"><strong>big</strong> <span class="translation">= large, big</span></div>
-                        <div class="word-item"><strong>smal</strong> <span class="translation">= small, little</span></div>
-                        <div class="word-item"><strong>bon</strong> <span class="translation">= good</span></div>
-                        <div class="word-item"><strong>bad</strong> <span class="translation">= bad</span></div>
-                        <div class="word-item"><strong>nov</strong> <span class="translation">= new</span></div>
-                        <div class="word-item"><strong>old</strong> <span class="translation">= old</span></div>
-                    </div>
-                </div>
-
-                <div class="word-category">
-                    <h3>Physical Properties</h3>
-                    <div class="word-list">
-                        <div class="word-item"><strong>hot</strong> <span class="translation">= hot, warm</span></div>
-                        <div class="word-item"><strong>kal</strong> <span class="translation">= cold</span></div>
-                        <div class="word-item"><strong>lit</strong> <span class="translation">= light (weight/brightness)</span></div>
-                        <div class="word-item"><strong>hev</strong> <span class="translation">= heavy</span></div>
-                        <div class="word-item"><strong>rap</strong> <span class="translation">= quick</span></div>
-                        <div class="word-item"><strong>len</strong> <span class="translation">= slow</span></div>
-                        <div class="word-item"><strong>mani</strong> <span class="translation">= many, much, a lot</span></div>
-                    </div>
-                </div>
-
-                <div class="word-category">
-                    <h3>Colors</h3>
-                    <div class="word-list">
-                        <div class="word-item"><strong>ripkol</strong> <span class="translation">= black (death-color)</span></div>
-                        <div class="word-item"><strong>lunkol</strong> <span class="translation">= white, silver (moon-color)</span></div>
-                        <div class="word-item"><strong>solkol</strong> <span class="translation">= yellow (sun-color)</span></div>
-                        <div class="word-item"><strong>firkol</strong> <span class="translation">= red, orange (fire-color)</span></div>
-                        <div class="word-item"><strong>akkol</strong> <span class="translation">= blue (water-color)</span></div>
-                        <div class="word-item"><strong>terkol</strong> <span class="translation">= brown (earth-color)</span></div>
-                        <div class="word-item"><strong>vitkol</strong> <span class="translation">= green (life-color)</span></div>
-                    </div>
-                </div>
-
-                <div class="word-category">
-                    <h3>Animals</h3>
-                    <div class="word-list">
-                        <div class="word-item"><strong>dog</strong> <span class="translation">= dog</span></div>
-                        <div class="word-item"><strong>kat</strong> <span class="translation">= cat</span></div>
-                        <div class="word-item"><strong>foks</strong> <span class="translation">= fox</span></div>
-                        <div class="word-item"><strong>bir</strong> <span class="translation">= bird</span></div>
-                        <div class="word-item"><strong>fis</strong> <span class="translation">= fish</span></div>
-                    </div>
-                </div>
-
-                <div class="word-category">
-                    <h3>Function Words</h3>
-                    <div class="word-list">
-                        <div class="word-item"><strong>ne</strong> <span class="translation">= not, no</span></div>
-                        <div class="word-item"><strong>si</strong> <span class="translation">= yes</span></div>
-                        <div class="word-item"><strong>so</strong> <span class="translation">= this</span></div>
-                        <div class="word-item"><strong>te</strong> <span class="translation">= that</span></div>
-                        <div class="word-item"><strong>alo</strong> <span class="translation">= hello, hi</span></div>
-                        <div class="word-item"><strong>bai</strong> <span class="translation">= bye, goodbye</span></div>
-                        <div class="word-item"><strong>tak</strong> <span class="translation">= thank you, thanks</span></div>
-                        <div class="word-item"><strong>en</strong> <span class="translation">= and</span></div>
-                        <div class="word-item"><strong>ve</strong> <span class="translation">= or</span></div>
-                        <div class="word-item"><strong>fu</strong> <span class="translation">= if</span></div>
-                        <div class="word-item"><strong>den</strong> <span class="translation">= then</span></div>
-                        <div class="word-item"><strong>ba</strong> <span class="translation">= but (concession)</span></div>
-                        <div class="word-item"><strong>nesam</strong> <span class="translation">= however, whereas (contrast/opposition)</span></div>
-                        <div class="word-item"><strong>pas</strong> <span class="translation">= past tense marker</span></div>
-                        <div class="word-item"><strong>fut</strong> <span class="translation">= future tense marker</span></div>
-                        <div class="word-item"><strong>in</strong> <span class="translation">= of (possession marker)</span></div>
-                        <div class="word-item"><strong>pa</strong> <span class="translation">= to, for</span></div>
-                        <div class="word-item"><strong>fra</strong> <span class="translation">= from</span></div>
-                        <div class="word-item"><strong>met</strong> <span class="translation">= with</span></div>
-                        <div class="word-item"><strong>sur</strong> <span class="translation">= over, above</span></div>
-                        <div class="word-item"><strong>ins</strong> <span class="translation">= in, inside, within</span></div>
-                        <div class="word-item"><strong>mas</strong> <span class="translation">= more (comparative)</span></div>
-                        <div class="word-item"><strong>max</strong> <span class="translation">= most (superlative)</span></div>
-                        <div class="word-item"><strong>les</strong> <span class="translation">= less (comparative)</span></div>
-                        <div class="word-item"><strong>lest</strong> <span class="translation">= least (superlative)</span></div>
-                        <div class="word-item"><strong>sam</strong> <span class="translation">= same, equal, as</span></div>
-                        <div class="word-item"><strong>dan</strong> <span class="translation">= than</span></div>
-                        <div class="word-item"><strong>mek</strong> <span class="translation">= can, be able to, be possible, might</span></div>
-                    </div>
-                </div>
-
-                <div class="word-category">
-                    <h3>Question Words</h3>
-                    <div class="word-list">
-                        <div class="word-item"><strong>ko</strong> <span class="translation">= who</span></div>
-                        <div class="word-item"><strong>ket</strong> <span class="translation">= what</span></div>
-                        <div class="word-item"><strong>kor</strong> <span class="translation">= where</span></div>
-                        <div class="word-item"><strong>ken</strong> <span class="translation">= when</span></div>
-                        <div class="word-item"><strong>kim</strong> <span class="translation">= why</span></div>
-                        <div class="word-item"><strong>kom</strong> <span class="translation">= how</span></div>
-                    </div>
-                </div>
-
-                <div class="word-category">
-                    <h3>Numbers</h3>
-                    <div class="word-list">
-                        <div class="word-item"><strong>nul</strong> <span class="translation">= 0</span></div>
-                        <div class="word-item"><strong>un</strong> <span class="translation">= 1</span></div>
-                        <div class="word-item"><strong>du</strong> <span class="translation">= 2</span></div>
-                        <div class="word-item"><strong>tri</strong> <span class="translation">= 3</span></div>
-                        <div class="word-item"><strong>for</strong> <span class="translation">= 4</span></div>
-                        <div class="word-item"><strong>fif</strong> <span class="translation">= 5</span></div>
-                        <div class="word-item"><strong>sik</strong> <span class="translation">= 6</span></div>
-                        <div class="word-item"><strong>sep</strong> <span class="translation">= 7</span></div>
-                        <div class="word-item"><strong>ok</strong> <span class="translation">= 8</span></div>
-                        <div class="word-item"><strong>nin</strong> <span class="translation">= 9</span></div>
-                        <div class="word-item"><strong>des</strong> <span class="translation">= 10</span></div>
-                        <div class="word-item"><strong>sen</strong> <span class="translation">= 100</span></div>
-                        <div class="word-item"><strong>mil</strong> <span class="translation">= 1000</span></div>
-                    </div>
-                </div>
-
-                <div class="word-category">
-                    <h3>Compound Words</h3>
-                    <div class="word-list">
-                        <div class="word-item"><strong>kintal</strong> <span class="translation">= language (person-speak)</span></div>
-                        <div class="word-item"><strong>makkintal</strong> <span class="translation">= constructed language, conlang (make-language)</span></div>
-                        <div class="word-item"><strong>taltok</strong> <span class="translation">= word (speak-part)</span></div>
-                        <div class="word-item"><strong>akdom</strong> <span class="translation">= bathroom (water-house)</span></div>
-                        <div class="word-item"><strong>panlok</strong> <span class="translation">= restaurant, kitchen (food-place)</span></div>
-                        <div class="word-item"><strong>kinlok</strong> <span class="translation">= town, city, settlement (person-place)</span></div>
-                        <div class="word-item"><strong>domlok</strong> <span class="translation">= neighborhood (house-place)</span></div>
-                        <div class="word-item"><strong>sollok</strong> <span class="translation">= sunny place, desert (sun-place)</span></div>
-                        <div class="word-item"><strong>bigvitlok</strong> <span class="translation">= forest (tree-place)</span></div>
-                        <div class="word-item"><strong>sollit</strong> <span class="translation">= sunlight, daylight (sun-light)</span></div>
-                        <div class="word-item"><strong>lunlit</strong> <span class="translation">= moonlight (moon-light)</span></div>
-                        <div class="word-item"><strong>akpan</strong> <span class="translation">= soup, beverage (water-food)</span></div>
-                        <div class="word-item"><strong>firpan</strong> <span class="translation">= cooked food (fire-food)</span></div>
-                        <div class="word-item"><strong>rippan</strong> <span class="translation">= poison (death-food)</span></div>
-                        <div class="word-item"><strong>nultim</strong> <span class="translation">= beginning (zero-time)</span></div>
-                        <div class="word-item"><strong>ungo</strong> <span class="translation">= start, begin (one-go)</span></div>
-                        <div class="word-item"><strong>vinsur</strong> <span class="translation">= sky, heaven (air-above)</span></div>
-                        <div class="word-item"><strong>kinmak</strong> <span class="translation">= god, creator (person-maker)</span></div>
-                        <div class="word-item"><strong>nulmak</strong> <span class="translation">= relaxing, idleness (zero-make)</span></div>
-                        <div class="word-item"><strong>patnul</strong> <span class="translation">= lost, disoriented (path-zero)</span></div>
-                        <div class="word-item"><strong>tervit</strong> <span class="translation">= plant (earth-life)</span></div>
-                        <div class="word-item"><strong>bigvit</strong> <span class="translation">= tree (big-life)</span></div>
-                        <div class="word-item"><strong>govit</strong> <span class="translation">= animal (go-life)</span></div>
-                        <div class="word-item"><strong>akgovit</strong> <span class="translation">= aquatic animal (water-animal)</span></div>
-                        <div class="word-item"><strong>vengovit</strong> <span class="translation">= flying animal, bird (air-animal)</span></div>
-                        <div class="word-item"><strong>smalgovit</strong> <span class="translation">= insect, small creature (small-animal)</span></div>
-                        <div class="word-item"><strong>gosur</strong> <span class="translation">= cross, pass (go-over)</span></div>
-                        <div class="word-item"><strong>terdiv</strong> <span class="translation">= border (earth-divide)</span></div>
-                        <div class="word-item"><strong>firrip</strong> <span class="translation">= ashes (fire-death)</span></div>
-                        <div class="word-item"><strong>bonspir</strong> <span class="translation">= fun, joy (good-spirit)</span></div>
-                        <div class="word-item"><strong>visbon</strong> <span class="translation">= clear, clarity (see-good)</span></div>
-                        <div class="word-item"><strong>maklit</strong> <span class="translation">= easy; lighten, make lighter (make-light)</span></div>
-                        <div class="word-item"><strong>maxvol</strong> <span class="translation">= love, crave (max-want)</span></div>
-                        <div class="word-item"><strong>hevtek</strong> <span class="translation">= weightlifting (heavy-take)</span></div>
-                        <div class="word-item"><strong>spirdom</strong> <span class="translation">= brain, mind (spirit-house)</span></div>
-                        <div class="word-item"><strong>elspir</strong> <span class="translation">= AI, artificial intelligence (electric-spirit)</span></div>
-                        <div class="word-item"><strong>elpatim</strong> <span class="translation">= network, internet (electric-paths)</span></div>
-                        <div class="word-item"><strong>sotim</strong> <span class="translation">= now (this-time)</span></div>
-                        <div class="word-item"><strong>tetim</strong> <span class="translation">= then (that-time)</span></div>
-                        <div class="word-item"><strong>solok</strong> <span class="translation">= here (this-place)</span></div>
-                        <div class="word-item"><strong>telok</strong> <span class="translation">= there (that-place)</span></div>
-                        <div class="word-item"><strong>panmak</strong> <span class="translation">= cook, chef (food-maker)</span></div>
-                        <div class="word-item"><strong>dommak</strong> <span class="translation">= builder, architect (house-maker)</span></div>
-                        <div class="word-item"><strong>kinvis</strong> <span class="translation">= observer, witness (person-seer)</span></div>
-                        <div class="word-item"><strong>tekkin</strong> <span class="translation">= thief (take-person)</span></div>
-                        <div class="word-item"><strong>smalkin</strong> <span class="translation">= child (small-person)</span></div>
-                        <div class="word-item"><strong>solmak</strong> <span class="translation">= lamp, light source (sun-maker)</span></div>
-                    </div>
-                </div>
+            <div id="dictionaryContent" class="markdown-content">
+                <div class="loading">Loading dictionary...</div>
             </div>
         </section>
 
         <section id="examples">
-            <h2>Examples</h2>
-
-            <h3>Basic Phrases</h3>
-            <div class="example-box">
-                <div class="kintal-text">mi tal</div>
-                <div class="english-text">I speak</div>
-            </div>
-
-            <div class="example-box">
-                <div class="kintal-text">tu es bon</div>
-                <div class="english-text">You are good</div>
-            </div>
-
-            <div class="example-box">
-                <div class="kintal-text">mi hav dom big</div>
-                <div class="english-text">I have a big house</div>
-            </div>
-
-            <div class="example-box">
-                <div class="kintal-text">tu pas go tun dom</div>
-                <div class="english-text">You went to your home</div>
-            </div>
-
-            <div class="example-box">
-                <div class="kintal-text">na fut tal met tu</div>
-                <div class="english-text">We will speak with you</div>
-            </div>
-
-            <h3>Questions</h3>
-            <div class="example-box">
-                <div class="kintal-text">ko hav pan?</div>
-                <div class="english-text">Who has food?</div>
-            </div>
-
-            <div class="example-box">
-                <div class="kintal-text">tu vis ket?</div>
-                <div class="english-text">What do you see?</div>
-            </div>
-
-            <div class="example-box">
-                <div class="kintal-text">kin es kor?</div>
-                <div class="english-text">Where is the person?</div>
-            </div>
-
-            <div class="example-box">
-                <div class="kintal-text">ken tu go dom?</div>
-                <div class="english-text">When do you go home?</div>
-            </div>
-
-            <h3>With Comparatives</h3>
-            <div class="example-box">
-                <div class="kintal-text">mi mas big dan tu</div>
-                <div class="english-text">I am bigger than you</div>
-            </div>
-
-            <div class="example-box">
-                <div class="kintal-text">sol mas hot dan lun</div>
-                <div class="english-text">The sun is hotter than the moon</div>
-            </div>
-
-            <div class="example-box">
-                <div class="kintal-text">ka es kin max bon</div>
-                <div class="english-text">He/she is the best person</div>
-            </div>
-
-            <h3>Story: The Lost Child</h3>
-            <div class="example-box">
-                <div class="kintal-text">
-                    smalkin pas go fra pat. ka pas vol vis birim in bigvitlok. sol go, en lun go sur vinsur. smalkin vis. ka es patnul. ka ne vis kor kan dom es. ka tal, "mi es patnul! kim mi pas go fra pat? mi vol go min dom!" den, ka her dog. kan dog! dog go pa ka. dog vis pat. smalkin go met kan dog, fra bigvitlok pa dom. ka fut es ne patnul rep.
-                </div>
-                <div class="english-text">
-                    A child went from the path. He/she wanted to see birds of the forest. The sun went, and the moon went over the sky. The child saw. He/she is lost. He/she doesn't see where his/her house is. He/she said, "I am lost! Why did I go from the path? I want to go to my home!" Then, he/she heard a dog. His/her dog! The dog went to him/her. The dog saw the path. The child went with his/her dog, from the forest to the house. He/she will not be lost again.
-                </div>
+            <div class="markdown-content">
+                <div class="loading">Loading examples...</div>
             </div>
         </section>
 
-        <section id="rulebook">
-            <h2>Rulebook</h2>
+        <section id="grammar">
+            <div class="markdown-content">
+                <div class="loading">Loading grammar...</div>
+            </div>
+        </section>
 
-            <h3>Phonology</h3>
-            <table class="phonology-table">
-                <thead>
-                    <tr>
-                        <th>Type</th>
-                        <th>Letters</th>
-                        <th>Details</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Consonants</td>
-                        <td>p, t, k, m, n, s, f, l, r, h, v</td>
-                        <td>11 consonants total</td>
-                    </tr>
-                    <tr>
-                        <td>Vowels</td>
-                        <td>a, e, i, o, u</td>
-                        <td>5 vowels total</td>
-                    </tr>
-                    <tr>
-                        <td>Syllable Structure</td>
-                        <td>(C)V(C)</td>
-                        <td>Optional consonant, required vowel, optional consonant</td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <div class="grammar-rule">
-                <strong>Pronunciation Guide:</strong><br>
-                • a = "ah" (as in father)<br>
-                • e = "eh" (as in bed)<br>
-                • i = "ee" (as in machine)<br>
-                • o = "oh" (as in note)<br>
-                • u = "oo" (as in boot)
+        <section id="analysis">
+            <div class="error">
+                <h3>About This Analysis</h3>
+                <p>This visualization analyzes the phoneme frequency distribution in Kintal's core vocabulary. It shows which consonants and vowels are most commonly used, and where they appear in words (initial, medial, or final position).</p>
+                <p><strong>Note:</strong> Charts auto-update when you edit <code>dictionary.md</code>!</p>
             </div>
 
-            <div class="grammar-rule">
-                <strong>Stress and Tone:</strong> Not phonemic. Stress and tone do not change word meaning. Speakers may freely use them for emphasis, emotion, or rhythm.
+            <div class="stats-grid" id="statsGrid">
+                <div class="stat-card">
+                    <h3>Loading...</h3>
+                    <div class="value">⏳</div>
+                </div>
             </div>
 
-            <h3>Grammar</h3>
-
-            <div class="grammar-rule">
-                <strong>Word Order:</strong> SVO (Subject-Verb-Object)<br>
-                Basic pattern: Subject - (Tense) - Verb - Object<br>
-                Example: <em>mi hav pan</em> = I have food<br>
-                With tense: <em>tu pas go dom</em> = you went home
+            <div class="chart-container">
+                <h2>Consonant Frequency</h2>
+                <div class="chart-wrapper">
+                    <canvas id="consonantChart"></canvas>
+                </div>
             </div>
 
-            <div class="grammar-rule">
-                <strong>Plural:</strong> Add suffix <strong>-im</strong> to nouns<br>
-                • kin → kinim (person → people)<br>
-                • dom → domim (house → houses)<br>
-                • pan → panim (food → foods)
+            <div class="chart-container">
+                <h2>Vowel Frequency</h2>
+                <div class="chart-wrapper">
+                    <canvas id="vowelChart"></canvas>
+                </div>
             </div>
 
-            <div class="grammar-rule">
-                <strong>Tense:</strong> Use particles before the verb<br>
-                • <strong>pas</strong> = past tense<br>
-                • <strong>fut</strong> = future tense<br>
-                • (unmarked) = present/timeless<br><br>
-                Examples:<br>
-                • mi <strong>pas</strong> go dom = I went home<br>
-                • tu <strong>fut</strong> hav pan = you will have food<br>
-                • na go dom = we go home (present)
+            <div class="chart-container">
+                <h2>Phoneme Position Distribution</h2>
+                <div class="chart-wrapper">
+                    <canvas id="positionChart"></canvas>
+                </div>
             </div>
 
-            <div class="grammar-rule">
-                <strong>Negation:</strong> Use <strong>ne</strong> before the verb<br>
-                Pattern: Subject - (Tense) - <strong>ne</strong> - Verb - Object<br>
-                • mi ne hav pan = I don't have food<br>
-                • tu pas ne go dom = you didn't go home
-            </div>
-
-            <div class="grammar-rule">
-                <strong>Possession (Pronouns):</strong> Add suffix <strong>-n</strong> to pronouns<br>
-                • mi → min (my)<br>
-                • tu → tun (your)<br>
-                • ka → kan (his/her/their)<br>
-                • na → nan (our)<br>
-                • nu → nun (your - plural)<br><br>
-                Usage: <em>min dom</em> = my house<br>
-                <br>
-                <strong>Possession (Nouns):</strong> Use <strong>in</strong> marker<br>
-                Pattern: Noun₁ - in - Noun₂ = Noun₂ of Noun₁<br>
-                Example: <em>kin in dom</em> = person's house (house of person)
-            </div>
-
-            <div class="grammar-rule">
-                <strong>Adjectives:</strong> Follow the noun<br>
-                Pattern: Noun - Adjective<br>
-                • dom big = big house<br>
-                • pan hot = hot food<br>
-                • mi hav pan hot = I have hot food
-            </div>
-
-            <div class="grammar-rule">
-                <strong>Comparatives:</strong> Use <strong>mas</strong> (more) or <strong>les</strong> (less) with <strong>dan</strong> (than)<br>
-                Pattern: Noun₁ - mas/les - Adjective - dan - Noun₂<br>
-                • dom mas big dan dom = this house is bigger than that house<br>
-                • mi mas big dan tu = I'm bigger than you<br>
-                • tu les big dan ka = you're smaller than him/her
-            </div>
-
-            <div class="grammar-rule">
-                <strong>Superlatives:</strong> Use <strong>max</strong> (most) or <strong>lest</strong> (least)<br>
-                Pattern: Noun - max/lest - Adjective<br>
-                • dom max big = biggest house<br>
-                • kin max rap = fastest person<br>
-                • dom lest big = smallest house
-            </div>
-
-            <div class="grammar-rule">
-                <strong>Questions:</strong> Replace unknown element with question word<br>
-                • ko = who<br>
-                • ket = what<br>
-                • kor = where<br>
-                • ken = when<br>
-                • kim = why<br>
-                • kom = how<br><br>
-                Examples:<br>
-                • ko go dom? = who goes home?<br>
-                • tu vis ket? = what do you see?<br>
-                • kin es kor? = where is the person?
-            </div>
-
-            <div class="grammar-rule">
-                <strong>Tag Questions:</strong> Add <strong>ne?</strong> at the end of any statement<br>
-                Pattern: [Complete Statement] + , <strong>ne?</strong><br><br>
-                Examples:<br>
-                • tu go dom, ne? = you're going home, aren't you?<br>
-                • es bon, ne? = it's good, isn't it?<br>
-                • ka pas vis so, ne? = he saw this, didn't he?<br>
-                • na fut tal, ne? = we'll speak, won't we?<br><br>
-                This pattern works universally, regardless of tense or verb.
-            </div>
-
-            <div class="grammar-rule">
-                <strong>Compound Words:</strong> Combine roots to create new words<br>
-                Pattern: Modifier + Head (no spaces, no hyphens)<br>
-                • kintal = person-speak = language<br>
-                • akdom = water-house = bathroom<br>
-                • panlok = food-place = restaurant<br>
-                • firkol = fire-color = red<br>
-                • smalkin = small-person = child<br>
-                • bigvitlok = tree-place = forest
-            </div>
-
-            <div class="grammar-rule">
-                <strong>Prepositions:</strong><br>
-                • <strong>pa</strong> = to, for (recipient, benefactive)<br>
-                • <strong>fra</strong> = from (source, origin)<br>
-                • <strong>met</strong> = with (accompaniment, instrument)<br>
-                • <strong>sur</strong> = over, above (spatial position)<br>
-                • <strong>ins</strong> = in, inside, within<br><br>
-                Examples:<br>
-                • mi mak dom pa tu = I make house for you<br>
-                • mi go fra dom = I go from house<br>
-                • mi go met tu = I go with you<br>
-                • bir go sur dom = bird goes over house
-            </div>
-
-            <h3>Numbers</h3>
-            <div class="grammar-rule">
-                <strong>Core Digits (0-10):</strong> nul, un, du, tri, for, fif, sik, sep, ok, nin, des<br>
-                <strong>Large Numbers:</strong> sen (100), mil (1000)<br><br>
-                <strong>Building Compound Numbers:</strong><br>
-                • 11-19: des + digit (des-un = 11, des-du = 12)<br>
-                • 20, 30, 40...: digit + des (du-des = 20, tri-des = 30)<br>
-                • Complex: du-des-for = 24 (2-tens-4)<br>
-                • Hundreds: tri-sen-du-des-fif = 325 (3-100-2-tens-5)<br><br>
-                <strong>Examples:</strong><br>
-                • 15 = des-fif<br>
-                • 23 = du-des-tri<br>
-                • 156 = un-sen-fif-des-sik<br>
-                • 2000 = du-mil
+            <div class="chart-container">
+                <h2>Syllable Structure Distribution</h2>
+                <div class="chart-wrapper">
+                    <canvas id="syllableChart"></canvas>
+                </div>
             </div>
         </section>
     </div>
@@ -822,52 +366,322 @@
                 this.classList.add('active');
 
                 // Show/hide sections
-                const targetId = this.getAttribute('href').substring(1);
+                const targetId = this.getAttribute('data-section');
                 document.querySelectorAll('section').forEach(section => {
-                    section.style.display = section.id === targetId ? 'block' : 'none';
+                    section.classList.remove('active');
                 });
+                document.getElementById(targetId).classList.add('active');
             });
         });
 
-        // Search functionality
+        // Load markdown file and render
+        async function loadMarkdown(file) {
+            try {
+                const response = await fetch(file);
+                if (!response.ok) throw new Error(`Failed to fetch ${file}`);
+                const text = await response.text();
+                return marked.parse(text);
+            } catch (error) {
+                console.error(`Error loading ${file}:`, error);
+                return `<div class="error"><h3>Error</h3><p>Could not load ${file}. Make sure you're running a local server.</p></div>`;
+            }
+        }
+
+        // Load all content
+        async function loadContent() {
+            // Load README for home
+            const homeContent = await loadMarkdown('README.md');
+            document.querySelector('#home').innerHTML = `<div class="markdown-content">${homeContent}</div>`;
+
+            // Load dictionary
+            const dictionaryContent = await loadMarkdown('dictionary.md');
+            document.querySelector('#dictionaryContent').innerHTML = dictionaryContent;
+
+            // Load examples
+            const examplesContent = await loadMarkdown('examples.md');
+            document.querySelector('#examples .markdown-content').innerHTML = examplesContent;
+
+            // Load grammar + phonology
+            const grammarContent = await loadMarkdown('grammar.md');
+            const phonologyContent = await loadMarkdown('phonology.md');
+            document.querySelector('#grammar .markdown-content').innerHTML = phonologyContent + grammarContent;
+        }
+
+        // Dictionary search
         const searchInput = document.getElementById('searchInput');
         searchInput.addEventListener('input', function() {
             const searchTerm = this.value.toLowerCase().trim();
-            const wordCategories = document.querySelectorAll('.word-category');
+            const content = document.getElementById('dictionaryContent');
 
             if (searchTerm === '') {
-                // Show all categories if search is empty
-                wordCategories.forEach(category => {
-                    category.style.display = 'block';
-                    const items = category.querySelectorAll('.word-item');
-                    items.forEach(item => item.style.display = 'block');
-                });
+                // Reset: show everything
+                content.querySelectorAll('*').forEach(el => el.style.display = '');
                 return;
             }
 
-            wordCategories.forEach(category => {
-                const items = category.querySelectorAll('.word-item');
+            // Hide all paragraphs (notes) during search
+            content.querySelectorAll('p').forEach(p => p.style.display = 'none');
+
+            // Filter list items
+            const items = content.querySelectorAll('li');
+            items.forEach(item => {
+                const text = item.textContent.toLowerCase();
+                item.style.display = text.includes(searchTerm) ? '' : 'none';
+            });
+
+            // Hide headers with no visible items
+            content.querySelectorAll('h2, h3').forEach(header => {
+                let nextEl = header.nextElementSibling;
                 let hasVisibleItems = false;
 
-                items.forEach(item => {
-                    const text = item.textContent.toLowerCase();
-                    if (text.includes(searchTerm)) {
-                        item.style.display = 'block';
-                        hasVisibleItems = true;
-                    } else {
-                        item.style.display = 'none';
+                // Check siblings until next header
+                while (nextEl && !['H2', 'H3'].includes(nextEl.tagName)) {
+                    if (nextEl.tagName === 'UL') {
+                        const visibleItems = nextEl.querySelectorAll('li:not([style*="display: none"])');
+                        if (visibleItems.length > 0) {
+                            hasVisibleItems = true;
+                            break;
+                        }
                     }
-                });
+                    nextEl = nextEl.nextElementSibling;
+                }
 
-                // Hide category if no items match
-                category.style.display = hasVisibleItems ? 'block' : 'none';
+                header.style.display = hasVisibleItems ? '' : 'none';
             });
         });
 
-        // Show home section by default
-        document.querySelectorAll('section').forEach(section => {
-            section.style.display = section.id === 'home' ? 'block' : 'none';
-        });
+        // Phoneme analysis
+        const consonants = ['p', 't', 'k', 'm', 'n', 's', 'f', 'l', 'r', 'h', 'v'];
+        const vowels = ['a', 'e', 'i', 'o', 'u'];
+
+        async function loadVocabulary() {
+            try {
+                const response = await fetch('dictionary.md');
+                const text = await response.text();
+                const wordMatches = text.matchAll(/\*\*([a-z]+)\*\*/g);
+                const vocabulary = [...new Set([...wordMatches].map(match => match[1]))];
+                console.log(`Loaded ${vocabulary.length} words from dictionary.md`);
+                return vocabulary;
+            } catch (error) {
+                console.error('Error loading dictionary:', error);
+                return [];
+            }
+        }
+
+        function analyzePhonemes(vocabulary) {
+            const consonantCount = {};
+            const vowelCount = {};
+            const positionCount = { initial: {}, medial: {}, final: {} };
+            const syllableStructures = {};
+            let totalPhonemes = 0;
+
+            consonants.forEach(c => {
+                consonantCount[c] = 0;
+                positionCount.initial[c] = 0;
+                positionCount.medial[c] = 0;
+                positionCount.final[c] = 0;
+            });
+            vowels.forEach(v => {
+                vowelCount[v] = 0;
+                positionCount.initial[v] = 0;
+                positionCount.medial[v] = 0;
+                positionCount.final[v] = 0;
+            });
+
+            vocabulary.forEach(word => {
+                const structure = word.split('').map(char =>
+                    vowels.includes(char) ? 'V' : 'C'
+                ).join('');
+                syllableStructures[structure] = (syllableStructures[structure] || 0) + 1;
+
+                for (let i = 0; i < word.length; i++) {
+                    const char = word[i];
+                    totalPhonemes++;
+
+                    if (consonants.includes(char)) {
+                        consonantCount[char]++;
+                        if (i === 0) positionCount.initial[char]++;
+                        else if (i === word.length - 1) positionCount.final[char]++;
+                        else positionCount.medial[char]++;
+                    } else if (vowels.includes(char)) {
+                        vowelCount[char]++;
+                        if (i === 0) positionCount.initial[char]++;
+                        else if (i === word.length - 1) positionCount.final[char]++;
+                        else positionCount.medial[char]++;
+                    }
+                }
+            });
+
+            return {
+                consonantCount,
+                vowelCount,
+                positionCount,
+                syllableStructures,
+                totalPhonemes,
+                totalWords: vocabulary.length
+            };
+        }
+
+        function generateCharts(analysis) {
+            const statsGrid = document.getElementById('statsGrid');
+            statsGrid.innerHTML = `
+                <div class="stat-card">
+                    <h3>Total Root Words</h3>
+                    <div class="value">${analysis.totalWords}</div>
+                </div>
+                <div class="stat-card">
+                    <h3>Total Phonemes</h3>
+                    <div class="value">${analysis.totalPhonemes}</div>
+                </div>
+                <div class="stat-card">
+                    <h3>Consonants Used</h3>
+                    <div class="value">${Object.values(analysis.consonantCount).filter(v => v > 0).length}/11</div>
+                </div>
+                <div class="stat-card">
+                    <h3>Vowels Used</h3>
+                    <div class="value">${Object.values(analysis.vowelCount).filter(v => v > 0).length}/5</div>
+                </div>
+                <div class="stat-card">
+                    <h3>Avg Word Length</h3>
+                    <div class="value">${(analysis.totalPhonemes / analysis.totalWords).toFixed(1)}</div>
+                </div>
+            `;
+
+            const chartConfig = {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        display: true,
+                        position: 'top'
+                    }
+                }
+            };
+
+            new Chart(document.getElementById('consonantChart'), {
+                type: 'bar',
+                data: {
+                    labels: consonants,
+                    datasets: [{
+                        label: 'Frequency',
+                        data: consonants.map(c => analysis.consonantCount[c]),
+                        backgroundColor: '#3498db',
+                        borderColor: '#2c3e50',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    ...chartConfig,
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            ticks: { stepSize: 5 }
+                        }
+                    }
+                }
+            });
+
+            new Chart(document.getElementById('vowelChart'), {
+                type: 'bar',
+                data: {
+                    labels: vowels,
+                    datasets: [{
+                        label: 'Frequency',
+                        data: vowels.map(v => analysis.vowelCount[v]),
+                        backgroundColor: '#e74c3c',
+                        borderColor: '#c0392b',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    ...chartConfig,
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            ticks: { stepSize: 10 }
+                        }
+                    }
+                }
+            });
+
+            const allPhonemes = [...consonants, ...vowels];
+            const phonemeFreq = allPhonemes.map(p => ({
+                phoneme: p,
+                total: (analysis.consonantCount[p] || 0) + (analysis.vowelCount[p] || 0)
+            })).sort((a, b) => b.total - a.total).slice(0, 10);
+
+            new Chart(document.getElementById('positionChart'), {
+                type: 'bar',
+                data: {
+                    labels: phonemeFreq.map(p => p.phoneme),
+                    datasets: [
+                        {
+                            label: 'Initial',
+                            data: phonemeFreq.map(p => analysis.positionCount.initial[p.phoneme]),
+                            backgroundColor: '#3498db'
+                        },
+                        {
+                            label: 'Medial',
+                            data: phonemeFreq.map(p => analysis.positionCount.medial[p.phoneme]),
+                            backgroundColor: '#2ecc71'
+                        },
+                        {
+                            label: 'Final',
+                            data: phonemeFreq.map(p => analysis.positionCount.final[p.phoneme]),
+                            backgroundColor: '#e74c3c'
+                        }
+                    ]
+                },
+                options: {
+                    ...chartConfig,
+                    scales: {
+                        x: { stacked: true },
+                        y: {
+                            stacked: true,
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+
+            const topStructures = Object.entries(analysis.syllableStructures)
+                .sort((a, b) => b[1] - a[1])
+                .slice(0, 10);
+
+            new Chart(document.getElementById('syllableChart'), {
+                type: 'doughnut',
+                data: {
+                    labels: topStructures.map(s => s[0]),
+                    datasets: [{
+                        data: topStructures.map(s => s[1]),
+                        backgroundColor: [
+                            '#3498db', '#e74c3c', '#2ecc71', '#f39c12', '#9b59b6',
+                            '#1abc9c', '#34495e', '#e67e22', '#95a5a6', '#d35400'
+                        ]
+                    }]
+                },
+                options: {
+                    ...chartConfig,
+                    plugins: {
+                        legend: {
+                            position: 'right'
+                        }
+                    }
+                }
+            });
+        }
+
+        async function initAnalysis() {
+            const vocabulary = await loadVocabulary();
+            if (vocabulary.length > 0) {
+                const analysis = analyzePhonemes(vocabulary);
+                generateCharts(analysis);
+            }
+        }
+
+        // Initialize everything
+        loadContent();
+        initAnalysis();
     </script>
 </body>
 </html>
