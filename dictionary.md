@@ -66,6 +66,7 @@
 - **vik** = change/alter
 - **kompu** = computer
 - **buk** = book
+- **gem** = game (noun); play (verb)
 
 ### ADJECTIVES - Size & Quality
 - **big** = large/big
@@ -260,6 +261,11 @@
 - **gevrit** = give-right = permit/allow
 - **gevtal** = give-speak = announce/declare
 - **gevtek** = give-take = trade/exchange
+- **kompugem** = computer-game = video game
+- **tergem** = earth-game = board game/physical game
+- **gemmak** = game-maker = game developer/designer
+- **gemkin** = game-person = player
+- **gemtoktok** = game-system = game engine
 
 *Actions/Agents:*
 - **panmak** = food-maker = cook/chef

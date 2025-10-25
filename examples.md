@@ -152,6 +152,19 @@
 - mi pod viktal futsol = I can translate tomorrow
 - viktal es ne maklit = translating is not easy
 
+**With gem (game/play):**
+- mi gem = I play
+- tu gem met mi = you play with me
+- na pas gem passol = we played yesterday
+- mi vol gem kompugem = I want to play a video game
+- ka gem tergem = he/she plays a board game
+- mi mak gem = I make a game / I create a game
+- gemmak mak kompugem nov = game-maker creates new video game
+- ka gem bon = that game is good
+- gemkin mani gem ins panlok = many players play in restaurant
+- mi hav mani tergem = I have many board games
+- tu pod gem met na futsol = you can play with us tomorrow
+
 **With comparatives:**
 - mi mas big dan tu = I'm bigger than you
 - sol mas hot dan lun = sun is hotter than moon
