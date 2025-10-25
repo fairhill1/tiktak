@@ -1,4 +1,4 @@
-# Kintal Phonology
+# Toktal Phonology
 
 ## Sound System
 

@@ -1,6 +1,6 @@
-# Kintal - A Constructed Language
+# Toktal - A Constructed Language
 
-**Kintal** (from *kin* = person + *tal* = speak) is a constructed language designed for maximum clarity and ease of learning.
+**Toktal** (from *kin* = person + *tal* = speak) is a constructed language designed for maximum clarity and ease of learning.
 
 ## Design Principles
 
@@ -20,7 +20,7 @@
 ## Quick Start
 
 ### Basic Sentence Structure
-Kintal uses **SVO** (Subject-Verb-Object) word order:
+Toktal uses **SVO** (Subject-Verb-Object) word order:
 - **mi hav pan** = I have food
 - **tu go dom** = you go home
 

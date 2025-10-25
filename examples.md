@@ -1,4 +1,4 @@
-# Kintal Examples
+# Toktal Examples
 
 ## Basic Phrases
 

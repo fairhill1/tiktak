@@ -1,4 +1,4 @@
-# Kintal Grammar
+# Toktal Grammar
 
 ## Word Order
 **Basic structure**: SVO (Subject-Verb-Object)

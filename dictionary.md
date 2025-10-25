@@ -1,4 +1,4 @@
-# Kintal Dictionary
+# Toktal Dictionary
 
 ## Core Roots
 
