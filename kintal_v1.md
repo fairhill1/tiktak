@@ -137,6 +137,8 @@ Pronunciation guide:
 - **or** = or
 - **if** = if
 - **den** = then
+- **ba** = but (concession)
+- **nesam** = not-same = however/whereas (contrast/opposition)
 - **pas** = past tense marker
 - **fut** = future tense marker
 - **in** = of (possession marker for nouns)
