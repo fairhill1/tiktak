@@ -35,7 +35,7 @@
 - **dom** = house/home/building
 - **lok** = place/location
 - **pat** = path/way/road
-- **terinsak** = earth-in-water = island
+- **terinak** = earth-in-water = island
 
 ### CORE NOUNS - Nature & Time
 - **sol** = sun/day
@@ -107,6 +107,14 @@
 - **bir** = bird
 - **fis** = fish
 
+### PREPOSITIONS
+- **de** = of (possession marker for nouns)
+- **pa** = to/for (recipient/benefactive)
+- **fra** = from (source)
+- **met** = with (accompaniment)
+- **sur** = over/above (spatial)
+- **in** = in/inside/within (spatial)
+
 ### BASIC FUNCTION WORDS
 - **ne** = not/no
 - **si** = yes
@@ -124,12 +132,6 @@
 - **nerit** = not-right = wrong/mistake/error
 - **pas** = past tense marker
 - **fut** = future tense marker
-- **in** = of (possession marker for nouns)
-- **pa** = to/for (recipient/benefactive)
-- **fra** = from (source)
-- **met** = with (accompaniment)
-- **sur** = over/above (spatial)
-- **ins** = in/inside/within (spatial)
 - **mas** = more (comparative)
 - **maks** = most (superlative)
 - **les** = less (comparative)

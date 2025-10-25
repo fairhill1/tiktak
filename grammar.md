@@ -90,9 +90,9 @@ Examples in sentences:
 - **kanim dom** es big = their house is big
 
 **For non-pronoun possession** (noun owning noun):
-- Use structure: Noun₁ - **in** - Noun₂ = Noun₂ of Noun₁
-- **kin in dom** = person's house (house of person)
-- **sol in lit** = sun's light (light of sun)
+- Use structure: Noun₁ - **de** - Noun₂ = Noun₂ of Noun₁
+- **kin de dom** = person's house (house of person)
+- **sol de lit** = sun's light (light of sun)
 
 ## Questions
 **System**: Use question words in place of the unknown element, maintain SVO word order

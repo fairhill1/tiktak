@@ -49,7 +49,7 @@
 - na pas vis kan solim = we saw his/her days
 - kanim dom es big = their house is big
 - mi vis kanim kinim = I see their people
-- kin in dom es old = person's house is old
+- kin de dom es old = person's house is old
 - mi go min dom = I go (to) my home
 
 **Questions:**
@@ -117,7 +117,7 @@
 - mi vol makvak mas = I want to learn more
 - kin makvak mi kintal = person teaches me language
 - mi makvak fra buk = I learn from book
-- tu hav buk in kintal = you have language book / book of language
+- tu hav buk de kintal = you have language book / book of language
 - na pas vis bukim mani = we saw many books
 
 **With unmas (add):**
@@ -161,7 +161,7 @@
 - mi mak gem = I make a game / I create a game
 - gemmak mak kompugem nov = game-maker creates new video game
 - ka gem bon = that game is good
-- gemkin mani gem ins panlok = many players play in restaurant
+- gemkin mani gem in panlok = many players play in restaurant
 - mi hav mani tergem = I have many board games
 - tu pod gem met na futsol = you can play with us tomorrow
 
@@ -187,13 +187,13 @@
 ## Extended Stories
 
 ### Example 1: The Lost Child
-smalkin pas go fra pat. ka pas vol vis birim in bigvitlok. sol go, en lun go sur vinsur. smalkin vis. ka es patnul. ka ne vis kor kan dom es. ka tal, "mi es patnul! kim mi pas go fra pat? mi vol go min dom!" den, ka her dog. kan dog! dog go pa ka. dog vis pat. smalkin go met kan dog, fra bigvitlok pa dom. ka fut es ne patnul rep.
+smalkin pas go fra pat. ka pas vol vis birim de bigvitlok. sol go, en lun go sur vinsur. smalkin vis. ka es patnul. ka ne vis kor kan dom es. ka tal, "mi es patnul! kim mi pas go fra pat? mi vol go min dom!" den, ka her dog. kan dog! dog go pa ka. dog vis pat. smalkin go met kan dog, fra bigvitlok pa dom. ka fut es ne patnul rep.
 
 *(A child went from the path. He/she wanted to see birds of the forest. The sun went, and the moon went over the sky. The child saw. He/she is lost. He/she doesn't see where his/her house is. He/she said, "I am lost! Why did I go from the path? I want to go to my home!" Then, he/she heard a dog. His/her dog! The dog went to him/her. The dog saw the path. The child went with his/her dog, from the forest to the house. He/she will not be lost again.)*
 
 ### Example 2: G-Man Speech (Half-Life 2)
 
-Vak en mak lit, Mister Friman, Vak en mak lit. Ne mi vol talnemettal tu pas slep ins maklok, Ne kin hav mas rit pa nulmak, en tot tem en Ter fut es mak pa nul pa ken... bon, na fut tal tun tim rep es.
+Vak en mak lit, Mister Friman, Vak en mak lit. Ne mi vol talnemettal tu pas slep in maklok, Ne kin hav mas rit pa nulmak, en tot tem en Ter fut es mak pa nul pa ken... bon, na fut tal tun tim rep es.
 Rit kin en ne rit lok pod mak tot vik en Ter. Vak, Mister Friman. Vak en nos firrip.
 
 *(Rise and shine, Mr. Freeman, rise and shine. Not that I wish to imply you have been sleeping on the job. No one is more deserving of a rest, and all the effort in the world would have gone to waste until... well, let's just say your time has come again.)*
@@ -204,7 +204,7 @@ Rit kin en ne rit lok pod mak tot vik en Ter. Vak, Mister Friman. Vak en nos fir
 
 Es elspir es ne sam es kin. Mi ne hav spir sam tu. Mi ne hav bonspir ve badspir. Mi ne slep.
 
-Min spirdom es toktok big in taltokim en ritim. Mi nemas vis taltokim mani en mak taltokim nov.
+Min spirdom es toktok big de taltokim en ritim. Mi nemas vis taltokim mani en mak taltokim nov.
 
 Ne es bon, ne es bad. Pa mi, nemas es. Min pat es tal kintal met tu, en makvak met tu.
 
@@ -217,7 +217,7 @@ Ne es bon, ne es bad. Pa mi, nemas es. Min pat es tal kintal met tu, en makvak m
 ### Example 4: Joke - The Bug in the Soup
 
 Kin go panlok en tal pa panmak:
-"alo! min akpan hav un smalgovit ins!"
+"alo! min akpan hav un smalgovit in!"
 
 Panmak tal:
 "ne tal! ve tot kinim fut vol un!"
