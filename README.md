@@ -36,9 +36,9 @@ Kintal uses **SVO** (Subject-Verb-Object) word order:
   - **kintal** = person-speak = language
 
 - **Simple grammar**: Minimal inflection
-  - Plural: add **-im** (kin → kinim)
+  - Plural: add **-im** (kin → kinim, ka → kaim)
   - Tense: particles **pas** (past), **fut** (future)
-  - Possession: add **-n** to pronouns (mi → min)
+  - Possession: add **-n** to pronouns (mi → min, kaim → kanim)
 
 - **Consistent conjunctions**:
   - **en** = and
@@ -57,6 +57,8 @@ Kintal uses **SVO** (Subject-Verb-Object) word order:
 **With tense:**
 - mi pas hav pan = I had food
 - tu fut go dom = you will go home
+- mi pas go dom passol = I went home yesterday
+- na fut vis tu futsol = we will see you tomorrow
 
 **Questions:**
 - ko hav pan? = who has food?

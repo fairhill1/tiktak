@@ -5,7 +5,8 @@
 ### PRONOUNS (maximally distinct)
 - **mi** = I/me
 - **tu** = you (singular)
-- **ka** = he/she/it/they (gender-neutral third person)
+- **ka** = he/she/it (singular third person, gender-neutral)
+- **kaim** = they/them (plural third person)
 - **na** = we/us
 - **nu** = you (plural)
 
@@ -19,6 +20,7 @@
 - **her** = hear/listen
 - **nos** = smell
 - **vol** = want/desire
+- **ned** = need/necessity (verb/noun)
 - **pir** = question/ask/inquire
 - **hop** = jump/hop
 - **div** = separate/divide
@@ -58,9 +60,11 @@
 - **stil** = style
 - **rit** = right
 - **tok** = part/piece
+- **toktok** = part-part = system (interconnected parts)
 - **tot** = all
 - **vik** = change/alter
 - **kompu** = computer
+- **buk** = book
 
 ### ADJECTIVES - Size & Quality
 - **big** = large/big
@@ -113,6 +117,7 @@
 - **den** = then
 - **ba** = but (concession)
 - **nesam** = not-same = however/whereas (contrast/opposition)
+- **nerit** = not-right = wrong/mistake/error
 - **pas** = past tense marker
 - **fut** = future tense marker
 - **in** = of (possession marker for nouns)
@@ -128,6 +133,7 @@
 - **sam** = same/equal/as
 - **dan** = than
 - **mek** = can, be able to, be possible, might
+- **nemas** = not-more = only/just (limiting/restrictive)
 
 ### QUESTION WORDS
 - **ko** = who
@@ -197,6 +203,7 @@
 - **kintal** = person-speak = language
 - **makkintal** = make-language = constructed language/conlang
 - **taltok** = speak-part = word
+- **tektaltok** = take-word = loan-word (borrowed word)
 - **sollit** = sun-light = sunlight/daylight
 - **lunlit** = moon-light = moonlight
 - **akpan** = water-food = soup/beverage
@@ -227,10 +234,17 @@
 - **elpatim** = electric-paths = network/internet
 - **sotim** = this-time = now
 - **tetim** = that-time = then
+- **passol** = past-day = yesterday
+- **futsol** = future-day = tomorrow
 - **solok** = this-place = here
 - **telok** = that-place = there
 - **makpanul** = make-to-zero = waste/destroy
 - **talnemettal** = speak-not-with-speak = imply
+- **nemas** = not-more = only/just (limiting/restrictive)
+- **nerit** = not-right = wrong/mistake/error
+- **toktok** = part-part = system (interconnected parts)
+- **makvak** = make-awake = learn/teach (awaken the mind)
+- **unmas** = one-more = add
 
 *Actions/Agents:*
 - **panmak** = food-maker = cook/chef

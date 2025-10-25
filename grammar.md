@@ -29,15 +29,24 @@ Examples:
 ## Plural
 **Marker**: -im (suffix)
 
-Examples:
+**For nouns:**
 - kin → **kinim** (person → people)
 - dom → **domim** (house → houses)
 - pan → **panim** (food → foods)
 - sol → **solim** (day → days)
 
-**Usage**: Attach directly to noun root
+**For third-person pronoun:**
+- ka → **kaim** (he/she/it → they/them)
+
+**Usage**: Attach directly to noun or pronoun root
 - mi hav pan = I have food
 - mi hav panim = I have foods
+- ka tal = he/she speaks
+- kaim tal = they speak
+
+**Note**: Only **ka** takes the plural suffix. Other pronouns already distinguish singular/plural:
+- mi (I) / na (we)
+- tu (you-singular) / nu (you-plural)
 
 ## Tense
 **System**: Separate particles placed BEFORE the verb
@@ -62,20 +71,23 @@ Examples:
 **Possessive pronouns:**
 - mi → **min** (my)
 - tu → **tun** (your - singular)
-- ka → **kan** (his/her/their - singular)
+- ka → **kan** (his/her/its)
+- kaim → **kanim** (their - plural)
 - na → **nan** (our)
 - nu → **nun** (your - plural)
 
 **Usage**: Possessive-Pronoun + Noun
 - **min dom** = my house
 - **tun pan** = your food
-- **kan solim** = his/her days
+- **kan sol** = his/her day
+- **kanim solim** = their days
 - **nan kinim** = our people
 
 Examples in sentences:
 - mi hav **min dom** = I have my house
 - tu pas go **tun dom** = you went (to) your home
 - **kan pan** es hot = his/her food is hot
+- **kanim dom** es big = their house is big
 
 **For non-pronoun possession** (noun owning noun):
 - Use structure: Noun₁ - **in** - Noun₂ = Noun₂ of Noun₁

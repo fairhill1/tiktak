@@ -13,6 +13,10 @@
 - na hav panim = we have foods
 - kinim go domim = people go (to) houses
 - tu vis solim = you see days/suns
+- ka tal = he/she speaks
+- kaim tal = they speak
+- mi vis ka = I see him/her
+- mi vis kaim = I see them
 
 **With tense (Subject-Tense-Verb-Object):**
 - mi pas go dom = I went home
@@ -35,6 +39,8 @@
 - min dom es big = my house is big
 - tu hav tun pan = you have your food
 - na pas vis kan solim = we saw his/her days
+- kanim dom es big = their house is big
+- mi vis kanim kinim = I see their people
 - kin in dom es old = person's house is old
 - mi go min dom = I go (to) my home
 
@@ -66,6 +72,60 @@
 - kin tal kintal = person speaks language
 - dommak pas mak domim = builder made houses
 - mi hav akpan hot = I have hot soup
+- kintal hav mani tektaltok = language has many loan-words
+- so es tektaltok fra kintal = this is loan-word from language
+- kompu toktok es bon = computer system is good
+- spirdom toktok es mas vik dan kompu toktok = nervous system is more complex than computer system
+- na pas mak nov toktok = we made new system
+
+**With time compounds (yesterday/tomorrow):**
+- mi pas go dom passol = I went home yesterday
+- tu fut tal pa mi futsol = you will speak to me tomorrow
+- passol es kal = yesterday was cold
+- kaim go panlok passol = they went to restaurant yesterday
+- na fut vis tu futsol = we will see you tomorrow
+- mi pas mak nerit passol = I made mistake yesterday
+
+**With limiting/restrictive (nemas = only/just):**
+- nemas un nerit = only one mistake / just one mistake
+- mi hav nemas du domim = I have only two houses
+- tu nemas tal = you only talk / you just talk
+- nemas so = only this / just this
+- ka pas vis nemas un sol = he/she saw only one sun
+- mi vol nemas pan = I want only food
+
+**With nerit (wrong/mistake/error):**
+- nemas un nerit = only one mistake
+- mi mak nerit = I make mistake / I am wrong
+- so es nerit = this is wrong
+- tu pas tal nerit = you said wrong / you were wrong
+- na ne vol mak nerit = we don't want to make mistakes
+
+**With makvak (learn/teach):**
+- mi makvak kintal = I learn language
+- tu makvak mi = you teach me (you make-awake me)
+- na pas makvak mani passol = we learned much yesterday
+- kaim makvak pa kinim = they teach to people / they teach people
+- mi vol makvak mas = I want to learn more
+- kin makvak mi kintal = person teaches me language
+- mi makvak fra buk = I learn from book
+- tu hav buk in kintal = you have language book / book of language
+- na pas vis bukim mani = we saw many books
+
+**With unmas (add):**
+- mi pas unmas buk pa dictionary = I added book to dictionary
+- tu unmas taltok nov = you add new word
+- na pas unmas so = we added this
+- kaim unmas toktok pa kompu = they add system to computer
+- mi vol unmas mas = I want to add more
+
+**With ned (need - verb/noun):**
+- mi ned pan = I need food
+- tu ned makvak kintal = you need to learn language
+- na ned go = we need to go
+- mi hav ned = I have a need / I have need
+- ned pa ak es big = need for water is big
+- kaim ned mas tim = they need more time
 
 **With comparatives:**
 - mi mas big dan tu = I'm bigger than you
