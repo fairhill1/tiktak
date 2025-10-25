@@ -108,7 +108,8 @@
 - **fis** = fish
 
 ### PREPOSITIONS
-- **de** = of (possession marker for nouns)
+- **su** = possessive marker ('s) - ownership/belonging
+- **de** = of - composition/material/content/topic
 - **pa** = to/for (recipient/benefactive)
 - **fra** = from (source)
 - **met** = with (accompaniment)

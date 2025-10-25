@@ -49,7 +49,7 @@
 - na pas vis kan solim = we saw his/her days
 - kanim dom es big = their house is big
 - mi vis kanim kinim = I see their people
-- kin de dom es old = person's house is old
+- kin su dom es old = person's house is old
 - mi go min dom = I go (to) my home
 
 **Questions:**
@@ -117,7 +117,7 @@
 - mi vol makvak mas = I want to learn more
 - kin makvak mi kintal = person teaches me language
 - mi makvak fra buk = I learn from book
-- tu hav buk de kintal = you have language book / book of language
+- tu hav buk de kintal = you have book of language / language book
 - na pas vis bukim mani = we saw many books
 
 **With unmas (add):**

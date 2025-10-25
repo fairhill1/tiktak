@@ -89,10 +89,19 @@ Examples in sentences:
 - **kan pan** es hot = his/her food is hot
 - **kanim dom** es big = their house is big
 
-**For non-pronoun possession** (noun owning noun):
-- Use structure: Noun₁ - **de** - Noun₂ = Noun₂ of Noun₁
-- **kin de dom** = person's house (house of person)
-- **sol de lit** = sun's light (light of sun)
+**For non-pronoun possession/relationships** (noun owning/relating to noun):
+
+Two types:
+
+**Possessive (ownership/belonging)** - use **su** ('s):
+- Structure: Owner - **su** - Owned = Owner's Owned
+- **kin su dom** = person's house
+- **dog su kan** = dog's his/her = his/her dog
+
+**Compositional (of)** - use **de** (of):
+- Structure: Whole - **de** - Parts/Material/Topic = Whole of Parts
+- **toktok de taltokim** = system of words
+- **buk de kintal** = book of language (about language)
 
 ## Questions
 **System**: Use question words in place of the unknown element, maintain SVO word order
