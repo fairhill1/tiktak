@@ -356,23 +356,40 @@
     </footer>
 
     <script>
+        // Function to switch sections
+        function switchSection(sectionId) {
+            // Update active nav link
+            document.querySelectorAll('.nav-link').forEach(l => {
+                l.classList.remove('active');
+                if (l.getAttribute('data-section') === sectionId) {
+                    l.classList.add('active');
+                }
+            });
+
+            // Show/hide sections
+            document.querySelectorAll('section').forEach(section => {
+                section.classList.remove('active');
+            });
+            document.getElementById(sectionId).classList.add('active');
+
+            // Save to localStorage
+            localStorage.setItem('kintal-active-section', sectionId);
+        }
+
         // Navigation
         document.querySelectorAll('.nav-link').forEach(link => {
             link.addEventListener('click', function(e) {
                 e.preventDefault();
-
-                // Update active nav link
-                document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
-                this.classList.add('active');
-
-                // Show/hide sections
                 const targetId = this.getAttribute('data-section');
-                document.querySelectorAll('section').forEach(section => {
-                    section.classList.remove('active');
-                });
-                document.getElementById(targetId).classList.add('active');
+                switchSection(targetId);
             });
         });
+
+        // Restore last active section on page load
+        function restoreActiveSection() {
+            const savedSection = localStorage.getItem('kintal-active-section') || 'home';
+            switchSection(savedSection);
+        }
 
         // Load markdown file and render
         async function loadMarkdown(file) {
@@ -451,7 +468,7 @@
         });
 
         // Phoneme analysis
-        const consonants = ['p', 't', 'k', 'm', 'n', 's', 'f', 'l', 'r', 'h', 'v'];
+        const consonants = ['p', 'b', 't', 'd', 'k', 'm', 'n', 's', 'f', 'l', 'r', 'h', 'v'];
         const vowels = ['a', 'e', 'i', 'o', 'u'];
 
         async function loadVocabulary() {
@@ -535,7 +552,7 @@
                 </div>
                 <div class="stat-card">
                     <h3>Consonants Used</h3>
-                    <div class="value">${Object.values(analysis.consonantCount).filter(v => v > 0).length}/11</div>
+                    <div class="value">${Object.values(analysis.consonantCount).filter(v => v > 0).length}/13</div>
                 </div>
                 <div class="stat-card">
                     <h3>Vowels Used</h3>
@@ -680,8 +697,13 @@
         }
 
         // Initialize everything
-        loadContent();
-        initAnalysis();
+        async function init() {
+            await loadContent();
+            await initAnalysis();
+            restoreActiveSection();
+        }
+
+        init();
     </script>
 </body>
 </html>

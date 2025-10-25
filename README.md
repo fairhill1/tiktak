@@ -26,7 +26,7 @@ Kintal uses **SVO** (Subject-Verb-Object) word order:
 
 ### Pronunciation
 - 5 vowels: **a e i o u** (pronounced: ah, eh, ee, oh, oo)
-- 11 consonants: **p t k m n s f l r h v**
+- 13 consonants: **p b t d k m n s f l r h v**
 - No phonemic stress or tone
 
 ### Key Features

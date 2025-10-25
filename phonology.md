@@ -2,7 +2,7 @@
 
 ## Sound System
 
-**Consonants**: p, t, k, m, n, s, f, l, r, h, v (11)
+**Consonants**: p, b, t, d, k, m, n, s, f, l, r, h, v (13)
 **Vowels**: a, e, i, o, u (5)
 **Syllable structure**: (C)V(C)
 

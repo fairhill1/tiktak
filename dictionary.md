@@ -132,7 +132,7 @@
 - **lest** = least (superlative)
 - **sam** = same/equal/as
 - **dan** = than
-- **mek** = can, be able to, be possible, might
+- **pod** = can, be able to, be possible, might
 - **nemas** = not-more = only/just (limiting/restrictive)
 
 ### QUESTION WORDS
@@ -225,8 +225,9 @@
 - **terdiv** = earth-divide = border
 - **firrip** = fire-death = ashes
 - **bonspir** = good-spirit = fun/joy
+- **badspir** = bad-spirit = sadness
 - **visbon** = see-good = clear/clarity
-- **maklit** = make-light = easy; lighten/make lighter (weight)
+- **maklit** = make-light = shine/illuminate; easy/lighten (context-dependent)
 - **maxvol** = max-want = love/crave
 - **hevtek** = heavy-take = weightlifting
 - **spirdom** = spirit-house = brain/mind
@@ -245,6 +246,7 @@
 - **toktok** = part-part = system (interconnected parts)
 - **makvak** = make-awake = learn/teach (awaken the mind)
 - **unmas** = one-more = add
+- **futmak** = future-make = project (planned work)
 
 *Actions/Agents:*
 - **panmak** = food-maker = cook/chef

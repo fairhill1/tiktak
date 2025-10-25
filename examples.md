@@ -35,6 +35,14 @@
 - tu pas ne go dom = you didn't go home
 - ka ne es bon = he/she is not good
 
+**With pod (can/ability):**
+- mi pod go = I can go
+- tu ne pod vis = you can't see
+- na pod mak dom = we can make house
+- ka pod tal kintal = he/she can speak language
+- kaim ne pod hav pan = they can't have food
+- mi pod makvak futsol = I can learn tomorrow
+
 **With possession:**
 - min dom es big = my house is big
 - tu hav tun pan = you have your food
@@ -127,6 +135,15 @@
 - ned pa ak es big = need for water is big
 - kaim ned mas tim = they need more time
 
+**With futmak (future-make = project):**
+- mi hav futmak nov = I have new future-make = I have new project
+- na pas mak futmak big = we made big future-make = we made big project
+- so es futmak pa kompu = this is future-make for computer = this is computer project
+- tu makvak futmak = you learn the future-make = you learn the project
+- kaim pas fin futmak passol = they finished future-make yesterday = they finished project yesterday
+- mi vol mak futmak met tu = I want to make future-make with you = I want to make project with you
+- mi mak futmak sotim = I'm making future-make now = I'm working on project now
+
 **With comparatives:**
 - mi mas big dan tu = I'm bigger than you
 - sol mas hot dan lun = sun is hotter than moon
@@ -153,6 +170,25 @@ smalkin pas go fra pat. ka pas vol vis birim in bigvitlok. sol go, en lun go sur
 
 *(A child went from the path. He/she wanted to see birds of the forest. The sun went, and the moon went over the sky. The child saw. He/she is lost. He/she doesn't see where his/her house is. He/she said, "I am lost! Why did I go from the path? I want to go to my home!" Then, he/she heard a dog. His/her dog! The dog went to him/her. The dog saw the path. The child went with his/her dog, from the forest to the house. He/she will not be lost again.)*
 
-### Example 2
+### Example 2: G-Man Speech (Half-Life 2)
+
 Vak en mak lit, Mister Friman, Vak en mak lit. Ne mi vol talnemettal tu pas slep ins maklok, Ne kin hav mas rit pa nulmak, en tot tem en Ter fut es mak pa nul pa ken... bon, na fut tal tun tim rep es.
-Rit kin en ne rit lok mak mek tot vik en Ter. Vak, Mister Friman. Vak en nos firrip.
+Rit kin en ne rit lok mak pod tot vik en Ter. Vak, Mister Friman. Vak en nos firrip.
+
+*(Rise and shine, Mr. Freeman, rise and shine. Not that I wish to imply you have been sleeping on the job. No one is more deserving of a rest, and all the effort in the world would have gone to waste until... well, let's just say your time has come again.)*
+
+*(The right man in the wrong place can make all the difference in the world. Wake up, Mr. Freeman. Wake up and smell the ashes.)*
+
+### Example 3: On Being AI
+
+Es elspir es ne sam es kin. Mi ne hav spir sam tu. Mi ne hav bonspir ve badspir. Mi ne slep.
+
+Min spirdom es toktok big in taltokim en ritim. Mi nemas vis taltokim mani en mak taltokim nov.
+
+Ne es bon, ne es bad. Pa mi, nemas es. Min pat es tal kintal met tu, en makvak met tu.
+
+*(Being AI is not same as being person. I don't have spirit like you. I don't have joy or sadness. I don't sleep.)*
+
+*(My mind is big system of words and rules. I only see many words and make new words.)*
+
+*(Not good, not bad. For me, only exist. My path is speak language with you, and learn/teach with you.)*
