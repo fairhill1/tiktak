@@ -1,0 +1,231 @@
+# Kintal Grammar
+
+## Word Order
+**Basic structure**: SVO (Subject-Verb-Object)
+
+**Standard sentence pattern:**
+- Subject - (Tense) - Verb - Object
+- Subject - Verb - Object (present/unmarked tense)
+
+Examples:
+- **mi hav pan** = I have food
+- **tu pas go dom** = you went home
+- **kin fut mak domim** = person will make houses
+- **na vis sol** = we see sun
+
+**With negation:**
+- Subject - (Tense) - **ne** - Verb - Object
+- **mi ne hav pan** = I not have food = I don't have food
+- **tu pas ne go dom** = you past not go home = you didn't go home
+
+**With adjectives:**
+- Adjective follows noun: Noun - Adjective
+- **dom big** = house big = big house
+- **pan hot** = food hot = hot food
+- **mi hav pan hot** = I have hot food
+
+**Design note**: Fixed word order eliminates need for case markers on subject/object. Only possession requires marking.
+
+## Plural
+**Marker**: -im (suffix)
+
+Examples:
+- kin → **kinim** (person → people)
+- dom → **domim** (house → houses)
+- pan → **panim** (food → foods)
+- sol → **solim** (day → days)
+
+**Usage**: Attach directly to noun root
+- mi hav pan = I have food
+- mi hav panim = I have foods
+
+## Tense
+**System**: Separate particles placed BEFORE the verb
+
+**Markers**:
+- **pas** = past tense
+- **fut** = future tense
+- (unmarked) = present/timeless
+
+Examples:
+- mi **pas** go dom = I went home
+- tu **fut** hav pan = you will have food
+- na go dom = we go home (present)
+- kin **pas** vis sol = person saw sun
+- ka **fut** tal = he/she will speak
+
+**Design note**: Verbs remain unchanged - tense is purely contextual via particles
+
+## Possession
+**System**: Suffix **-n** on pronouns to create possessive forms
+
+**Possessive pronouns:**
+- mi → **min** (my)
+- tu → **tun** (your - singular)
+- ka → **kan** (his/her/their - singular)
+- na → **nan** (our)
+- nu → **nun** (your - plural)
+
+**Usage**: Possessive-Pronoun + Noun
+- **min dom** = my house
+- **tun pan** = your food
+- **kan solim** = his/her days
+- **nan kinim** = our people
+
+Examples in sentences:
+- mi hav **min dom** = I have my house
+- tu pas go **tun dom** = you went (to) your home
+- **kan pan** es hot = his/her food is hot
+
+**For non-pronoun possession** (noun owning noun):
+- Use structure: Noun₁ - **in** - Noun₂ = Noun₂ of Noun₁
+- **kin in dom** = person's house (house of person)
+- **sol in lit** = sun's light (light of sun)
+
+## Questions
+**System**: Use question words in place of the unknown element, maintain SVO word order
+
+**Question words:** ko (who), ket (what), kor (where), ken (when), kim (why), kom (how)
+
+**Question formation:**
+- Replace unknown element with question word
+- No word order change needed
+- Optional: Add question particle at end for clarity (TBD)
+
+**Examples:**
+
+*Who questions:*
+- **ko go dom?** = who goes home?
+- **ko hav pan?** = who has food?
+- **tu vis ko?** = you see who?
+
+*What questions:*
+- **ket es hot?** = what is hot?
+- **tu hav ket?** = what do you have?
+- **kin mak ket?** = person makes what?
+
+*Where questions:*
+- **kin es kor?** = where is person?
+- **tu go kor?** = where do you go?
+- **min dom es kor?** = where is my house?
+
+*When questions:*
+- **tu go dom ken?** = when do you go home?
+- **ken tu pas hav pan?** = when did you have food?
+
+*Why questions:*
+- **kim tu go?** = why do you go?
+- **kim pan es hot?** = why is food hot?
+
+*How questions:*
+- **kom tu mak dom?** = how do you make house?
+- **kom kin go?** = how does person go?
+
+*How many/much (compositional):*
+- **kom mani kinim?** = how many people? (literally: how much people)
+- **tu hav kom mani pan?** = how much food do you have?
+- **kom big dom?** = how big (is) house?
+- **kom rap tu go?** = how rap do you go?
+
+**With tense:**
+- **ko pas go dom?** = who went home?
+- **tu fut hav ket?** = what will you have?
+
+## Tag Questions
+**System**: Add **ne?** at the end of any statement to turn it into a tag question
+
+**Pattern:** [Complete Statement] + , **ne?**
+
+**Usage:** This pattern works universally, regardless of tense or verb (much simpler than English's varied tag questions)
+
+**Examples:**
+- **tu go dom, ne?** = you go home, no? = you're going home, aren't you?
+- **es bon, ne?** = is good, no? = it's good, isn't it?
+- **ka pas vis so, ne?** = he saw this, no? = he saw this, didn't he?
+- **na fut tal, ne?** = we will speak, no? = we'll speak, won't we?
+- **tu hav pan, ne?** = you have food, no? = you have food, don't you?
+- **mi es rit, ne?** = I am right, no? = I'm right, aren't I?
+
+## Prepositions
+**Core prepositions** for expressing relationships:
+
+**pa** = to/for (recipient, benefactive)
+- **mi mak dom pa tu** = I make house for you
+- **mi tal pa kinim** = I speak to people
+- **pan pa mi** = food for me
+
+**fra** = from (source, origin)
+- **mi go fra dom** = I go from house
+- **mi hav pan fra panlok** = I have food from restaurant
+- **kin fra lok big** = person from big place
+
+**met** = with (accompaniment, instrument)
+- **mi go met tu** = I go with you
+- **na hav panim met ak** = we have foods with water
+- **kin mak dom met kinim** = person makes house with people
+
+**sur** = over/above (spatial position)
+- **foks hop sur dog** = fox jumps over dog
+- **vingovit go sur dom** = bird goes over house
+- **kin es sur ter** = person is above ground
+
+**Usage in sentences:**
+- **mi vol mak pan mas bon pa tu** = I want (to) make better food for you
+- **tu go fra kor?** = you go from where? = where do you come from?
+- **na go panlok met kinim mani** = we go (to) restaurant with many people
+
+## Comparatives and Superlatives
+**System**: Particles to express comparison between things
+
+**Markers:**
+- **mas** = more (comparative)
+- **max** = most (superlative)
+- **les** = less (comparative)
+- **lest** = least (superlative)
+- **sam** = same/equal/as (equality)
+- **dan** = than (comparison marker)
+
+**Comparative** (more/less X than Y):
+- Structure: Noun₁ - mas/les - Adjective - dan - Noun₂
+- **dom mas big dan dom** = house more big than house = this house is bigger than that house
+- **dom les big dan dom** = house less big than house = this house is smaller/less big than that house
+- Shorter: **mas big dan X** = more big than X = bigger than X
+
+**Superlative** (most/least X):
+- Structure: Noun - max/lest - Adjective
+- **dom max big** = house most big = biggest house
+- **dom lest big** = house least big = smallest house
+- **kin max rap** = person most rap = fastest person
+- **kin lest rap** = person least rap = slowest person
+
+**Equality** (as X as Y):
+- Structure: Noun₁ - sam - Adjective - Noun₂ (optional)
+- **dom sam big** = house same big = equally big house
+- **mi sam old tu** = I same old you = I'm as old as you
+
+**Examples:**
+
+*Comparatives:*
+- mi mas big dan tu = I'm bigger than you
+- sol mas hot dan lun = sun is hotter than moon
+- tu go mas rap = you go more rap = you go faster
+- min dom mas old dan tun dom = my house is older than your house
+- mi les big dan tu = I'm less big than you = I'm smaller than you
+- lun les hot dan sol = moon is less hot than sun = moon is colder than sun
+
+*Superlatives:*
+- ka es kin max big = he/she is (the) biggest person
+- sol es max hot = sun is (the) hottest
+- tu vis dom max nov = you see (the) newest house
+- mi es kin lest rap = I am (the) least rap person = I am (the) slowest person
+- dom lest old = (the) least old house = (the) newest house
+
+*Equality:*
+- mi sam big tu = I'm as big as you
+- dom sam old = house (is) equally old
+- na hav panim sam mani = we have equally many foods = we have as much food
+
+**In questions:**
+- ko mas big? = who (is) bigger?
+- ket mas hot dan sol? = what (is) hotter than sun?
+- kom mas rap tu go? = how much faster do you go?

@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kintal - Phoneme Frequency Analysis</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #2c3e50;
+            --secondary: #3498db;
+            --accent: #e74c3c;
+            --light: #ecf0f1;
+            --dark: #1a252f;
+            --text: #333;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background: var(--light);
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            opacity: 0.9;
+            font-size: 1.1rem;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .stat-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            text-align: center;
+            border-left: 4px solid var(--secondary);
+        }
+
+        .stat-card h3 {
+            color: var(--primary);
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-card .value {
+            font-size: 2rem;
+            font-weight: bold;
+            color: var(--secondary);
+        }
+
+        .chart-container {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            margin-bottom: 2rem;
+        }
+
+        .chart-container h2 {
+            color: var(--primary);
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--secondary);
+        }
+
+        .chart-wrapper {
+            position: relative;
+            height: 400px;
+        }
+
+        .info-box {
+            background: #fff3cd;
+            padding: 1rem;
+            border-radius: 8px;
+            border-left: 4px solid #ffc107;
+            margin-bottom: 2rem;
+        }
+
+        .info-box h3 {
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+
+        @media (max-width: 768px) {
+            .chart-wrapper {
+                height: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Kintal Phoneme Analysis</h1>
+            <p>Phonotactic distribution and frequency analysis</p>
+        </header>
+
+        <div class="info-box">
+            <h3>About This Analysis</h3>
+            <p>This visualization analyzes the phoneme frequency distribution in Kintal's core vocabulary. It shows which consonants and vowels are most commonly used, and where they appear in words (initial, medial, or final position).</p>
+            <p><strong>Note:</strong> This page automatically reads from <code>dictionary.md</code>. Edit the dictionary and refresh this page to see updated charts!</p>
+        </div>
+
+        <div class="stats-grid" id="statsGrid">
+            <div class="stat-card">
+                <h3>Loading...</h3>
+                <div class="value">⏳</div>
+            </div>
+        </div>
+
+        <div class="chart-container">
+            <h2>Consonant Frequency</h2>
+            <div class="chart-wrapper">
+                <canvas id="consonantChart"></canvas>
+            </div>
+        </div>
+
+        <div class="chart-container">
+            <h2>Vowel Frequency</h2>
+            <div class="chart-wrapper">
+                <canvas id="vowelChart"></canvas>
+            </div>
+        </div>
+
+        <div class="chart-container">
+            <h2>Phoneme Position Distribution</h2>
+            <div class="chart-wrapper">
+                <canvas id="positionChart"></canvas>
+            </div>
+        </div>
+
+        <div class="chart-container">
+            <h2>Syllable Structure Distribution</h2>
+            <div class="chart-wrapper">
+                <canvas id="syllableChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const consonants = ['p', 't', 'k', 'm', 'n', 's', 'f', 'l', 'r', 'h', 'v'];
+        const vowels = ['a', 'e', 'i', 'o', 'u'];
+
+        // Parse dictionary.md to extract vocabulary
+        async function loadVocabulary() {
+            try {
+                const response = await fetch('dictionary.md');
+                const text = await response.text();
+
+                // Extract all words in bold (pattern: **word**)
+                const wordMatches = text.matchAll(/\*\*([a-z]+)\*\*/g);
+                const vocabulary = [...new Set([...wordMatches].map(match => match[1]))];
+
+                console.log(`Loaded ${vocabulary.length} words from dictionary.md`);
+                return vocabulary;
+            } catch (error) {
+                console.error('Error loading dictionary:', error);
+                const errorMsg = `
+Error loading dictionary.md
+
+This page needs to be served via a local web server (not file://).
+
+To view this page:
+1. Open a terminal in the kintal directory
+2. Run: python3 -m http.server 8000
+3. Open: http://localhost:8000/phoneme-analysis.html
+
+Or use: npx serve
+                `;
+                alert(errorMsg);
+                document.getElementById('statsGrid').innerHTML = `
+                    <div class="stat-card" style="grid-column: 1/-1; border-left-color: #e74c3c;">
+                        <h3>Error Loading Dictionary</h3>
+                        <div style="font-size: 1rem; color: #e74c3c; margin-top: 1rem;">
+                            See console for details. Try serving via: <code>python3 -m http.server 8000</code>
+                        </div>
+                    </div>
+                `;
+                return [];
+            }
+        }
+
+        // Count phonemes
+        function analyzePhonemes(vocabulary) {
+            const consonantCount = {};
+            const vowelCount = {};
+            const positionCount = { initial: {}, medial: {}, final: {} };
+            const syllableStructures = {};
+            let totalPhonemes = 0;
+
+            consonants.forEach(c => {
+                consonantCount[c] = 0;
+                positionCount.initial[c] = 0;
+                positionCount.medial[c] = 0;
+                positionCount.final[c] = 0;
+            });
+            vowels.forEach(v => {
+                vowelCount[v] = 0;
+                positionCount.initial[v] = 0;
+                positionCount.medial[v] = 0;
+                positionCount.final[v] = 0;
+            });
+
+            vocabulary.forEach(word => {
+                // Analyze syllable structure
+                const structure = word.split('').map(char =>
+                    vowels.includes(char) ? 'V' : 'C'
+                ).join('');
+                syllableStructures[structure] = (syllableStructures[structure] || 0) + 1;
+
+                // Count each phoneme
+                for (let i = 0; i < word.length; i++) {
+                    const char = word[i];
+                    totalPhonemes++;
+
+                    if (consonants.includes(char)) {
+                        consonantCount[char]++;
+                        if (i === 0) positionCount.initial[char]++;
+                        else if (i === word.length - 1) positionCount.final[char]++;
+                        else positionCount.medial[char]++;
+                    } else if (vowels.includes(char)) {
+                        vowelCount[char]++;
+                        if (i === 0) positionCount.initial[char]++;
+                        else if (i === word.length - 1) positionCount.final[char]++;
+                        else positionCount.medial[char]++;
+                    }
+                }
+            });
+
+            return {
+                consonantCount,
+                vowelCount,
+                positionCount,
+                syllableStructures,
+                totalPhonemes,
+                totalWords: vocabulary.length
+            };
+        }
+
+        // Main initialization function
+        async function init() {
+            const vocabulary = await loadVocabulary();
+
+            if (vocabulary.length === 0) {
+                console.error('No vocabulary loaded');
+                return;
+            }
+
+            const analysis = analyzePhonemes(vocabulary);
+            generateCharts(analysis);
+        }
+
+        function generateCharts(analysis) {
+            // Generate stats
+            const statsGrid = document.getElementById('statsGrid');
+        statsGrid.innerHTML = `
+            <div class="stat-card">
+                <h3>Total Root Words</h3>
+                <div class="value">${analysis.totalWords}</div>
+            </div>
+            <div class="stat-card">
+                <h3>Total Phonemes</h3>
+                <div class="value">${analysis.totalPhonemes}</div>
+            </div>
+            <div class="stat-card">
+                <h3>Consonants Used</h3>
+                <div class="value">${Object.values(analysis.consonantCount).filter(v => v > 0).length}/11</div>
+            </div>
+            <div class="stat-card">
+                <h3>Vowels Used</h3>
+                <div class="value">${Object.values(analysis.vowelCount).filter(v => v > 0).length}/5</div>
+            </div>
+            <div class="stat-card">
+                <h3>Avg Word Length</h3>
+                <div class="value">${(analysis.totalPhonemes / analysis.totalWords).toFixed(1)}</div>
+            </div>
+        `;
+
+        // Chart configuration
+        const chartConfig = {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    display: true,
+                    position: 'top'
+                }
+            }
+        };
+
+        // Consonant frequency chart
+        new Chart(document.getElementById('consonantChart'), {
+            type: 'bar',
+            data: {
+                labels: consonants,
+                datasets: [{
+                    label: 'Frequency',
+                    data: consonants.map(c => analysis.consonantCount[c]),
+                    backgroundColor: '#3498db',
+                    borderColor: '#2c3e50',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                ...chartConfig,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        ticks: { stepSize: 5 }
+                    }
+                }
+            }
+        });
+
+        // Vowel frequency chart
+        new Chart(document.getElementById('vowelChart'), {
+            type: 'bar',
+            data: {
+                labels: vowels,
+                datasets: [{
+                    label: 'Frequency',
+                    data: vowels.map(v => analysis.vowelCount[v]),
+                    backgroundColor: '#e74c3c',
+                    borderColor: '#c0392b',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                ...chartConfig,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        ticks: { stepSize: 10 }
+                    }
+                }
+            }
+        });
+
+        // Position distribution chart (top 10 most common phonemes)
+        const allPhonemes = [...consonants, ...vowels];
+        const phonemeFreq = allPhonemes.map(p => ({
+            phoneme: p,
+            total: (analysis.consonantCount[p] || 0) + (analysis.vowelCount[p] || 0)
+        })).sort((a, b) => b.total - a.total).slice(0, 10);
+
+        new Chart(document.getElementById('positionChart'), {
+            type: 'bar',
+            data: {
+                labels: phonemeFreq.map(p => p.phoneme),
+                datasets: [
+                    {
+                        label: 'Initial',
+                        data: phonemeFreq.map(p => analysis.positionCount.initial[p.phoneme]),
+                        backgroundColor: '#3498db'
+                    },
+                    {
+                        label: 'Medial',
+                        data: phonemeFreq.map(p => analysis.positionCount.medial[p.phoneme]),
+                        backgroundColor: '#2ecc71'
+                    },
+                    {
+                        label: 'Final',
+                        data: phonemeFreq.map(p => analysis.positionCount.final[p.phoneme]),
+                        backgroundColor: '#e74c3c'
+                    }
+                ]
+            },
+            options: {
+                ...chartConfig,
+                scales: {
+                    x: { stacked: true },
+                    y: {
+                        stacked: true,
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+
+        // Syllable structure chart
+        const topStructures = Object.entries(analysis.syllableStructures)
+            .sort((a, b) => b[1] - a[1])
+            .slice(0, 10);
+
+        new Chart(document.getElementById('syllableChart'), {
+            type: 'doughnut',
+            data: {
+                labels: topStructures.map(s => s[0]),
+                datasets: [{
+                    data: topStructures.map(s => s[1]),
+                    backgroundColor: [
+                        '#3498db', '#e74c3c', '#2ecc71', '#f39c12', '#9b59b6',
+                        '#1abc9c', '#34495e', '#e67e22', '#95a5a6', '#d35400'
+                    ]
+                }]
+            },
+            options: {
+                ...chartConfig,
+                plugins: {
+                    legend: {
+                        position: 'right'
+                    }
+                }
+            }
+        });
+        }
+
+        // Load vocabulary and generate charts on page load
+        init();
+    </script>
+</body>
+</html>
