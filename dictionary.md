@@ -28,6 +28,7 @@
 - **tem** = try
 - **hit** = hit, attack
 - **tek** = take, grab
+- **gev** = give
 
 ### CORE NOUNS - People & Places
 - **kin** = person/human
@@ -250,6 +251,11 @@
 - **viktal** = change-speak = translate
 - **repmani** = again-many = frequency (how often something repeats)
 - **bonspirtal** = good-spirit-speak = joke (speech that creates joy)
+- **makrit** = make-right = fix/correct/repair
+- **gevpan** = give-food = feed
+- **gevrit** = give-right = permit/allow
+- **gevtal** = give-speak = announce/declare
+- **gevtek** = give-take = trade/exchange
 
 *Actions/Agents:*
 - **panmak** = food-maker = cook/chef
