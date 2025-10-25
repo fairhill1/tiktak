@@ -76,6 +76,8 @@
 - **old** = old
 
 ### ADJECTIVES - Physical Properties
+- **fem** = female
+- **vir** = male
 - **hot** = hot/warm
 - **kal** = cold
 - **lit** = light (weight/brightness)
@@ -128,7 +130,7 @@
 - **sur** = over/above (spatial)
 - **ins** = in/inside/within (spatial)
 - **mas** = more (comparative)
-- **max** = most (superlative)
+- **maks** = most (superlative)
 - **les** = less (comparative)
 - **lest** = least (superlative)
 - **sam** = same/equal/as
@@ -229,13 +231,15 @@
 - **badspir** = bad-spirit = sadness
 - **visbon** = see-good = clear/clarity
 - **maklit** = make-light = shine/illuminate; easy/lighten (context-dependent)
-- **maxvol** = max-want = love/crave
+- **maksvol** = most-want = love/crave
+- **maksvolkin** = most-want-person = significant other/partner/bf/gf
 - **hevtek** = heavy-take = weightlifting
 - **spirdom** = spirit-house = brain/mind
 - **elspir** = electric-spirit = AI/artificial intelligence
 - **elpatim** = electric-paths = network/internet
 - **sotim** = this-time = now
 - **tetim** = that-time = then
+- **timtal** = time-speak = watch/clock (literally: time-sayer)
 - **passol** = past-day = yesterday
 - **futsol** = future-day = tomorrow
 - **solok** = this-place = here
