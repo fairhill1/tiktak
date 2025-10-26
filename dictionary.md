@@ -58,6 +58,7 @@
 - **slep** = sleep/asleep
 - **kol** = color
 - **form** = form/shape/structure
+- **ritform** = right-form = ripe/mature
 - **spir** = spirit/breath/soul
 - **stil** = style
 - **rit** = right
@@ -212,12 +213,16 @@
 - **kintal** = person-speak = language
 - **makkintal** = make-language = constructed language/conlang
 - **taltok** = speak-part = word
+- **vittal** = life-speak = story/narrative
 - **tektaltok** = take-word = loan-word (borrowed word)
 - **sollit** = sun-light = sunlight/daylight
 - **lunlit** = moon-light = moonlight
 - **akpan** = water-food = soup/beverage
 - **firpan** = fire-food = cooked food
 - **rippan** = death-food = poison
+- **tervitpan** = plant-food = fruit
+- **volpan** = want-food = hunger
+- **badpan** = bad-food = inedible/unpleasant food
 - **nultim** = zero-time = beginning
 - **ungo** = one-go = start/begin
 - **vinsur** = air-above = sky/heaven
@@ -227,6 +232,8 @@
 - **patnul** = path-zero = lost/disoriented
 - **tervit** = earth-life = plant
 - **bigvit** = big-life = tree
+- **pattervit** = path-plant = vine
+- **pattervitpan** = vine-fruit = grape
 - **govit** = go-life = animal
 - **akgovit** = water-animal = aquatic animal
 - **vingovit** = air-animal = flying animal/bird

@@ -67,4 +67,4 @@ Tiktak uses **SVO** (Subject-Verb-Object) word order:
 
 ## License
 
-This constructed language is open for anyone to use, learn, and contribute to.
+This constructed language is closed license.

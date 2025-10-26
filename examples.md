@@ -226,7 +226,7 @@ smalkin pas go fra pat. ka pas vol vis birim de bigvitlok. sol go, en lun go sur
 
 ### Example 2: G-Man Speech (Half-Life 2)
 
-Vak en mak lit, Mister Friman, Vak en mak lit. Ne mi vol talnemettal tu pas slep in maklok, Ne kin hav mas rit pa nulmak, en tot tem en Ter fut es mak pa nul pa ken... bon, na fut tal tun tim rep es.
+Vak en mak lit, Mister Friman, Vak en mak lit. Mi ne vol talnemettal tu pas slep in maklok, Ne kin hav mas rit pa nulmak, en tot tem en Ter fut es mak pa nul pa ken... bon, na fut tal tun tim rep es.
 Rit kin en ne rit lok pod mak tot vik en Ter. Vak, Mister Friman. Vak en nos firrip.
 
 *(Rise and shine, Mr. Freeman, rise and shine. Not that I wish to imply you have been sleeping on the job. No one is more deserving of a rest, and all the effort in the world would have gone to waste until... well, let's just say your time has come again.)*
@@ -261,7 +261,7 @@ Panmak tal:
 *(The cook says:
 "Don't say that! Or all people will want one!")*
 
-### Example 5: A Good Day (featuring recent vocabulary)
+### Example 5: A Good Day
 
 Sosol es Sunsol. Sosol mi pas es met min maksvolkin. Na gem kompugem nam Minecraft. Na vistek mani maksdurrok.
 
@@ -278,3 +278,17 @@ Then we went to the gym to lift weights. It was good. The weather was good.
 Now [I'm] making pizza.
 
 Bye)*
+
+### Example 6: The Fox and the Grapes (Aesop's Fable)
+
+Pa volpan, un foks pas tem tek pattervitpanim sur in pattervit. Ka pas hop met tot kan spir, bud ka ne pod tek kaim.
+
+Go fra lok, foks tal, "Nu ne es ritform sotim! Mi ne ned badpan!"
+
+Kinim ko badtal de tokim kaim ne pod hav, ned makvak fra so vittal.
+
+*(Driven by hunger, a fox tried to reach grapes high on the vine. He jumped with all his spirit, but he couldn't take them.
+
+Going from the place, the fox said, "You are not ripe now! I don't need bad food!"
+
+People who speak badly of things they cannot have, should learn from this story.)*
