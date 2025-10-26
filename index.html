@@ -551,14 +551,6 @@
                     <div class="value">${analysis.totalPhonemes}</div>
                 </div>
                 <div class="stat-card">
-                    <h3>Consonants Used</h3>
-                    <div class="value">${Object.values(analysis.consonantCount).filter(v => v > 0).length}/13</div>
-                </div>
-                <div class="stat-card">
-                    <h3>Vowels Used</h3>
-                    <div class="value">${Object.values(analysis.vowelCount).filter(v => v > 0).length}/5</div>
-                </div>
-                <div class="stat-card">
                     <h3>Avg Word Length</h3>
                     <div class="value">${(analysis.totalPhonemes / analysis.totalWords).toFixed(1)}</div>
                 </div>

@@ -128,7 +128,7 @@
 - **ve** = or
 - **fu** = if
 - **den** = then
-- **ba** = but (concession)
+- **bud** = but (concession)
 - **nesam** = not-same = however/whereas (contrast/opposition)
 - **nerit** = not-right = wrong/mistake/error
 - **pas** = past tense marker

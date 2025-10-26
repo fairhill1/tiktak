@@ -1,6 +1,6 @@
 # Toktal - A Constructed Language
 
-**Toktal** (from *kin* = person + *tal* = speak) is a constructed language designed for maximum clarity and ease of learning.
+**Toktal** (from *tok* = part + *tal* = speak) is a constructed language designed for maximum clarity and ease of learning.
 
 ## Design Principles
 
@@ -44,7 +44,7 @@ Toktal uses **SVO** (Subject-Verb-Object) word order:
   - **en** = and
   - **ve** = or
   - **fu** = if
-  - **ba** = but (concession)
+  - **bud** = but (concession)
   - **nesam** = however (contrast)
 
 ## Examples
