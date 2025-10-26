@@ -47,7 +47,7 @@
 - **el** = electricity/electric
 - **tim** = time
 - **fin** = last/finally/end
-- **rep** = again
+- **rep** = again/repetition
 
 ### CORE NOUNS - Basic Concepts
 - **pan** = food
@@ -237,15 +237,25 @@
 - **maklit** = make-light = shine/illuminate; easy/lighten (context-dependent)
 - **maksvol** = most-want = love/crave
 - **maksvolkin** = most-want-person = significant other/partner/bf/gf
-- **hevtek** = heavy-take = weightlifting
+- **tekhev** = take-heavy = weightlifting
 - **spirdom** = spirit-house = brain/mind
 - **elspir** = electric-spirit = AI/artificial intelligence
 - **elpatim** = electric-paths = network/internet
 - **sotim** = this-time = now
 - **tetim** = that-time = then
 - **timtal** = time-speak = watch/clock (literally: time-sayer)
+- **lunrep** = moon-again = month (lunar cycle)
+- **terrep** = earth-again = year (earth's orbit)
 - **passol** = past-day = yesterday
+- **sosol** = this-day = today
 - **futsol** = future-day = tomorrow
+- **Monsol** = Monday
+- **Tusol** = Tuesday
+- **Vedsol** = Wednesday
+- **Torsol** = Thursday
+- **Frisol** = Friday
+- **Satsol** = Saturday
+- **Sunsol** = Sunday
 - **solok** = this-place = here
 - **telok** = that-place = there
 - **makpanul** = make-to-zero = waste/destroy
