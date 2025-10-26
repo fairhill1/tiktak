@@ -264,6 +264,7 @@
 - **gevrit** = give-right = permit/allow
 - **gevtal** = give-speak = announce/declare
 - **gevtek** = give-take = trade/exchange
+- **makmet** = do-with = use
 - **kompugem** = computer-game = video game
 - **tergem** = earth-game = board game/physical game
 - **gemmak** = game-maker = game developer/designer
@@ -280,5 +281,6 @@
 *Tools/Objects:*
 - **akdom** could also mean = water-container (context dependent)
 - **solmak** = sun-maker = lamp/light source
+- **hittok** = hit-part = weapon
 
 **Design principle**: Build vocabulary compositionally rather than creating new roots for every concept
