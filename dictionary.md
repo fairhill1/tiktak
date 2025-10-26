@@ -43,7 +43,8 @@
 - **ak** = water
 - **fir** = fire
 - **ter** = earth/ground/land
-- **vin** = air/wind
+- **vin** = air/weather
+- **rok** = stone/rock
 - **el** = electricity/electric
 - **tim** = time
 - **fin** = last/finally/end
@@ -83,6 +84,7 @@
 - **kal** = cold
 - **lit** = light (weight/brightness)
 - **hev** = heavy
+- **dur** = hard/durable
 - **rap** = quick
 - **len** = slow
 
@@ -219,6 +221,7 @@
 - **nultim** = zero-time = beginning
 - **ungo** = one-go = start/begin
 - **vinsur** = air-above = sky/heaven
+- **vingo** = air-go = wind (moving air)
 - **kinmak** = person-maker = god/creator
 - **nulmak** = zero-make = relaxing/idleness
 - **patnul** = path-zero = lost/disoriented
@@ -226,7 +229,7 @@
 - **bigvit** = big-life = tree
 - **govit** = go-life = animal
 - **akgovit** = water-animal = aquatic animal
-- **vengovit** = air-animal = flying animal/bird
+- **vingovit** = air-animal = flying animal/bird
 - **smalgovit** = small-animal = insect/small creature
 - **gosur** = go-over = cross, pass
 - **terdiv** = earth-divide = border
@@ -282,6 +285,7 @@
 - **gemtoktok** = game-system = game engine
 
 *Actions/Agents:*
+- **vistek** = see-take = find/discover
 - **panmak** = food-maker = cook/chef
 - **dommak** = house-maker = builder/architect
 - **kinvis** = person-seer = observer/witness
@@ -292,5 +296,6 @@
 - **akdom** could also mean = water-container (context dependent)
 - **solmak** = sun-maker = lamp/light source
 - **hittok** = hit-part = weapon
+- **maksdurrok** = most-hard-stone = diamond
 
 **Design principle**: Build vocabulary compositionally rather than creating new roots for every concept
