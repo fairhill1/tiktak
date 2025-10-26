@@ -1,6 +1,6 @@
-# Toktal - A Constructed Language
+# Tiktak - A Constructed Language
 
-**Toktal** (from *tok* = part + *tal* = speak) is a constructed language designed for maximum clarity and ease of learning.
+**Tiktak** - a constructed language designed for maximum clarity and ease of learning. The name embodies the rhythmic CVC-CVC pattern that characterizes the language's phonological structure.
 
 ## Design Principles
 
@@ -20,7 +20,7 @@
 ## Quick Start
 
 ### Basic Sentence Structure
-Toktal uses **SVO** (Subject-Verb-Object) word order:
+Tiktak uses **SVO** (Subject-Verb-Object) word order:
 - **mi hav pan** = I have food
 - **tu go dom** = you go home
 

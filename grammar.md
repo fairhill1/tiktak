@@ -1,4 +1,4 @@
-# Toktal Grammar
+# Tiktak Grammar
 
 ## Word Order
 **Basic structure**: SVO (Subject-Verb-Object)

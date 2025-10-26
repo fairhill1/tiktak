@@ -1,4 +1,4 @@
-# Toktal Dictionary
+# Tiktak Dictionary
 
 ## Core Roots
 

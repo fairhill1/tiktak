@@ -1,4 +1,4 @@
-# Toktal Phonology
+# Tiktak Phonology
 
 ## Sound System
 

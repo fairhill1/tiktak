@@ -1,4 +1,4 @@
-# Toktal Examples
+# Tiktak Examples
 
 ## Basic Phrases
 
