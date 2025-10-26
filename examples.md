@@ -168,9 +168,9 @@
 **With comparatives:**
 - mi mas big dan tu = I'm bigger than you
 - sol mas hot dan lun = sun is hotter than moon
-- min dom max old = my house (is the) oldest
+- min dom maks old = my house (is the) oldest
 - tu go mas rap dan mi = you go faster than me
-- ka es kin max bon = he/she is (the) best person
+- ka es kin maks bon = he/she is (the) best person
 - na sam big = we (are) equally big
 - mi hav mas mani pan dan tu = I have more food than you
 - tu les big dan ka = you're less big than him/her = you're smaller than him/her

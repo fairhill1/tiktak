@@ -200,7 +200,7 @@ Two types:
 
 **Markers:**
 - **mas** = more (comparative)
-- **max** = most (superlative)
+- **maks** = most (superlative)
 - **les** = less (comparative)
 - **lest** = least (superlative)
 - **sam** = same/equal/as (equality)
@@ -213,10 +213,10 @@ Two types:
 - Shorter: **mas big dan X** = more big than X = bigger than X
 
 **Superlative** (most/least X):
-- Structure: Noun - max/lest - Adjective
-- **dom max big** = house most big = biggest house
+- Structure: Noun - maks/lest - Adjective
+- **dom maks big** = house most big = biggest house
 - **dom lest big** = house least big = smallest house
-- **kin max rap** = person most rap = fastest person
+- **kin maks rap** = person most rap = fastest person
 - **kin lest rap** = person least rap = slowest person
 
 **Equality** (as X as Y):
@@ -235,9 +235,9 @@ Two types:
 - lun les hot dan sol = moon is less hot than sun = moon is colder than sun
 
 *Superlatives:*
-- ka es kin max big = he/she is (the) biggest person
-- sol es max hot = sun is (the) hottest
-- tu vis dom max nov = you see (the) newest house
+- ka es kin maks big = he/she is (the) biggest person
+- sol es maks hot = sun is (the) hottest
+- tu vis dom maks nov = you see (the) newest house
 - mi es kin lest rap = I am (the) least rap person = I am (the) slowest person
 - dom lest old = (the) least old house = (the) newest house
 
