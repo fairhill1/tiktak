@@ -24,6 +24,18 @@ Examples:
 - **pan hot** = food hot = hot food
 - **mi hav pan hot** = I have hot food
 
+**Time and place adverbs:**
+- Can optionally be placed at the beginning of a sentence for emphasis or clarity
+- Standard position: at the end (Subject - Verb - Object - Time/Place)
+- Emphasis position: at the beginning (Time/Place - Subject - Verb - Object)
+
+Examples:
+- **mi go panlok sosol** = I go (to) restaurant today
+- **sosol mi go panlok** = today I go (to) restaurant (emphasis on "today")
+- **Monsol na makvak** = Monday we learn
+- **solok kin es** = here person is
+- **passol na pas gem** = yesterday we played
+
 **Design note**: Fixed word order eliminates need for case markers on subject/object. Only possession requires marking.
 
 ## Plural
