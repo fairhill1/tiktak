@@ -67,7 +67,7 @@
 - tu vis fif solim = you see 5 suns
 - na pas mak des-du domim = we made 12 houses
 - kin hav du-des-tri panim = person has 23 foods
-- mi es du-des-sep = I am 27 (years old - implied)
+- mi hav du-des-sep terrep = I have 27 years = I am 27 years old
 - kor es un-sen kinim? = where are 100 people?
 - tu pas vis kom mani kinim? = how many people did you see?
 - mani kinim hav panim = many people have foods
@@ -86,13 +86,46 @@
 - spirdom toktok es mas vik dan kompu toktok = nervous system is more complex than computer system
 - na pas mak nov toktok = we made new system
 
-**With time compounds (yesterday/tomorrow):**
+**With time compounds (yesterday/today/tomorrow):**
 - mi pas go dom passol = I went home yesterday
+- sosol mi go panlok = today I go (to) restaurant
 - tu fut tal pa mi futsol = you will speak to me tomorrow
 - passol es kal = yesterday was cold
+- sosol es hot = today is hot
 - kaim go panlok passol = they went to restaurant yesterday
 - na fut vis tu futsol = we will see you tomorrow
 - mi pas mak nerit passol = I made mistake yesterday
+
+**With weekdays:**
+- sosol es Monsol = today is Monday
+- mi go panlok Frisol = I go (to) restaurant (on) Friday
+- na pas gem Satsol = we played (on) Saturday
+- tu fut makvak Tusol = you will learn (on) Tuesday
+- kaim ne go Sunsol = they don't go (on) Sunday
+- mi pas vis tu Vedsol = I saw you (on) Wednesday
+- kin mak pan Torsol = person makes food (on) Thursday
+- mi makvak Monsol pa Frisol = I learn Monday to Friday
+
+**With months and years (lunrep/terrep):**
+- mi hav tri-des terrep = I have 30 years = I am 30 years old
+- tu pas makvak for lunrep = you learned (for) 4 months
+- kin hav du terrep = person has 2 years = person is 2 years old
+- mi fut go futsol pa un terrep = I will go tomorrow for 1 year
+- futmak ned sik lunrep = project needs 6 months
+- kaim makvak kintal pa tri lunrep = they learn language for 3 months
+- mi pas ne vis tu for terrep = I haven't seen you (for) 4 years
+
+**With new vocabulary (rok/dur/vingo/vin/vistek/maksvolkin/tekhev):**
+- mi vistek bigrok in ter = I found (a) big stone in (the) ground
+- rok es dur = stone is hard
+- tu gev mi maksdurrok = you gave me (a) diamond
+- vingo es maks sotim = wind is strongest now
+- vin es bon sosol = weather is good today
+- mi go panlok met min maksvolkin = I go (to) restaurant with my partner
+- na tekhev Monsol en Vedsol = we lift weights (on) Monday and Wednesday
+- ka go tekhevlok pa tekhev = he/she goes (to) gym to lift weights
+- mi pas vistek smalrok = I found (a) small stone / pebble
+- vingo go rap = wind moves fast
 
 **With limiting/restrictive (nemas = only/just):**
 - nemas un nerit = only one mistake / just one mistake
@@ -227,3 +260,21 @@ Panmak tal:
 
 *(The cook says:
 "Don't say that! Or all people will want one!")*
+
+### Example 5: A Good Day (featuring recent vocabulary)
+
+Sosol es Sunsol. Sosol mi pas es met min maksvolkin. Na gem kompugem nam Minecraft. Na vistek mani maksdurrok.
+
+Den na go tekhevlok pa tekhev. Ka pas bon. Vin pas es bon.
+
+Sotim mak pizza.
+
+Bai
+
+*(Today is Sunday. Today I was with my partner. We played a computer game called Minecraft. We found many diamonds.
+
+Then we went to the gym to lift weights. It was good. The weather was good.
+
+Now [I'm] making pizza.
+
+Bye)*
