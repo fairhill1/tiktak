@@ -133,6 +133,7 @@
 - **sur** = over/above (spatial)
 - **sub** = under/below (spatial)
 - **in** = in/inside/within (spatial)
+- **ud** = out/outside/outward (spatial)
 
 ### BASIC FUNCTION WORDS
 - **ne** = not/no
