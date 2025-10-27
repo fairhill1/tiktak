@@ -13,10 +13,9 @@
 
 ## Documentation
 
-- [Phonology](phonology.md) - Sound system and pronunciation
 - [Dictionary](dictionary.md) - Complete vocabulary and word list
-- [Grammar](grammar.md) - Grammar rules and sentence structure
 - [Examples](examples.md) - Example phrases and stories
+- [Grammar](grammar.md) - Grammar rules and sentence structure
 
 ## Quick Start
 
