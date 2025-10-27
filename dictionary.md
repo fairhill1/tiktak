@@ -121,6 +121,7 @@
 - **talmet** = speak-with = mouth
 - **tekmet** = take-with = hand
 - **gomet** = go-with = foot/leg
+- **spirmet** = spirit-with = throat
 
 **Note**: Body parts formed compositionally using **met** (with) + action verb - the instrument WITH which you perform the action
 

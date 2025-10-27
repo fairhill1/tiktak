@@ -339,7 +339,7 @@ Eslaf Erol pas es fin de fif smalkin samtimmak de fem-sur-kin de surkin-ter Nord
 
 Sam mani Nords, Ytluaf ne vol big kan maksvolkin en les kan smalkinim. Fra so, kan kinim pas es patnul, ken ka tal ka fut gomet passtil de-big-pas de kan kin de Atmora pa gomet kan maksvolkin in rip. Kinim pas ne vis kaim maksvol met kaim, en ne pas vis so passtil es. Bud, kanim pas havtak, so vittal surkinim makles kaim lentim. Lentim pas es repmani durtok in maks nulvis tokim de Skyrim, mas en kaltim.
 
-Ka makun kan domkinim en kan fif sur-smalkinim, badlad en ak-vismet, en div kan tokim. Pa kan virsmalkin Ynohp, ka gev kan surnam, pa kan virsmalkin Laernu, ka gev kan ter, pa kan virsmalkin Suoibud, ka gev kan manitok; pa ka femsmalkin Laicifitra, ka gev kan hittok-kinim. Ytluaf su makvakkin tal ka ne fut div ka, pa bon surkin-ter, bud Ytluaf ne vol big kan makvakkin, ne sukrin-ter. Ken ka pas tal fin, ka gosur kan spirmet met hittok.
+Ka makun kan domkinim en kan fif sur-smalkinim, badlad en ak-vismet, en div kan tokim. Pa kan virsmalkin Ynohp, ka gev kan surnam, pa kan virsmalkin Laernu, ka gev kan ter, pa kan virsmalkin Suoibud, ka gev kan manitok; pa ka femsmalkin Laicifitra, ka gev kan hittok-kinim. Ytluaf su makvakkin tal ka ne fut div ka, pa bon surkin-ter, bud Ytluaf ne vol big kan makvakkin, ne sukrin-ter. Ken ka pas tal fin, ka gosur kan spirmet met smaldivmet.
 
 *(Eslaf Erol was the last of five quintuplets of the queen of the wealthy Nordic kingdom of Erolgard, Lahpyrcopa, and her beloved, king of Erolgard, Ytluaf. When she was pregnant with the children, the queen was much more wide than tall. The birth took 3 months and 6 days. One can understand why when the queen gave birth to Eslaf, she grimaced, said 'good goodbye', and died.
 
