@@ -135,6 +135,12 @@
 - **in** = in/inside/within (spatial)
 - **ud** = out/outside/outward (spatial)
 
+### DIRECTIONS
+- **nor** = north
+- **sud** = south
+- **est** = east
+- **vest** = west
+
 ### BASIC FUNCTION WORDS
 - **ne** = not/no
 - **si** = yes
@@ -270,6 +276,7 @@
 - **badspir** = bad-spirit = sadness
 - **firspir** = fire-spirit = angry/anger
 - **bigspir** = big-spirit = god/deity
+- **havtak** = have-thanks = grateful/thankful
 - **visbon** = see-good = clear/clarity
 - **maklit** = make-light = shine/illuminate; easy/lighten (context-dependent)
 - **maksvol** = most-want = love/crave
@@ -283,6 +290,8 @@
 - **timtal** = time-speak = watch/clock (literally: time-sayer)
 - **lunrep** = moon-again = month (lunar cycle)
 - **terrep** = earth-again = year (earth's orbit)
+- **kaltim** = cold-time = winter
+- **hottim** = hot-time = summer
 - **passol** = past-day = yesterday
 - **sosol** = this-day = today
 - **futsol** = future-day = tomorrow

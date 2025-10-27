@@ -332,3 +332,13 @@ mi go dom pa slep
 *(cold water flows over rock
 hot sun makes wind hot again
 I go home to sleep)*
+
+### Example 11: The Birth of Eslaf Erol (Elder Scrolls Lore)
+
+Eslaf Erol pas es fin de fif smalkin samtimmak de fem-sur-kin de surkin-ter Nordic havmani de Erolgard, Lahpyrcopa, en kan maksvol, surkin de Erolgard, Ytluaf. Ken ka pas hav smalkinim in, femsurkin pas es mas durep lad dan ald. Mak smalkinim pas ned 3 lunrep en sik sol. Pod es visbon kim ken femsurkin gev ud Eslaf, ka mak badtalmet, tal 'bon gofra', en rip.
+
+Sam mani Nords, Ytluaf ne vol big kan maksvolkin en les kan smalkin. Fra so, kan kin pas es patnul, ken ka tal ka fut gomet passtil de-big-pas de kan kin de Atmora pa gomet kan maksvolkin pa riplok. Kinim pas ne vis kaim maksvol met kaim, en ne pas vis so passtil es. Bud, kanim pas havtak, so vittal surkinim makles kaim lentim. Lentim pas es repmani durtok in maks nulvis tokim de Skyrim, mas en kaltim.
+
+*(Eslaf Erol was the last of five quintuplets of the queen of the wealthy Nordic kingdom of Erolgard, Lahpyrcopa, and her beloved, king of Erolgard, Ytluaf. When she was pregnant with the children, the queen was much more wide than tall. The birth took 3 months and 6 days. One can understand why when the queen gave birth to Eslaf, she grimaced, said 'good goodbye', and died.
+
+Like many Nords, Ytluaf didn't love his wife much, and loved his children even less. Because of this, his people were confused when he said he would follow the ancient tradition of his people from Atmora to accompany his wife to the afterlife. People didn't see them love each other, and didn't know this old tradition existed. But their people were grateful - this story of the rulers made their boring times less boring. Boredom was a frequent hardship in the most remote parts of Skyrim, especially during the cold parts of the year.)*
