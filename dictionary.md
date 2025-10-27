@@ -90,6 +90,8 @@
 - **dur** = hard/durable
 - **rap** = quick
 - **len** = slow
+- **ald** = tall/high
+- **lad** = wide/broad
 
 ### ADJECTIVES - Quantity
 - **mani** = many/much/a lot
