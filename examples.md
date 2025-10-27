@@ -308,3 +308,17 @@ Fin kin met fir-vingovit spir fut go, pa mak ripkol go fra ter.
 *(When the snow-tower lies sundered, and kings fall in blood,
 When the World-Eater wakes, and the winter comes unending,
 The last Dragonborn shall come, to drive the darkness from the land.)*
+
+### Example 9: Paarthurnax's Wisdom (Skyrim)
+
+Ket es mas rit - ungo vit met rit-spir, ve surgo tun nerit-spir met big tem?
+
+Ungo vit met rit-spir.
+
+Nesam, ket es rit-spir fu ne un tekun? Pa es rit spir fra ned... ne es sam es rit spir fra tekun.
+
+*(What is more right - to begin life with right spirit, or to overcome your wrong spirit with great effort?
+
+To begin life with right spirit.
+
+However, what is right spirit if not a choice? To be right-spirited from necessity... is not the same as being right-spirited from choice.)*
