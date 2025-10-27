@@ -325,12 +325,12 @@ However, what is right spirit if not a choice? To be right-spirited from necessi
 
 ### Example 10: Haiku - Nature and Rest
 
-ak kal go sur rok
-sol hot mak vingo hot rep
+ak kal go sur rok<br>
+sol hot mak vingo hot rep<br>
 mi go dom pa slep
 
-*(cold water flows over rock
-hot sun makes wind hot again
+*(cold water flows over rock<br>
+hot sun makes wind hot again<br>
 I go home to sleep)*
 
 ### Example 11: The Birth of Eslaf Erol (Elder Scrolls Lore)
