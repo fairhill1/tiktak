@@ -1,7 +1,5 @@
 # TikTak Poetry Collection 🌙
 
----
-
 ## Table of Contents
 1. [Air and Earth](#1-air-and-earth) - Makfem ⭐⭐⭐⭐
 2. [Response to Air and Earth](#2-response-to-air-and-earth) - Talvir ⭐⭐⭐
