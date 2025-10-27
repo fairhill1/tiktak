@@ -410,6 +410,25 @@
             const homeContent = await loadMarkdown('README.md');
             document.querySelector('#home').innerHTML = `<div class="markdown-content">${homeContent}</div>`;
 
+            // Intercept clicks on .md links in home section
+            document.querySelector('#home').addEventListener('click', function(e) {
+                if (e.target.tagName === 'A' && e.target.href.endsWith('.md')) {
+                    e.preventDefault();
+                    const filename = e.target.href.split('/').pop().replace('.md', '');
+                    // Map filenames to section IDs
+                    const sectionMap = {
+                        'dictionary': 'dictionary',
+                        'examples': 'examples',
+                        'grammar': 'grammar',
+                        'phonology': 'grammar'
+                    };
+                    const sectionId = sectionMap[filename];
+                    if (sectionId) {
+                        switchSection(sectionId);
+                    }
+                }
+            });
+
             // Load dictionary
             const dictionaryContent = await loadMarkdown('dictionary.md');
             document.querySelector('#dictionaryContent').innerHTML = dictionaryContent;
