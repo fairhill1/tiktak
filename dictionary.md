@@ -229,6 +229,7 @@
 - **taltok** = speak-part = word
 - **vistok** = see-part = example
 - **vittal** = life-speak = story/narrative
+- **spirtal** = spirit-speak = poetry/poetic
 - **tektaltok** = take-word = loan-word (borrowed word)
 - **sollit** = sun-light = sunlight/daylight
 - **lunlit** = moon-light = moonlight
@@ -298,6 +299,7 @@
 - **nerit** = not-right = wrong/mistake/error
 - **toktok** = part-part = system (interconnected parts)
 - **makvak** = make-awake = learn/teach (awaken the mind)
+- **podmak** = can-make = ability/capability
 - **unmas** = one-more = add
 - **tekun** = take-one = choice/choose
 - **dupaun** = two-to-one = merge/combine

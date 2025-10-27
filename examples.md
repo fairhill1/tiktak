@@ -322,3 +322,13 @@ Nesam, ket es rit-spir fu ne un tekun? Pa es rit spir fra ned... ne es sam es ri
 To begin life with right spirit.
 
 However, what is right spirit if not a choice? To be right-spirited from necessity... is not the same as being right-spirited from choice.)*
+
+### Example 10: Haiku - Nature and Rest
+
+ak kal go sur rok
+sol hot mak vingo hot rep
+mi go dom pa slep
+
+*(cold water flows over rock
+hot sun makes wind hot again
+I go home to sleep)*
