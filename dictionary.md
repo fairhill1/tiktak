@@ -285,6 +285,7 @@
 - **toktok** = part-part = system (interconnected parts)
 - **makvak** = make-awake = learn/teach (awaken the mind)
 - **unmas** = one-more = add
+- **dupaun** = two-to-one = merge/combine
 - **futmak** = future-make = project (planned work)
 - **viktal** = change-speak = translate
 - **repmani** = again-many = frequency (how often something repeats)
