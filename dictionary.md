@@ -19,6 +19,7 @@
 - **vis** = see/perceive
 - **her** = hear/listen
 - **nos** = smell
+- **et** = eat
 - **vol** = want/desire
 - **ned** = need/necessity (verb/noun)
 - **pir** = question/ask/inquire
@@ -45,6 +46,7 @@
 - **ter** = earth/ground/land
 - **vin** = air/weather
 - **rok** = stone/rock
+- **sno** = snow
 - **el** = electricity/electric
 - **tim** = time
 - **fin** = last/finally/end
@@ -127,6 +129,7 @@
 - **fra** = from (source)
 - **met** = with (accompaniment)
 - **sur** = over/above (spatial)
+- **sub** = under/below (spatial)
 - **in** = in/inside/within (spatial)
 
 ### BASIC FUNCTION WORDS
@@ -213,6 +216,7 @@
 
 *Places:*
 - **akdom** = water-house = bathroom
+- **survisdom** = over-see-house = tower
 - **panlok** = food-place = restaurant/kitchen
 - **kinlok** = person-place = town/city/settlement
 - **domlok** = house-place = neighborhood/residential area
@@ -223,10 +227,14 @@
 - **kintal** = person-speak = language
 - **makkintal** = make-language = constructed language/conlang
 - **taltok** = speak-part = word
+- **vistok** = see-part = example
 - **vittal** = life-speak = story/narrative
 - **tektaltok** = take-word = loan-word (borrowed word)
 - **sollit** = sun-light = sunlight/daylight
 - **lunlit** = moon-light = moonlight
+- **durak** = hard-water = ice
+- **vittok** = life-part = heart
+- **vittokak** = life-part-water = blood
 - **akpan** = water-food = soup/beverage
 - **firpan** = fire-food = cooked food
 - **rippan** = death-food = poison
@@ -237,7 +245,7 @@
 - **ungo** = one-go = start/begin
 - **vinsur** = air-above = sky/heaven
 - **vingo** = air-go = wind (moving air)
-- **kinmak** = person-maker = god/creator
+- **kinmak** = person-maker = creator/demiurge
 - **nulmak** = zero-make = relaxing/idleness
 - **patnul** = path-zero = lost/disoriented
 - **tervit** = earth-life = plant
@@ -253,6 +261,8 @@
 - **firrip** = fire-death = ashes
 - **bonspir** = good-spirit = fun/joy
 - **badspir** = bad-spirit = sadness
+- **firspir** = fire-spirit = angry/anger
+- **bigspir** = big-spirit = god/deity
 - **visbon** = see-good = clear/clarity
 - **maklit** = make-light = shine/illuminate; easy/lighten (context-dependent)
 - **maksvol** = most-want = love/crave
@@ -279,6 +289,7 @@
 - **solok** = this-place = here
 - **telok** = that-place = there
 - **makpanul** = make-to-zero = waste/destroy
+- **makpales** = make-to-less = weaken/hurt/reduce
 - **talnemettal** = speak-not-with-speak = imply
 - **nemas** = not-more = only/just (limiting/restrictive)
 - **nerit** = not-right = wrong/mistake/error
@@ -290,6 +301,7 @@
 - **viktal** = change-speak = translate
 - **repmani** = again-many = frequency (how often something repeats)
 - **bonspirtal** = good-spirit-speak = joke (speech that creates joy)
+- **nerittal** = not-right-speak = lie/deceive
 - **makrit** = make-right = fix/correct/repair
 - **gevpan** = give-food = feed
 - **gevrit** = give-right = permit/allow

@@ -179,6 +179,60 @@ Two types:
 - **tu hav pan, ne?** = you have food, no? = you have food, don't you?
 - **mi es rit, ne?** = I am right, no? = I'm right, aren't I?
 
+## Subordinate Clauses
+**System**: Question words can also function as conjunctions to introduce dependent clauses
+
+**Pattern**: Question Word + Clause = subordinate clause that adds information to the main sentence
+
+**Question words as conjunctions:**
+- **ken** = when (temporal)
+- **kor** = where (locative)
+- **ko** = who (relative, person)
+- **ket** = what (relative, thing)
+- **kom** = how (manner)
+- **kim** = why (reason)
+
+**Context distinguishes usage:**
+- Questions end with **?** and have interrogative intonation
+- Subordinate clauses are embedded in larger sentences
+
+**Examples:**
+
+*ken (when) - temporal clauses:*
+- **ken mi pas vis tu, tu pas slep** = when I saw you, you were sleeping
+- **ken kaim pas vis ket Lorkhan pas mak, kaim pas maks firspir** = when they saw what Lorkhan had made, they became furious
+- **mi fut tal pa tu ken tu go dom** = I will speak to you when you go home
+
+*kor (where) - locative clauses:*
+- **mi ne vis kor tu go** = I don't see where you go
+- **kor mi pas vit, sol pas es hot** = where I lived, the sun was hot
+- **tu pod go kor tu vol** = you can go where you want
+
+*ko (who) - relative clauses for people:*
+- **kin ko pas tal met mi es min maksvolkin** = the person who spoke with me is my partner
+- **mi vis ko tu tal pa** = I see who you speak to
+- **ko hav pan pod hav vit** = who has food can have life
+
+*ket (what) - relative clauses for things:*
+- **mi ne vis ket tu mak** = I don't see what you make
+- **ket tu tal es bon** = what you say is good
+- **mi vol makvak ket tu makvak mi** = I want to learn what you teach me
+
+*kom (how) - manner clauses:*
+- **mi tal kom mi tal** = I speak how I speak = I speak as I speak
+- **tu ne vis kom big so es** = you don't see how big this is
+- **makvak mi kom mak so** = teach me how to make this
+
+*kim (why) - reason clauses:*
+- **mi vis kim tu go** = I see why you go = I understand why you go
+- **kim tu mak so es ne visbon** = why you make this is not clear
+
+**Complex example:**
+- **mi ne vis ket tu vol ken tu ne tal** = I don't see what you want when you don't speak
+  - Main clause: **mi ne vis** (I don't see)
+  - First subordinate: **ket tu vol** (what you want)
+  - Second subordinate: **ken tu ne tal** (when you don't speak)
+
 ## Prepositions
 **Core prepositions** for expressing relationships:
 
@@ -201,6 +255,11 @@ Two types:
 - **foks hop sur dog** = fox jumps over dog
 - **vingovit go sur dom** = bird goes over house
 - **kin es sur ter** = person is above ground
+
+**sub** = under/below (spatial position)
+- **dog es sub dom** = dog is under house
+- **fis go sub ak** = fish goes under water
+- **kin slep sub bigvit** = person sleeps under tree
 
 **Usage in sentences:**
 - **mi vol mak pan mas bon pa tu** = I want (to) make better food for you

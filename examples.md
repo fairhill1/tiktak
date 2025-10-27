@@ -292,3 +292,19 @@ Kinim ko badtal de tokim kaim ne pod hav, ned makvak fra so vittal.
 Going from the place, the fox said, "You are not ripe now! I don't need bad food!"
 
 People who speak badly of things they cannot have, should learn from this story.)*
+
+### Example 7: The Creation of Mundus (Elder Scrolls Lore)
+
+Lorkhan, nerit-tal-bigspir, met nerittal pas mak nultim-spirim (Aedra) mak ripvit-biglok, Mundus. Aedra pas gev tokim de kaim pa makka, en ka big mak-pa-les kaim. Ken kaim pas vis ket Lorkhan pas mak, kaim pas maks firspir en tek kan vittok, in Ter.
+
+*(Lorkhan, the Trickster god, convinced or tricked the Original Spirits (the Aedra) into creating the mortal plane, Mundus. The Aedra gave parts of themselves to create it, which severely weakened them. When they saw what Lorkhan had done, they were furious and tore out his heart, casting it into the world.)*
+
+### Example 8: The Prophecy of the Dragonborn (Skyrim)
+
+Ken sno-survisdom es maks tokdiv, en surkinim gosub in vittok-ak,
+Ken Ter-Et govak, en kal-terrep-tok pago nulfin,
+Fin kin met fir-vingovit spir fut go, pa mak ripkol go fra ter.
+
+*(When the snow-tower lies sundered, and kings fall in blood,
+When the World-Eater wakes, and the winter comes unending,
+The last Dragonborn shall come, to drive the darkness from the land.)*
