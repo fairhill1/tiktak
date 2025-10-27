@@ -110,6 +110,16 @@
 - **bir** = bird
 - **fis** = fish
 
+### BODY PARTS (Compound pattern: [action]-met)
+- **vismet** = see-with = eye
+- **hermet** = hear-with = ear
+- **nosmet** = smell-with = nose
+- **talmet** = speak-with = mouth
+- **tekmet** = take-with = hand
+- **gomet** = go-with = foot/leg
+
+**Note**: Body parts formed compositionally using **met** (with) + action verb - the instrument WITH which you perform the action
+
 ### PREPOSITIONS
 - **su** = possessive marker ('s) - ownership/belonging
 - **de** = of - composition/material/content/topic
