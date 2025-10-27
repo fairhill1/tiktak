@@ -167,6 +167,31 @@
             font-weight: 600;
         }
 
+        .markdown-content blockquote {
+            background: var(--light);
+            border-left: 4px solid var(--secondary);
+            padding: 1rem 1.5rem;
+            margin: 1rem 0;
+            font-style: italic;
+            color: #555;
+        }
+
+        .markdown-content pre {
+            background: var(--light);
+            padding: 1.5rem;
+            border-radius: 8px;
+            border-left: 4px solid var(--accent);
+            overflow-x: auto;
+            margin: 1rem 0;
+            font-family: 'Courier New', monospace;
+            line-height: 1.8;
+        }
+
+        .markdown-content pre code {
+            background: transparent;
+            padding: 0;
+        }
+
         /* Search box */
         .search-box {
             margin: 1.5rem 0;
@@ -277,6 +302,7 @@
             <li><a class="nav-link" data-section="dictionary">Dictionary</a></li>
             <li><a class="nav-link" data-section="examples">Examples</a></li>
             <li><a class="nav-link" data-section="grammar">Grammar</a></li>
+            <li><a class="nav-link" data-section="poetry">Poetry</a></li>
             <li><a class="nav-link" data-section="analysis">Analysis</a></li>
         </ul>
     </nav>
@@ -304,6 +330,12 @@
         <section id="grammar">
             <div class="markdown-content">
                 <div class="loading">Loading grammar...</div>
+            </div>
+        </section>
+
+        <section id="poetry">
+            <div class="markdown-content">
+                <div class="loading">Loading poetry collection...</div>
             </div>
         </section>
 
@@ -420,7 +452,8 @@
                         'dictionary': 'dictionary',
                         'examples': 'examples',
                         'grammar': 'grammar',
-                        'phonology': 'grammar'
+                        'phonology': 'grammar',
+                        'poetry_collection': 'poetry'
                     };
                     const sectionId = sectionMap[filename];
                     if (sectionId) {
@@ -441,6 +474,10 @@
             const grammarContent = await loadMarkdown('grammar.md');
             const phonologyContent = await loadMarkdown('phonology.md');
             document.querySelector('#grammar .markdown-content').innerHTML = phonologyContent + grammarContent;
+
+            // Load poetry collection
+            const poetryContent = await loadMarkdown('poetry_collection.md');
+            document.querySelector('#poetry .markdown-content').innerHTML = poetryContent;
         }
 
         // Dictionary search

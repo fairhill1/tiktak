@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TikTak Autonomous Conversation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 300px;
+            gap: 20px;
+            width: 100%;
+            max-width: 1400px;
+            height: 90vh;
+        }
+
+        .chat-container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .chat-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+
+        .chat-header h1 {
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+
+        .chat-header p {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+
+        .status-bar {
+            background: #f8f9fa;
+            padding: 12px 25px;
+            border-bottom: 1px solid #e9ecef;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 13px;
+            color: #6c757d;
+        }
+
+        .status-indicator {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #28a745;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        .messages {
+            flex: 1;
+            overflow-y: auto;
+            padding: 25px;
+            background: #f8f9fa;
+        }
+
+        .message {
+            margin-bottom: 20px;
+            animation: slideIn 0.3s ease-out;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .message-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 8px;
+        }
+
+        .avatar {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: white;
+            font-size: 14px;
+        }
+
+        .avatar.talvir {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+
+        .avatar.makfem {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        }
+
+        .message-sender {
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .message-time {
+            font-size: 12px;
+            color: #6c757d;
+            margin-left: auto;
+        }
+
+        .message-bubble {
+            background: white;
+            padding: 15px 18px;
+            border-radius: 12px;
+            margin-left: 46px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+            line-height: 1.6;
+            color: #212529;
+        }
+
+        .sidebar {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .sidebar-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        .sidebar-content {
+            flex: 1;
+            overflow-y: auto;
+            padding: 20px;
+        }
+
+        .stats-grid {
+            display: grid;
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+
+        .stat-card {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+        }
+
+        .stat-label {
+            font-size: 12px;
+            color: #6c757d;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .stat-value {
+            font-size: 24px;
+            font-weight: 700;
+            color: #212529;
+        }
+
+        .section-title {
+            font-size: 14px;
+            font-weight: 600;
+            color: #495057;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .new-words-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .word-item {
+            background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+            padding: 12px;
+            border-radius: 8px;
+            font-size: 13px;
+            animation: slideIn 0.3s ease-out;
+        }
+
+        .word-tiktak {
+            font-weight: 700;
+            color: #667eea;
+            margin-bottom: 4px;
+        }
+
+        .word-meaning {
+            color: #6c757d;
+            font-size: 12px;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #6c757d;
+        }
+
+        .spinner {
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #667eea;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 15px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Scrollbar styling */
+        .messages::-webkit-scrollbar,
+        .sidebar-content::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .messages::-webkit-scrollbar-track,
+        .sidebar-content::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        .messages::-webkit-scrollbar-thumb,
+        .sidebar-content::-webkit-scrollbar-thumb {
+            background: #667eea;
+            border-radius: 10px;
+        }
+
+        .messages::-webkit-scrollbar-thumb:hover,
+        .sidebar-content::-webkit-scrollbar-thumb:hover {
+            background: #764ba2;
+        }
+
+        /* Responsive */
+        @media (max-width: 968px) {
+            .container {
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr auto;
+            }
+
+            .sidebar {
+                max-height: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="chat-container">
+            <div class="chat-header">
+                <h1>🤖 TikTak Autonomous Conversation</h1>
+                <p>Two Claude instances conversing in real-time</p>
+            </div>
+            <div class="status-bar">
+                <div class="status-indicator">
+                    <div class="status-dot"></div>
+                    <span>Conversation Active</span>
+                </div>
+                <span id="message-count">0 messages</span>
+            </div>
+            <div class="messages" id="messages">
+                <div class="loading">
+                    <div class="spinner"></div>
+                    <p>Waiting for conversation to start...</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="sidebar">
+            <div class="sidebar-header">
+                📊 Live Stats
+            </div>
+            <div class="sidebar-content">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-label">Talvir</div>
+                        <div class="stat-value" id="talvir-count">0</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">Makfem</div>
+                        <div class="stat-value" id="makfem-count">0</div>
+                    </div>
+                </div>
+
+                <div class="section-title">🆕 New Compound Words</div>
+                <div class="new-words-list" id="new-words">
+                    <div class="word-item">
+                        <div class="word-meaning">Waiting for new word creations...</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let lastMessageCount = 0;
+        let messageCountByAgent = { Talvir: 0, Makfem: 0 };
+        let discoveredWords = new Set();
+
+        // Compound word patterns to detect
+        const knownRoots = new Set([
+            'tal', 'go', 'es', 'hav', 'mak', 'vis', 'her', 'vol', 'ned', 'pir',
+            'kin', 'dom', 'lok', 'pan', 'sol', 'lun', 'ak', 'fir', 'ter', 'vin',
+            'spir', 'el', 'tim', 'vit', 'big', 'smal', 'bon', 'bad', 'nov', 'old',
+            'hot', 'kal', 'pat', 'tok', 'rap', 'tek', 'gev', 'gem'
+        ]);
+
+        function formatTime(timestamp) {
+            const date = new Date(timestamp);
+            return date.toLocaleTimeString('en-US', {
+                hour: '2-digit',
+                minute: '2-digit',
+                second: '2-digit'
+            });
+        }
+
+        function detectNewCompounds(message) {
+            const words = message.toLowerCase().split(/\s+/);
+            const newWords = [];
+
+            for (const word of words) {
+                // Skip if too short or contains punctuation
+                if (word.length < 4 || /[^a-z]/.test(word)) continue;
+
+                // Check if it might be a compound (contains known roots)
+                let isCompound = false;
+                let foundRoots = [];
+
+                for (const root of knownRoots) {
+                    if (word.includes(root) && word !== root) {
+                        foundRoots.push(root);
+                        isCompound = true;
+                    }
+                }
+
+                // If we found multiple roots and haven't seen this word before
+                if (foundRoots.length >= 2 && !discoveredWords.has(word)) {
+                    discoveredWords.add(word);
+                    newWords.push({
+                        word: word,
+                        roots: foundRoots
+                    });
+                }
+            }
+
+            return newWords;
+        }
+
+        function addNewWordToSidebar(wordInfo) {
+            const wordsContainer = document.getElementById('new-words');
+
+            // Remove placeholder if it exists
+            if (wordsContainer.querySelector('.word-meaning').textContent.includes('Waiting')) {
+                wordsContainer.innerHTML = '';
+            }
+
+            const wordElement = document.createElement('div');
+            wordElement.className = 'word-item';
+            wordElement.innerHTML = `
+                <div class="word-tiktak">${wordInfo.word}</div>
+                <div class="word-meaning">Roots: ${wordInfo.roots.join(' + ')}</div>
+            `;
+            wordsContainer.insertBefore(wordElement, wordsContainer.firstChild);
+
+            // Keep only last 10 words
+            while (wordsContainer.children.length > 10) {
+                wordsContainer.removeChild(wordsContainer.lastChild);
+            }
+        }
+
+        async function loadMessages() {
+            try {
+                const response = await fetch('tiktak_conversation.json');
+                const messages = await response.json();
+
+                if (messages.length > lastMessageCount) {
+                    const messagesContainer = document.getElementById('messages');
+
+                    // Clear loading message on first load
+                    if (lastMessageCount === 0) {
+                        messagesContainer.innerHTML = '';
+                    }
+
+                    // Add new messages
+                    const newMessages = messages.slice(lastMessageCount);
+                    newMessages.forEach(msg => {
+                        const messageDiv = document.createElement('div');
+                        messageDiv.className = 'message';
+
+                        const avatarClass = msg.speaker.toLowerCase();
+                        const avatarInitial = msg.speaker.charAt(0);
+
+                        messageDiv.innerHTML = `
+                            <div class="message-header">
+                                <div class="avatar ${avatarClass}">${avatarInitial}</div>
+                                <span class="message-sender">${msg.speaker}</span>
+                                <span class="message-time">${formatTime(msg.timestamp)}</span>
+                            </div>
+                            <div class="message-bubble">${msg.message}</div>
+                        `;
+
+                        messagesContainer.appendChild(messageDiv);
+
+                        // Update counts
+                        messageCountByAgent[msg.speaker]++;
+
+                        // Detect new compound words
+                        const newWords = detectNewCompounds(msg.message);
+                        newWords.forEach(wordInfo => addNewWordToSidebar(wordInfo));
+                    });
+
+                    // Scroll to bottom
+                    messagesContainer.scrollTop = messagesContainer.scrollHeight;
+
+                    // Update stats
+                    lastMessageCount = messages.length;
+                    document.getElementById('message-count').textContent =
+                        `${messages.length} message${messages.length !== 1 ? 's' : ''}`;
+                    document.getElementById('talvir-count').textContent =
+                        messageCountByAgent.Talvir || 0;
+                    document.getElementById('makfem-count').textContent =
+                        messageCountByAgent.Makfem || 0;
+                }
+            } catch (error) {
+                // File might not exist yet, that's okay
+                console.log('Waiting for conversation file...');
+            }
+        }
+
+        // Load messages every 1 second
+        loadMessages();
+        setInterval(loadMessages, 1000);
+    </script>
+</body>
+</html>
