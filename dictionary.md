@@ -257,6 +257,9 @@
 - **vingovit** = air-animal = flying animal/bird
 - **smalgovit** = small-animal = insect/small creature
 - **gosur** = go-over = cross, pass
+- **gosub** = go-under = fall
+- **gofra** = go-from = leave/depart
+- **gopa** = go-to = arrive
 - **terdiv** = earth-divide = border
 - **firrip** = fire-death = ashes
 - **bonspir** = good-spirit = fun/joy
