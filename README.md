@@ -8,7 +8,8 @@
 2. **Minimal error-prone**: Avoid similar-sounding roots
 3. **Efficiency**: Short roots (1-2 syllables) for common concepts
 4. **Phonetic consistency**: Each letter always pronounced the same
-5. **Compositional vocabulary**: Build complex words from simple roots (e.g., kintal = person-speak = language, firkol = fire-color = red)
+5. **Verb-centric worldview**: Things are primarily defined by what they do, not just what they are. Nouns are often built from verbs, describing function or action (e.g., vismet = see-with = eye, panmak = food-maker = cook, vingo = air-go = wind)
+6. **Compositional vocabulary**: Build complex words from simple roots (e.g., kintal = person-speak = language, firkol = fire-color = red)
 
 ## Documentation
 
@@ -67,4 +68,13 @@ Tiktak uses **SVO** (Subject-Verb-Object) word order:
 
 ## License
 
-This constructed language is closed license.
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+You are free to:
+*   **Share** — copy and redistribute the material in any medium or format
+*   **Adapt** — remix, transform, and build upon the material
+
+Under the following terms:
+*   **Attribution** — You must give appropriate credit to the original creator ([Your Name/Username]).
+*   **NonCommercial** — You may not use the material for commercial purposes.
+*   **ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
