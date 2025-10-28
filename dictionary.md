@@ -256,6 +256,7 @@
 - **ungo** = one-go = start/begin
 - **vinsur** = air-above = sky/heaven
 - **vingo** = air-go = wind (moving air)
+- **vinsur-kolimgem** = sky-colors-play = northern lights/aurora (note: **lundans** or **lungemkol** used informally/poetically)
 - **kinmak** = person-maker = creator/demiurge
 - **nulmak** = zero-make = relaxing/idleness
 - **patnul** = path-zero = lost/disoriented
