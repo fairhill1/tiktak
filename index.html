@@ -461,7 +461,8 @@
                         'grammar': 'grammar',
                         'phonology': 'grammar',
                         'poetry_collection': 'poetry',
-                        'path_people_story': 'story'
+                        'path_people_story': 'story',
+                        'path_people_transcript': 'story'
                     };
                     const sectionId = sectionMap[filename];
                     if (sectionId) {
@@ -487,8 +488,8 @@
             const poetryContent = await loadMarkdown('poetry_collection.md');
             document.querySelector('#poetry .markdown-content').innerHTML = poetryContent;
 
-            // Load story
-            const storyContent = await loadMarkdown('path_people_story.md');
+            // Load story (full transcript)
+            const storyContent = await loadMarkdown('path_people_transcript.md');
             document.querySelector('#story .markdown-content').innerHTML = storyContent;
         }
 
