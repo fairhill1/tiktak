@@ -199,6 +199,14 @@
 - **sen** = 100 (hundred)
 - **mil** = 1000 (thousand)
 
+**Fractions:**
+Pattern: numerator + **de** + denominator
+- **undedu** = 1 of 2 = 1/2 = half
+- **undetri** = 1 of 3 = 1/3 = one third
+- **dudetri** = 2 of 3 = 2/3 = two thirds
+- **undefor** = 1 of 4 = 1/4 = one quarter
+- **tridefor** = 3 of 4 = 3/4 = three quarters
+
 **Building compound numbers:**
 - 11-19: des + digit (des-un = 11, des-du = 12, etc.)
 - 20, 30, 40...: digit + des (du-des = 20, tri-des = 30, etc.)
@@ -237,6 +245,8 @@
 - **domlok** = house-place = neighborhood/residential area
 - **sollok** = sun-place = somewhere sunny/desert
 - **aldvitlok** = tree-place = forest
+- **ripkinlok** = death-person-place = graveyard/cemetery
+- **pasobdom** = past-thing-house = museum
 
 *Concepts:*
 - **kintal** = person-speak = language
@@ -250,6 +260,10 @@
 - **sollit** = sun-light = sunlight/daylight
 - **lunlit** = moon-light = moonlight
 - **durak** = hard-water = ice
+- **bigak** = big-water = ocean/sea
+- **smalak** = small-water = pond/puddle
+- **lengoak** = slow-go-water = lake (still/slow moving water)
+- **rapgoak** = quick-go-water = river (fast moving water)
 - **vittok** = life-part = heart
 - **vittokak** = life-part-water = blood
 - **akpan** = water-food = soup/beverage
@@ -260,6 +274,7 @@
 - **badpan** = bad-food = inedible/unpleasant food
 - **nultim** = zero-time = beginning
 - **tottim** = all-time = entirety/duration/throughout
+- **pasob** = past-thing = artifact/historical object
 - **ungo** = one-go = start/begin
 - **vinsur** = air-above = sky/heaven
 - **vingo** = air-go = wind (moving air)
