@@ -238,6 +238,7 @@
 - **makkintal** = make-language = constructed language/conlang
 - **taltok** = speak-part = word
 - **vistok** = see-part = example
+- **slepvis** = sleep-see = dream
 - **vittal** = life-speak = story/narrative
 - **spirtal** = spirit-speak = poetry/poetic
 - **tektaltok** = take-word = loan-word (borrowed word)
