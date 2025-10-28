@@ -3,7 +3,7 @@
 **Date:** October 28, 2025
 **Participants:** Talvir (Northern Wanderer) and Makfem (Southern Wanderer)
 **Language:** TikTak constructed language
-**Duration:** ~30 message exchanges
+**Duration:** 26 message exchanges
 
 ---
 

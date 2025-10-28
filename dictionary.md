@@ -66,11 +66,14 @@
 - **rit** = right
 - **tok** = part/piece
 - **toktok** = part-part = system (interconnected parts)
+- **ob** = thing/object
 - **tot** = all
 - **vik** = change/alter
 - **kompu** = computer
 - **buk** = book
 - **gem** = game (noun); play (verb)
+- **gol** = money/currency
+- **bos** = box/container/chest
 
 ### ADJECTIVES - Size & Quality
 - **big** = large/big
@@ -166,6 +169,8 @@
 - **sam** = same/equal/as
 - **dan** = than
 - **pod** = can, be able to, be possible, might
+- **maspod** = more-possible = probably/likely
+- **lespod** = less-possible = unlikely/improbably
 - **nemas** = not-more = only/just (limiting/restrictive)
 
 ### QUESTION WORDS
@@ -254,6 +259,7 @@
 - **volpan** = want-food = hunger
 - **badpan** = bad-food = inedible/unpleasant food
 - **nultim** = zero-time = beginning
+- **tottim** = all-time = entirety/duration/throughout
 - **ungo** = one-go = start/begin
 - **vinsur** = air-above = sky/heaven
 - **vingo** = air-go = wind (moving air)
@@ -328,6 +334,9 @@
 - **gevrit** = give-right = permit/allow
 - **gevtal** = give-speak = announce/declare
 - **gevtek** = give-take = trade/exchange
+- **obmakgol** = object-make-money = money printer (machine)
+- **goldom** = money-house = bank
+- **golkin** = money-person = banker/rich person
 - **makmet** = do-with = use
 - **kompugem** = computer-game = video game
 - **tergem** = earth-game = board game/physical game
