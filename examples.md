@@ -220,7 +220,7 @@
 ## Extended Stories
 
 ### Example 1: The Lost Child
-smalkin pas go fra pat. ka pas vol vis birim de bigvitlok. sol go, en lun go sur vinsur. smalkin vis. ka es patnul. ka ne vis kor kan dom es. ka tal, "mi es patnul! kim mi pas go fra pat? mi vol go min dom!" den, ka her dog. kan dog! dog go pa ka. dog vis pat. smalkin go met kan dog, fra bigvitlok pa dom. ka fut es ne patnul rep.
+smalkin pas go fra pat. ka pas vol vis birim de aldvitlok. sol go, en lun go sur vinsur. smalkin vis. ka es patnul. ka ne vis kor kan dom es. ka tal, "mi es patnul! kim mi pas go fra pat? mi vol go min dom!" den, ka her dog. kan dog! dog go pa ka. dog vis pat. smalkin go met kan dog, fra aldvitlok pa dom. ka fut es ne patnul rep.
 
 *(A child went from the path. He/she wanted to see birds of the forest. The sun went, and the moon went over the sky. The child saw. He/she is lost. He/she doesn't see where his/her house is. He/she said, "I am lost! Why did I go from the path? I want to go to my home!" Then, he/she heard a dog. His/her dog! The dog went to him/her. The dog saw the path. The child went with his/her dog, from the forest to the house. He/she will not be lost again.)*
 

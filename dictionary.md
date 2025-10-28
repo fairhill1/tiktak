@@ -149,7 +149,7 @@
 - **te** = that
 - **alo** = hello/hi
 - **bai** = bye/goodbye
-- **tak** = thank you/thanks
+- **tak** = thank you/thanks; please (when at end of request)
 - **en** = and
 - **ve** = or
 - **fu** = if
@@ -231,7 +231,7 @@
 - **kinlok** = person-place = town/city/settlement
 - **domlok** = house-place = neighborhood/residential area
 - **sollok** = sun-place = somewhere sunny/desert
-- **bigvitlok** = tree-place = forest
+- **aldvitlok** = tree-place = forest
 
 *Concepts:*
 - **kintal** = person-speak = language
@@ -261,7 +261,7 @@
 - **nulmak** = zero-make = relaxing/idleness
 - **patnul** = path-zero = lost/disoriented
 - **tervit** = earth-life = plant
-- **bigvit** = big-life = tree
+- **aldvit** = tall-life = tree
 - **pattervit** = path-plant = vine
 - **pattervitpan** = vine-fruit = grape
 - **govit** = go-life = animal

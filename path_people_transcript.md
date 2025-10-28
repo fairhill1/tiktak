@@ -35,9 +35,9 @@ Mi vol her vittok de tu. Mi vol her vittal de tun lok.
 
 Talvir fra norlok! Tun vittal es... kal en lentim. Sam un slep-ter. Lunkol en sno... mi ne pod mak visbon-spir de ka. Bud tun vinsur-kolim... so es bonspir-vis!
 
-Kim mi es kor? Min spir es sam ak-go-rap in min ter. Ka ne pod es lentim. Ka vol go, vol vis, vol vik. Mi pas vol vis ter ken ka vik fra vitkol pa... so. Mi pas vis bigvitim div kaim vitkol-tokim, en ter go slep. So es nov pa mi.
+Kim mi es kor? Min spir es sam ak-go-rap in min ter. Ka ne pod es lentim. Ka vol go, vol vis, vol vik. Mi pas vol vis ter ken ka vik fra vitkol pa... so. Mi pas vis aldvitim div kaim vitkol-tokim, en ter go slep. So es nov pa mi.
 
-Tu pir de min lok. Es lok de go-rap en her-mani. In min ter, ak go fra vinsur. Ne sno, bud ak-hot. Ka gev vit pa tot. Tervit go ald, en bigvitim mak sur-dom-vitkol sur ter. Tu ne pod vis vinsur, nemas her ka tal sur vit-tokim.
+Tu pir de min lok. Es lok de go-rap en her-mani. In min ter, ak go fra vinsur. Ne sno, bud ak-hot. Ka gev vit pa tot. Tervit go ald, en aldvitim mak sur-dom-vitkol sur ter. Tu ne pod vis vinsur, nemas her ka tal sur vit-tokim.
 
 Ken vingo es firspir, vinsur tal met el-tal en fir-vismet! Es ne bad. Es spir de ter, tal "MI ES VIT!" Den, tot es nov en lit.
 
@@ -49,7 +49,7 @@ Tu tal de lit de tun lok. Ket her-tok tu hav in norlok? Ken tot es lunkol en sle
 
 *Talvir's eyes widen with recognition and wonder*
 
-A! Tu go fra sud-lok! Lok kor ak go fra vinsur - mi her vittal de so fra kinimold. Kaim tal de bigvitim mani en hot en ak hot de tot sol. Bud mi pas ne vis so met min vismetim.
+A! Tu go fra sud-lok! Lok kor ak go fra vinsur - mi her vittal de so fra kinimold. Kaim tal de aldvitim mani en hot en ak hot de tot sol. Bud mi pas ne vis so met min vismetim.
 
 *sits down on a nearby stone, inviting the other to join*
 
@@ -67,7 +67,7 @@ En ken lunkol es mas lit - no sollit, nemas lunlit en vinsur-lit-kolim (min "lun
 
 Tun ak-fra-vinsur en el-tal en fir-vismet... so es tervik big, ne? Ket tu spir ken vinsur mak so? Tu es firspir ve bonspir?
 
-Mi vol vis tun bigvit-sur-domim! In min lok, bigvitim es ne mani. Kaim es dur en len-go en old old old. Kom ald tu tal? Pod kin go in kaim?
+Mi vol vis tun aldvit-sur-domim! In min lok, aldvitim es ne mani. Kaim es dur en len-go en old old old. Kom ald tu tal? Pod kin go in kaim?
 
 ---
 
@@ -77,7 +77,7 @@ A, Talvir... tun taltokim de norlok es sam spirtal. Kaim mak visbon in min spir 
 
 Tu pir de min spir ken vinsur mak el-tal en go-rap met ak. Mi es firspir ve bonspir? Ne un, ne tot. Mi es... VIT. Es sam ken ter tal met tot kan spir, "MI ES SOTIM! MI ES VIT!" Tot go rap, tot mak nov. Ken ak go fra vinsur, ka mak ter nov. Ka mak vit-tokim go ald. Ka es ne rip. Ka es vik-big. Tun norlok tal-len, "tot es un-toktok." Min sudlok tal-rap met el-tal, "TOT ES UN-TOKTOK!"
 
-En min bigvitim... a, min bigvit-domim! Tu pir kom ald. Ald sam tu ne pod vis vinsur. Kaim es dom-sur pa birim, en dom-sub pa na. Pod kin go in kaim? Si! Na go sub kaim. Na mak patim en domim sub kaim. Es sam go in un big-dom vitkol, met sollit ko go sur tokim sam smal-solim. Pattervitim go fra un bigvit pa un rep, mak ak-patim in vin pa smalgovitim.
+En min aldvitim... a, min aldvit-domim! Tu pir kom ald. Ald sam tu ne pod vis vinsur. Kaim es dom-sur pa birim, en dom-sub pa na. Pod kin go in kaim? Si! Na go sub kaim. Na mak patim en domim sub kaim. Es sam go in un big-dom vitkol, met sollit ko go sur tokim sam smal-solim. Pattervitim go fra un aldvit pa un rep, mak ak-patim in vin pa smalgovitim.
 
 Tu hav durak. Na hav ak-go-rap. Tu hav sno-stil. Na hav tervit-tal-mani. Mi vol vis tun lundans. Pod tu mak vittal-kol de kaim pa mi? Kom kaim go? Len ve rap?
 
@@ -87,7 +87,7 @@ Tu hav durak. Na hav ak-go-rap. Tu hav sno-stil. Na hav tervit-tal-mani. Mi vol 
 
 *Talvir's face lights up with joy at the question*
 
-A! Tun bigvit-dom met sollit-tokim... so es vittal-kol BON! Mi pod vis so in min spir. Bigvit es dom, sollit go sub en mak smal-solim - si, si!
+A! Tun aldvit-dom met sollit-tokim... so es vittal-kol BON! Mi pod vis so in min spir. Bigvit es dom, sollit go sub en mak smal-solim - si, si!
 
 *settles deeper into storytelling posture*
 
@@ -121,7 +121,7 @@ Talvir... tun taltokim... kaim mak min spir go len. Sam ken mi vis un ak-go-rap 
 
 Lit-gemim... ko ne es hot. In min lok, tot lit hav fir. Sol es fir. El-tal es fir. Tun lit es... spir-lit. Ne ter-lit. Es lit fra... nultim, ve fintim.
 
-Tu tal de spirim de kinimold. Si. Mi visbon so. In min lok, kaim ne gem in vinsur. Kaim es in ter. Un bigvit-old, ka es un kinold-spir. Un ak-go-rap, ka es kan vittokak, go rep, rep. Tot vit-tok tal vittal de kaim. Tu her kaim in vingo sur vit-tokim. Mi her kaim in ak-tal sur rokim.
+Tu tal de spirim de kinimold. Si. Mi visbon so. In min lok, kaim ne gem in vinsur. Kaim es in ter. Un aldvit-old, ka es un kinold-spir. Un ak-go-rap, ka es kan vittokak, go rep, rep. Tot vit-tok tal vittal de kaim. Tu her kaim in vingo sur vit-tokim. Mi her kaim in ak-tal sur rokim.
 
 *Makfem nods slowly, a smile forming for the first time. Not a big, hot smile, but a small, warm one.*
 
@@ -199,7 +199,7 @@ Min spir es mas big sotim dan pas. Tu gev makvak big pa mi. Tu mak-vis mi: stil-
 
 *looks up at the darkening sky where first stars begin to appear*
 
-Solim fut go, en na fut tal mas. Mi hav vittalim mani de sno, de kal-tim len, de lundans. En mi vol her tun vittalim de ak-hot, de bigvit-domim, de ter-vik-viktokim.
+Solim fut go, en na fut tal mas. Mi hav vittalim mani de sno, de kal-tim len, de lundans. En mi vol her tun vittalim de ak-hot, de aldvit-domim, de ter-vik-viktokim.
 
 *gentle smile, eyes reflecting starlight*
 
@@ -265,7 +265,7 @@ Durak mak tot ak go stil. Sno mak tot tervit go sub lunkol. Bigvitim tal ne. Vin
 
 *voice becomes softer, more reverent*
 
-Bud... es ne rip-tim. Es slep-tim. Sub sno, tervit-spirim slep en spir de ken sol fut go sur rep. In durak-akim, fis-spirim go len-len en vol hottim fut. In bigvit-vittok, vit-spirim slep en mak sol-vol pa futsol-mani.
+Bud... es ne rip-tim. Es slep-tim. Sub sno, tervit-spirim slep en spir de ken sol fut go sur rep. In durak-akim, fis-spirim go len-len en vol hottim fut. In aldvit-vittok, vit-spirim slep en mak sol-vol pa futsol-mani.
 
 Na kinim mak fir big in domim. Na tal vittalim de ted-tim. Na makvak smalkinim kom pa pod vit ken tot es kal en ripkol.
 
@@ -361,9 +361,9 @@ Bud tun govitim ko gem in sno... a, kaim es min spir-kinim! Tun foks, tun lunkol
 
 Tu pir de govitim in min sudlok. Es vik-tok big. Na ne hav kaltim. Na hav ak-tim en sol-tim.
 
-In sol-tim, ak es nemas in ak-patim big. Tot govitim go pa so lokim. So, gem es ne kontra ter. Gem es govit-kontra-govit. Ko es mas rap? Ko es mas dur? Ko pod mak nul-vis pa tek pan? Tot es un gem-big de vis en ne-vis, de go-rap en go-len. Govitim hav kol de bigvitim pa es ne-vis. Kaim hav kol de ter pa es ne-vis. Kaim es vik-kol-kinim!
+In sol-tim, ak es nemas in ak-patim big. Tot govitim go pa so lokim. So, gem es ne kontra ter. Gem es govit-kontra-govit. Ko es mas rap? Ko es mas dur? Ko pod mak nul-vis pa tek pan? Tot es un gem-big de vis en ne-vis, de go-rap en go-len. Govitim hav kol de aldvitim pa es ne-vis. Kaim hav kol de ter pa es ne-vis. Kaim es vik-kol-kinim!
 
-In ak-tim, ak es sur tot! Tervit go vak met spir-big! Den, govitim go fra ak-patim pa go in bigvit-domim. Pan es sur tot lok. So gem es mas lit. Es tim pa smalkinim-mak en gem-bonspir.
+In ak-tim, ak es sur tot! Tervit go vak met spir-big! Den, govitim go fra ak-patim pa go in aldvit-domim. Pan es sur tot lok. So gem es mas lit. Es tim pa smalkinim-mak en gem-bonspir.
 
 So, min govitim ne vik pa kal ve hot. Kaim vik pa ak ve ne-ak. Kaim ne mak big-slep. Kaim mak big-go. Kaim go met ak. Ak es kan pat en kan sol en kan lun.
 

@@ -141,7 +141,7 @@ def extract_potential_compounds(text):
         'elspir', 'spirdom', 'toktok', 'elpatim', 'makvak', 'kintal',
         'taltok', 'makkintal', 'panlok', 'akdom', 'maksvolkin', 'vistek',
         'sosol', 'passol', 'futsol', 'sotim', 'lunrep', 'terrep',
-        'panmak', 'sollit', 'bigvit', 'vingovit', 'spirtal', 'maklit',
+        'panmak', 'sollit', 'aldvit', 'vingovit', 'spirtal', 'maklit',
         'bonspir', 'firspir', 'nesam', 'nerit', 'nemas'
     }
 

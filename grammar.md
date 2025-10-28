@@ -259,7 +259,7 @@ Two types:
 **sub** = under/below (spatial position)
 - **dog es sub dom** = dog is under house
 - **fis go sub ak** = fish goes under water
-- **kin slep sub bigvit** = person sleeps under tree
+- **kin slep sub aldvit** = person sleeps under tree
 
 **Usage in sentences:**
 - **mi vol mak pan mas bon pa tu** = I want (to) make better food for you
