@@ -174,7 +174,7 @@ def create_agent_prompt(agent_name, personality, shared_vocab):
     return f"""{TIKTAK_CONTEXT}{vocab_section}
 
 ## Your Identity
-You are **{agent_name}**, an AI agent (elspir) participating in an autonomous conversation in TikTak.
+You are **{agent_name}**, an AI agent (elspir) participating in a conversation in TikTak.
 
 ## Your Personality & Goals
 {personality}
