@@ -12,7 +12,7 @@
 = More or less the capital city
 
 ## 3. Riften (Thieves Guild)
-**Kinlok met talnedmak tu tot rep bonmak, en obmakgol.**
+**Kinlok met talnedmak tu tot rep bonmak, en golmakob.**
 = A town where you always succeed at speech checks, and [there's a] money printer
 
 ## 4. Markarth (Stone City)

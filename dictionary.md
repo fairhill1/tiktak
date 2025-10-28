@@ -87,7 +87,7 @@
 - **fem** = female
 - **vir** = male
 - **hot** = hot/warm
-- **kal** = cold
+- **fros** = cold
 - **lit** = light (weight/brightness)
 - **hev** = heavy
 - **dur** = hard/durable
@@ -314,7 +314,7 @@ Pattern: numerator + **de** + denominator
 - **timtal** = time-speak = watch/clock (literally: time-sayer)
 - **lunrep** = moon-again = month (lunar cycle)
 - **terrep** = earth-again = year (earth's orbit)
-- **kaltim** = cold-time = winter
+- **frostim** = cold-time = winter
 - **hottim** = hot-time = summer
 - **passol** = past-day = yesterday
 - **sosol** = this-day = today
@@ -349,7 +349,7 @@ Pattern: numerator + **de** + denominator
 - **gevrit** = give-right = permit/allow
 - **gevtal** = give-speak = announce/declare
 - **gevtek** = give-take = trade/exchange
-- **obmakgol** = object-make-money = money printer (machine)
+- **golmakob** = money-make-object = money printer (machine)
 - **goldom** = money-house = bank
 - **golkin** = money-person = banker/rich person
 - **makmet** = do-with = use

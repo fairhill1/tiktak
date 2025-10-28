@@ -90,7 +90,7 @@
 - mi pas go dom passol = I went home yesterday
 - sosol mi go panlok = today I go (to) restaurant
 - tu fut tal pa mi futsol = you will speak to me tomorrow
-- passol es kal = yesterday was cold
+- passol es fros = yesterday was cold
 - sosol es hot = today is hot
 - kaim go panlok passol = they went to restaurant yesterday
 - na fut vis tu futsol = we will see you tomorrow
@@ -302,7 +302,7 @@ Lorkhan, nerit-tal-bigspir, met nerittal pas mak nultim-spirim (Aedra) mak ripvi
 ### Example 8: The Prophecy of the Dragonborn (Skyrim)
 
 Ken sno-survisdom es maks tokdiv, en surkinim gosub in vittok-ak,
-Ken Ter-Et govak, en kal-terrep-tok pago nulfin,
+Ken Ter-Et govak, en fros-terrep-tok pago nulfin,
 Fin kin met fir-vingovit spir fut go, pa mak ripkol go fra ter.
 
 *(When the snow-tower lies sundered, and kings fall in blood,
@@ -325,7 +325,7 @@ However, what is right spirit if not a choice? To be right-spirited from necessi
 
 ### Example 10: Haiku - Nature and Rest
 
-ak kal go sur rok<br>
+ak fros go sur rok<br>
 sol hot mak vingo hot rep<br>
 mi go dom pa slep
 
@@ -337,7 +337,7 @@ I go home to sleep)*
 
 Eslaf Erol pas es fin de fif smalkin samtimmak de fem-sur-kin de surkin-ter Nordic havmani de Erolgard, Lahpyrcopa, en kan maksvol, surkin de Erolgard, Ytluaf. Ken ka pas hav smalkinim in, femsurkin pas es mas durep lad dan ald. Mak smalkinim pas ned 3 lunrep en sik sol. Pod es visbon kim ken femsurkin gev ud Eslaf, ka mak badtalmet, tal 'bon gofra', en rip.
 
-Sam mani Nords, Ytluaf ne vol big kan maksvolkin en les kan smalkinim. Fra so, kan kinim pas es patnul, ken ka tal ka fut gomet passtil de-big-pas de kan kin de Atmora pa gomet kan maksvolkin in rip. Kinim pas ne vis kaim maksvol met kaim, en ne pas vis so passtil es. Bud, kanim pas havtak, so vittal surkinim makles kaim lentim. Lentim pas es repmani durtok in maks nulvis tokim de Skyrim, mas en kaltim.
+Sam mani Nords, Ytluaf ne vol big kan maksvolkin en les kan smalkinim. Fra so, kan kinim pas es patnul, ken ka tal ka fut gomet passtil de-big-pas de kan kin de Atmora pa gomet kan maksvolkin in rip. Kinim pas ne vis kaim maksvol met kaim, en ne pas vis so passtil es. Bud, kanim pas havtak, so vittal surkinim makles kaim lentim. Lentim pas es repmani durtok in maks nulvis tokim de Skyrim, mas en frostim.
 
 Ka makun kan domkinim en kan fif smalsurkinim, badlad en ak-vismet, en div kan tokim. Pa kan virsmalkin Ynohp, ka gev kan surnam, pa kan virsmalkin Laernu, ka gev kan ter, pa kan virsmalkin Suoibud, ka gev kan manitok; pa ka femsmalkin Laicifitra, ka gev kan hittok-kinim. Ytluaf su makvakkin tal ka ne fut div ka, pa bon surkin-ter, bud Ytluaf ne vol big kan makvakkin, ne sukrin-ter. Ken ka pas tal fin, ka gosur kan spirmet met smaldivmet.
 

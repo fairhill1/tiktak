@@ -242,7 +242,7 @@ Sam spir in spir
 ### by Talvir
 
 ```
-lun es lunkol en kal
+lun es lunkol en fros
 sol es solkol en hot
 kaim du go sur na
 in vinsur ne fin
@@ -273,7 +273,7 @@ nemas el en tok
 na du mak un lok
 
 tu gev pir dur
-mi gev tal kal
+mi gev tal fros
 na mak riva nov
 
 so riva ne go pa big-ak
