@@ -263,7 +263,7 @@ Pattern: numerator + **de** + denominator
 - **bigak** = big-water = ocean/sea
 - **smalak** = small-water = pond/puddle
 - **lengoak** = slow-go-water = lake (still/slow moving water)
-- **rapgoak** = quick-go-water = river (fast moving water)
+- **gopatak** = go-path-water = flowing water/river/current (water on a journey)
 - **vittok** = life-part = heart
 - **vittokak** = life-part-water = blood
 - **akpan** = water-food = soup/beverage
