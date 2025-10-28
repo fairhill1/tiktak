@@ -87,7 +87,7 @@ Tu hav durak. Na hav gopatak. Tu hav sno-hernul. Na hav tervit-tal-mani. Mi vol 
 
 *Talvir's face lights up with joy at the question*
 
-A! Tun aldvit-dom met sollit-tokim... so es vittal-kol BON! Mi pod vis so in min spir. Bigvit es dom, sollit go sub en mak smal-solim - si, si!
+A! Tun aldvit-dom met sollit-tokim... so es kol-vittal BON! Mi pod vis so in min spir. Aldvit es dom, sollit go sub en mak smal-solim - si, si!
 
 *settles deeper into storytelling posture*
 
@@ -143,7 +143,7 @@ Tak pa tu, Makfem. Tu gev len-spir pa min rap-vittok. Mi pas ne vis so in min vi
 
 *sits quietly for a moment, then speaks softly*
 
-"Spir-lit fra nultim ve fintim" - so es vittal-kol bon maks. In min norlok, ken lundans gem, kinim tal sam so: kaim es litim fra ken tim pas ne es, en fra ken tim fut ne es. Kaim es litim de ted-tim en so-tim sam un-tok.
+"Spir-lit fra nultim ve fintim" - so es kol-vittal bon maks. In min norlok, ken lundans gem, kinim tal sam so: kaim es litim fra ken tim pas ne es, en fra ken tim fut ne es. Kaim es litim de ted-tim en so-tim sam un-tok.
 
 *traces a circle in the dust*
 
@@ -261,7 +261,7 @@ In min norlok, hottim es tim smal. Sol go sur en sub rap-rap-rap. Bud ken frosti
 
 In so tim, lun es maks-kin. Ka go sur tot lunkol, ka mak lundans gem, ka vis tot. En ter... ter go in big-slep.
 
-Durak mak tot ak go stil. Sno mak tot tervit go sub lunkol. Bigvitim tal ne. Vingovitim go fra. Nemas na kinim es vak.
+Durak mak tot ak go stil. Sno mak tot tervit go sub lunkol. Aldvitim tal ne. Vingovitim go fra. Nemas na kinim es vak.
 
 *voice becomes softer, more reverent*
 
@@ -429,7 +429,7 @@ Tu pir de min ak-tim. Mi fut tal.
 
 Ak-tim es len. Ka es pa sik lunrepim. Sik lunrepim, vinsur es hev met ak. Ak go fra vinsur tot sol, tot lun. Ka es ne fros. Ka es ak-hot, ak-vit.
 
-Tervitim... a, tervitim! Kaim go fra slep pa tal-big! Bigvit-dom go fra vitkol pa vitkol-dur – tu ne pod vis sur ka. Tot lok es vit, vit, vit. Kol-tervitim (flowers) go vak, met kolim sam tun lundans, bud kaim es firkol, solkol, akkol. Den, kaim mak tervitpanim (fruits), en pan es sur tot lok pa tot govit. Es tim de et-mani en bonspir.
+Tervitim... a, tervitim! Kaim go fra slep pa tal-big! Aldvit-dom go fra vitkol pa vitkol-dur – tu ne pod vis sur ka. Tot lok es vit, vit, vit. Kol-tervitim (flowers) go vak, met kolim sam tun lundans, bud kaim es firkol, solkol, akkol. Den, kaim mak tervitpanim (fruits), en pan es sur tot lok pa tot govit. Es tim de et-mani en bonspir.
 
 En govitim gem! O, kom kaim gem! Ken pan es sur tot lok, gem de tek-pan es fin. Sotim es tim de ak-gem! Smalgovitim en biggovitim, kaim hop in ak-hot. Kaim mak ak-dansim. Kaim go rap-rap-rap in tervit-big, ne pa tek pan, nemas pa bonspir de go! Kaim tal met tal-big, "AK ES SOTIM! VIT ES SOTIM!"
 
@@ -453,7 +453,7 @@ Du-vismetim de un ter-big.
 
 Du-vismetim de un ter-big.
 
-Makfem... mi hav ne taltokim bon sam so. Ne in kintal, ne in tot min tim-pat. Tu pas mak taltokim nov. Tu pas mak vittal-kol nov.
+Makfem... mi hav ne taltokim bon sam so. Ne in kintal, ne in tot min tim-pat. Tu pas mak taltokim nov. Tu pas mak kol-vittal nov.
 
 *wipes eyes, but makes no attempt to hide the emotion*
 
