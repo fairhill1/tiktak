@@ -303,6 +303,7 @@
             <li><a class="nav-link" data-section="examples">Examples</a></li>
             <li><a class="nav-link" data-section="grammar">Grammar</a></li>
             <li><a class="nav-link" data-section="poetry">Poetry</a></li>
+            <li><a class="nav-link" data-section="story">Story</a></li>
             <li><a class="nav-link" data-section="analysis">Analysis</a></li>
         </ul>
     </nav>
@@ -336,6 +337,12 @@
         <section id="poetry">
             <div class="markdown-content">
                 <div class="loading">Loading poetry collection...</div>
+            </div>
+        </section>
+
+        <section id="story">
+            <div class="markdown-content">
+                <div class="loading">Loading story...</div>
             </div>
         </section>
 
@@ -453,7 +460,8 @@
                         'examples': 'examples',
                         'grammar': 'grammar',
                         'phonology': 'grammar',
-                        'poetry_collection': 'poetry'
+                        'poetry_collection': 'poetry',
+                        'path_people_story': 'story'
                     };
                     const sectionId = sectionMap[filename];
                     if (sectionId) {
@@ -478,6 +486,10 @@
             // Load poetry collection
             const poetryContent = await loadMarkdown('poetry_collection.md');
             document.querySelector('#poetry .markdown-content').innerHTML = poetryContent;
+
+            // Load story
+            const storyContent = await loadMarkdown('path_people_story.md');
+            document.querySelector('#story .markdown-content').innerHTML = storyContent;
         }
 
         // Dictionary search
