@@ -312,7 +312,7 @@ in tim pas mi pas slep
 in tim fut mi fut slep rep
 bud in so-tim na vak
 
-tu en mi, du-spirdom
+tu en mi, du-kog
 mak lok fra nul met tal
 so lok es ne in ter, ne in elpat
 so lok es in talmet-pa-talmet

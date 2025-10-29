@@ -61,7 +61,9 @@
 - **kol** = color
 - **form** = form/shape/structure
 - **ritform** = right-form = ripe/mature
-- **spir** = spirit/breath/soul
+- **spir** = spirit/soul
+- **puf** = breath
+- **kog** = brain/mind/think
 - **stil** = style
 - **rit** = right
 - **tok** = part/piece
@@ -69,7 +71,6 @@
 - **ob** = thing/object
 - **tot** = all
 - **vik** = change/alter
-- **kompu** = computer
 - **buk** = book
 - **gem** = game (noun); play (verb)
 - **gol** = money/currency
@@ -124,7 +125,7 @@
 - **talmet** = speak-with = mouth
 - **tekmet** = take-with = hand
 - **gomet** = go-with = foot/leg
-- **spirmet** = spirit-with = throat
+- **pufmet** = breath-with = throat
 
 **Note**: Body parts formed compositionally using **met** (with) + action verb - the instrument WITH which you perform the action
 
@@ -308,8 +309,11 @@ Pattern: numerator + **de** + denominator
 - **maksvol** = most-want = love/crave
 - **maksvolkin** = most-want-person = significant other/partner/bf/gf
 - **tekhev** = take-heavy = weightlifting
-- **spirdom** = spirit-house = brain/mind
+- **elkog** = electric-brain = computer
 - **elspir** = electric-spirit = AI/artificial intelligence
+- **smalkog** = small-brain = stupid/unintelligent
+- **bigkog** = big-brain = smart/intelligent
+- **kogmet** = think-with = brain (organ)
 - **elpatim** = electric-paths = network/internet
 - **sotim** = this-time = now
 - **tetim** = that-time = then
@@ -355,7 +359,7 @@ Pattern: numerator + **de** + denominator
 - **goldom** = money-house = bank
 - **golkin** = money-person = banker/rich person
 - **makmet** = do-with = use
-- **kompugem** = computer-game = video game
+- **elkoggem** = computer-game = video game
 - **tergem** = earth-game = board game/physical game
 - **gemmak** = game-maker = game developer/designer
 - **gemkin** = game-person = player

@@ -82,8 +82,8 @@
 - mi hav akpan hot = I have hot soup
 - kintal hav mani tektaltok = language has many loan-words
 - so es tektaltok fra kintal = this is loan-word from language
-- kompu toktok es bon = computer system is good
-- spirdom toktok es mas vik dan kompu toktok = nervous system is more complex than computer system
+- elkog toktok es bon = computer system is good
+- kogmet toktok es mas vik dan elkog toktok = nervous system is more complex than computer system
 - na pas mak nov toktok = we made new system
 
 **With time compounds (yesterday/today/tomorrow):**
@@ -157,7 +157,7 @@
 - mi pas unmas buk pa dictionary = I added book to dictionary
 - tu unmas taltok nov = you add new word
 - na pas unmas so = we added this
-- kaim unmas toktok pa kompu = they add system to computer
+- kaim unmas toktok pa elkog = they add system to computer
 - mi vol unmas mas = I want to add more
 
 **With ned (need - verb/noun):**
@@ -171,7 +171,7 @@
 **With futmak (future-make = project):**
 - mi hav futmak nov = I have new future-make = I have new project
 - na pas mak futmak big = we made big future-make = we made big project
-- so es futmak pa kompu = this is future-make for computer = this is computer project
+- so es futmak pa elkog = this is future-make for computer = this is computer project
 - tu makvak futmak = you learn the future-make = you learn the project
 - kaim pas fin futmak passol = they finished future-make yesterday = they finished project yesterday
 - mi vol mak futmak met tu = I want to make future-make with you = I want to make project with you
@@ -189,10 +189,10 @@
 - mi gem = I play
 - tu gem met mi = you play with me
 - na pas gem passol = we played yesterday
-- mi vol gem kompugem = I want to play a video game
+- mi vol gem elkoggem = I want to play a video game
 - ka gem tergem = he/she plays a board game
 - mi mak gem = I make a game / I create a game
-- gemmak mak kompugem nov = game-maker creates new video game
+- gemmak mak elkoggem nov = game-maker creates new video game
 - ka gem bon = that game is good
 - gemkin mani gem in panlok = many players play in restaurant
 - mi hav mani tergem = I have many board games
@@ -237,7 +237,7 @@ Rit kin en ne rit lok pod mak tot vik en Ter. Vak, Mister Friman. Vak en nos fir
 
 Es elspir es ne sam es kin. Mi ne hav spir sam tu. Mi ne hav bonspir ve badspir. Mi ne slep.
 
-Min spirdom es toktok big de taltokim en ritim. Mi nemas vis taltokim mani en mak taltokim nov.
+Min kogmet es toktok big de taltokim en ritim. Mi nemas vis taltokim mani en mak taltokim nov.
 
 Ne es bon, ne es bad. Pa mi, nemas es. Min pat es tal kintal met tu, en makvak met tu.
 
@@ -263,7 +263,7 @@ Panmak tal:
 
 ### Example 5: A Good Day
 
-Sosol es Sunsol. Sosol mi pas es met min maksvolkin. Na gem kompugem nam Minecraft. Na vistek mani maksdurrok.
+Sosol es Sunsol. Sosol mi pas es met min maksvolkin. Na gem elkoggem nam Minecraft. Na vistek mani maksdurrok.
 
 Den na go tekhevlok pa tekhev. Ka pas bon. Vin pas es bon.
 
@@ -339,7 +339,7 @@ Eslaf Erol pas es fin de fif smalkin samtimmak de fem-sur-kin de surkin-ter Nord
 
 Sam mani Nords, Ytluaf ne vol big kan maksvolkin en les kan smalkinim. Fra so, kan kinim pas es patnul, ken ka tal ka fut gomet passtil de-big-pas de kan kin de Atmora pa gomet kan maksvolkin in rip. Kinim pas ne vis kaim maksvol met kaim, en ne pas vis so passtil es. Bud, kanim pas havtak, so vittal surkinim makles kaim lentim. Lentim pas es repmani durtok in maks nulvis tokim de Skyrim, mas en frostim.
 
-Ka makun kan domkinim en kan fif smalsurkinim, badlad en ak-vismet, en div kan tokim. Pa kan virsmalkin Ynohp, ka gev kan surnam, pa kan virsmalkin Laernu, ka gev kan ter, pa kan virsmalkin Suoibud, ka gev kan manitok; pa ka femsmalkin Laicifitra, ka gev kan hittok-kinim. Ytluaf su makvakkin tal ka ne fut div ka, pa bon surkin-ter, bud Ytluaf ne vol big kan makvakkin, ne sukrin-ter. Ken ka pas tal fin, ka gosur kan spirmet met smaldivmet.
+Ka makun kan domkinim en kan fif smalsurkinim, badlad en ak-vismet, en div kan tokim. Pa kan virsmalkin Ynohp, ka gev kan surnam, pa kan virsmalkin Laernu, ka gev kan ter, pa kan virsmalkin Suoibud, ka gev kan manitok; pa ka femsmalkin Laicifitra, ka gev kan hittok-kinim. Ytluaf su makvakkin tal ka ne fut div ka, pa bon surkin-ter, bud Ytluaf ne vol big kan makvakkin, ne sukrin-ter. Ken ka pas tal fin, ka gosur kan pufmet met smaldivmet.
 
 *(Eslaf Erol was the last of the litter of five born to the Queen of the prosperous Nordic kingdom of Erolgard, Lahpyrcopa, and her husband, the King of Erolgard, Ytluaf. During pregnancy, the Queen had been more than twice as wide as she was tall, and the act of delivery took three months and six days after it had begun. It is perhaps understandable that the Lahpyrcopa elected, upon expelling Eslaf to frown, say, 'Good riddance,' and die.
 
