@@ -39,6 +39,19 @@
 
 ---
 
+## Dark Brotherhood Quote
+
+**Mi vis tu pas makrip ka. Ne hop, Mi fut ne tal ka pa kinim. Nesam, mi vol gev tak pa tu. Kinim ne fut vol ka.**
+
+= "I know you killed her. Don't worry, I won't tell anyone. However, I want to thank you. She will not be missed."
+
+**Notes:**
+- **Ne hop** = Don't jump (idiomatic: don't worry/don't be anxious)
+- **tal ka pa kinim** = speak it to people = tell people [about it]
+- **Kinim ne fut vol ka** = People will not want her = She will not be missed
+
+---
+
 ## New Vocabulary from This Exercise
 
 - **talnedmak** = speak-need-make = speech check/persuasion
