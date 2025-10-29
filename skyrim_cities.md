@@ -34,7 +34,7 @@
 **Lok met netal bos. (mak fir pa buktok in pasobdom pa mak akbos BTW)**
 = A place with a secret chest. (Burn a page in the museum to make a bucket BTW)
 
-**Kom pas undedu tok de so lok go in bigak?!**
+**Kom pas un-de-du tok de so lok go in bigak?!**
 = How did half of this place go into the ocean?!
 
 ---

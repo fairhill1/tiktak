@@ -276,6 +276,8 @@ Pattern: numerator + **de** + denominator
 - **tottim** = all-time = entirety/duration/throughout
 - **pasob** = past-thing = artifact/historical object
 - **ungo** = one-go = start/begin
+- **gorip** = go-death = die
+- **makrip** = make-death = kill
 - **vinsur** = air-above = sky/heaven
 - **vingo** = air-go = wind (moving air)
 - **vinsur-kolimgem** = sky-colors-play = northern lights/aurora (note: **lundans** or **lungemkol** used informally/poetically)
